@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>URL Shortener on rooyca</title>
+    <link>/es/tags/url-shortener/</link>
+    <description>Recent content in URL Shortener on rooyca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>© 2023</copyright>
+    <lastBuildDate>Sun, 19 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/es/tags/url-shortener/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creando un acortador de enlaces en 12 lineas de código usando Cloudflare Workers &#43; Bonus</title>
+      <link>/es/articulos/cloudflare_url_shortener/</link>
+      <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/es/articulos/cloudflare_url_shortener/</guid>
+      <description>Post original aquí
+Cloudflare Workers Cloudflare Workers, de forma muy resumida, es un entorno serverless que corre Javascript. Básicamente, escribes código que se ocupa de peticiones HTTP, similar a Node.js. El código es desplegado globalmente en toda la red de Cloudflare, lo que significa que siempre está corriendo lo más cerca posible del usuario final.
+Para este proyecto, al ser algo pequeño, con el plan gratis será más que suficiente. Si te interesa hacer algo más grande te vendría bien revisar los planes de pago.</description>
+    </item>
+    
+  </channel>
+</rss>

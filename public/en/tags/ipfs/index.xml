@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IPFS on rooyca</title>
+    <link>/en/tags/ipfs/</link>
+    <description>Recent content in IPFS on rooyca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2023</copyright>
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="/en/tags/ipfs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A guide for sharing files on the Blockchain with IPFS</title>
+      <link>/en/articles/compartir_archivos_ipfs/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/en/articles/compartir_archivos_ipfs/</guid>
+      <description>IPFS, o Interplanetary File System, creado por Protocol Labs, es un protocolo peer-to-peer donde cada nodo almacena una colección de archivos hasheados. Un usuario que desee alguno de esos archivos se conecta a una capa de este protocolo y por medio del Hash, IPFS se encarga &amp;ldquo;recolectar&amp;rdquo; el archivo que está distribuido a través de los nodos y finalmente envía el archivo al usuario que lo solicitó.
+¿Recuerdan BitTorrent? Pues es parecido, solo que con IPFS tienes más control de tus archivos y se hace referencia a tus archivos por medio de hashes.</description>
+    </item>
+    
+  </channel>
+</rss>

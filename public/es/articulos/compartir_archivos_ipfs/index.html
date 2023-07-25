@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Una guía para compartir archivos en la Blockchain con IPFS | rooyca</title>
+<meta name="keywords" content="IPFS, blockchain" />
+<meta name="description" content="IPFS es un protocolo hypermedia peer-to-peer diseñado para preservar y hacer crecer el conocimiento de la humanidad haciendo la web más abierta, más resiliente y mejor.">
+<meta name="author" content="rooyca">
+<link rel="canonical" href="/es/articulos/compartir_archivos_ipfs/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7bfe087ae72df31787ec7a1360dd05ee246a179b51cf7a30a904b39d7f813b69.css" integrity="sha256-e/4Ieuct8xeH7HoTYN0F7iRqF5tRz3owqQSznX&#43;BO2k=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/images/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="mask-icon" href="/images/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="es" href="/es/articulos/compartir_archivos_ipfs/" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="es/" accesskey="h" title="rooyca (Alt + H)">rooyca</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="/en/" title="English"
+                            aria-label="English">English</a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="es/proyectos/" title="Proyectos">
+                    <span>Proyectos</span>
+                </a>
+            </li>
+            <li>
+                <a href="es/articulos/" title="Artículos">
+                    <span>Artículos</span>
+                </a>
+            </li>
+            <li>
+                <a href="es/contacto/" title="Contacto">
+                    <span>Contacto</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="es/">Home</a></div>
+    <h1 class="post-title">
+      Una guía para compartir archivos en la Blockchain con IPFS
+    </h1>
+    <div class="post-description">
+      IPFS es un protocolo hypermedia peer-to-peer diseñado para preservar y hacer crecer el conocimiento de la humanidad haciendo la web más abierta, más resiliente y mejor.
+    </div>
+    <div class="post-meta"><span title='2021-10-05 00:00:00 +0000 UTC'>octubre 5, 2021</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;rooyca</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#y-la-seguridad" aria-label="¿Y la seguridad?">¿Y la seguridad?</a></li>
+                <li>
+                    <a href="#con-ustedes-encriptaci%c3%b3n-asim%c3%a9trica-ea" aria-label="Con ustedes, Encriptación Asimétrica (EA)">Con ustedes, Encriptación Asimétrica (EA)</a></li>
+                <li>
+                    <a href="#manos-a-la-obra" aria-label="Manos a la obra">Manos a la obra</a></li>
+                <li>
+                    <a href="#instalaci%c3%b3n-de-lo-que-usaremos" aria-label="Instalación de lo que usaremos">Instalación de lo que usaremos</a><ul>
+                        
+                <li>
+                    <a href="#gpg" aria-label="GPG">GPG</a></li>
+                <li>
+                    <a href="#ipfs" aria-label="IPFS">IPFS</a></li></ul>
+                </li>
+                <li>
+                    <a href="#encriptando-nuestro-archivo-con-gpg" aria-label="Encriptando nuestro archivo con GPG">Encriptando nuestro archivo con GPG</a></li>
+                <li>
+                    <a href="#subi%c3%a9ndolo-a-ipfs" aria-label="Subiéndolo a IPFS">Subiéndolo a IPFS</a></li>
+                <li>
+                    <a href="#descargando-de-ipfs" aria-label="Descargando de IPFS">Descargando de IPFS</a></li>
+                <li>
+                    <a href="#desencriptando" aria-label="Desencriptando">Desencriptando</a><ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#publicaci%c3%b3n-original" aria-label="Publicación original">Publicación original</a>
+                </li>
+            </ul>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content">
+  <p><img loading="lazy" src="https://cdn-images-1.medium.com/v2/resize:fit:1200/1*lGh_L0ldPWz1kFMcKvj4Qw.png" alt="IPFS-IMG"  />
+</p>
+<p>IPFS, o Interplanetary File System, creado por Protocol Labs, es un protocolo peer-to-peer donde cada nodo almacena una colección de archivos <em>hasheados</em>. Un usuario que desee alguno de esos archivos se conecta a una capa de este protocolo y por medio del Hash, IPFS se encarga &ldquo;recolectar&rdquo; el archivo que está distribuido a través de los nodos y finalmente envía el archivo al usuario que lo solicitó.</p>
+<p>¿Recuerdan BitTorrent? Pues es parecido, solo que con IPFS tienes más control de tus archivos y se hace referencia a tus archivos por medio de hashes.</p>
+<h3 id="y-la-seguridad">¿Y la seguridad?</h3>
+<p>Como habrán podido deducir, en IPFS &ldquo;cualquiera&rdquo; puede tener acceso a nuestros archivos, lo único que se necesita es un Hash del tipo: <em>QmYqSCWuzG8Cyo4MFQzqKcC14ct4ybA</em>&hellip; para descargar nuestro archivo. Lo que nos llevaría a concluir que IPFS no es el protocolo indicado para archivos &ldquo;sensibles&rdquo;&hellip; ¿o sí?</p>
+<h3 id="con-ustedes-encriptación-asimétrica-ea">Con ustedes, Encriptación Asimétrica (EA)</h3>
+<p>Por suerte, contamos con herramientas que nos permiten asegurar nuestros archivos antes de subirlos a IPFS. La EA nos permite encriptar el archivo con la clave publica del destinatario, lo que garantiza que terceros no puedan hacer nada con el archivo. Para este tutorial usaremos <a href="https://www.gnupg.org/">GPG</a>.</p>
+<h3 id="manos-a-la-obra">Manos a la obra</h3>
+<p>En este tutorial, haremos lo siguiente:</p>
+<ul>
+<li>Configurar GPG.</li>
+<li>Configurar IPFS.</li>
+<li>Encriptar un archivo con la clave publica de alguien.</li>
+<li>Subir un archivo encriptado a IPFS.</li>
+<li>Descargar dicho archivo desde otra máquina y asegurarnos de que solo el destinatario pueda ver su contenido.</li>
+</ul>
+<h3 id="instalación-de-lo-que-usaremos">Instalación de lo que usaremos</h3>
+<h4 id="gpg">GPG</h4>
+<p>Tendremos que descargar GPG en ambas maquinas, la que envía y la que recibe, para ello nos dirigimos a <a href="https://blog.ghostinthemachines.com/2015/03/01/how-to-use-gpg-command-line/">este</a> link y seguimos las instrucciones dependiendo de nuestro sistema operativo. Una vez instalado vamos a generar una clave en ambos equipos, para ello usamos el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --gen-key
+</span></span></code></pre></div><p>Luego nos pedirá nuestro nombre, correo, un comentario y una contraseña, que entre más robusta mejor.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1633438176/Blog/Imgs/IPFS/publickey_rxodzo.png" alt="IMG-KEY"  />
+</p>
+<p>Ahora, en nuestro segundo equipo, después de generada la clave, la vamos a exportar con el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --export --armor &gt; clavePublica.asc
+</span></span></code></pre></div><p>Pasamos nuestro archivo a nuestro segundo pc, e importamos la clave con el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --import clavePublica.asc
+</span></span></code></pre></div><p>Podemos revisar nuestras claves con el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --list-keys
+</span></span></code></pre></div><p>Listo, eso sería todo en cuanto a GPG, ahora vamos a configurar nuestro nodo.</p>
+<h4 id="ipfs">IPFS</h4>
+<p>Existen varias alternativas a la hora de descargar IPFS, en el siguiente <a href="https://ipfs.io/#install">enlace</a> podremos usar la que nos parezca mejor. En mi caso usaré la terminal, una vez instalado podremos iniciar nuestro nodo con el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ipfs init
+</span></span></code></pre></div><p>Recuerda que esto debes hacerlo en ambos computadores. Después de esto deberemos iniciar nuestro programa (<em>daemon</em>: Disk And Execution MONitor)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ipfs daemon
+</span></span></code></pre></div><p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1633439020/Blog/Imgs/IPFS/ipfsdaemon_tbrs3o.png" alt="IPFS-DAEMON"  />
+</p>
+<p>Y listo, ya tendríamos nuestros nodos preparados para subir y bajar archivos.</p>
+<h3 id="encriptando-nuestro-archivo-con-gpg">Encriptando nuestro archivo con GPG</h3>
+<p>Ahora vamos a encripar nuestro archivo para que solo pueda ser desencriptado por el receptor, para ello vamos a correr el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --encrypt --recipient <span class="s2">&#34;Nombre del que recibe&#34;</span> archivo.pdf
+</span></span></code></pre></div><p>En el que podrán notar dos variables, el nombre de la persona que lo recibe (que debe ser el mismo que pusimos en la clave pública que generamos anteriormente), en mi caso seria &ldquo;Rooyca&rdquo; y después pondremos nuestro archivo, que en mi caso es un pdf. Nos quedará un archivo con extensión .gpg.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1633439717/Blog/Imgs/IPFS/encrypt_gqawej.png" alt="ENCRYP"  />
+</p>
+<h3 id="subiéndolo-a-ipfs">Subiéndolo a IPFS</h3>
+<p>Una vez que tenemos todo preparado podemos abrir nuestra terminal y subir nuestro archivo encriptado a IPFS con el siguiente comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ipfs add archivo.pdf.gpg
+</span></span></code></pre></div><p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1633440055/Blog/Imgs/IPFS/ipfsadd_diqry9.png" alt="IPFS-ADD"  />
+</p>
+<p>Podemos comprobar que subimos correctamente nuestro archivo con el comando:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ipfs pin ls
+</span></span></code></pre></div><p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1633440758/Blog/Imgs/IPFS/Untitlead_esz4mb.png" alt="IPFS-LS"  />
+</p>
+<p>Aquí debemos buscar el Hash que coincida con el resultado de nuestro comando anterior, en mi caso seria:</p>
+<blockquote>
+<p>QmazcLvRjPMLY5UAGEDVLrJCKX3ySqb8TZxLmvt7pfbxgf</p>
+</blockquote>
+<h3 id="descargando-de-ipfs">Descargando de IPFS</h3>
+<p>Ahora, para descargar nuestro archivo es igual de sencillo, en nuestro segundo computador ingresamos <code>ipfs get</code> junto al hash del archivo.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ipfs get QmazcLvRjPMLY5UAGEDVLrJCKX3ySqb8TZxLmvt7pfbxgf
+</span></span></code></pre></div><p>Ya tendriamos nuestro PDF, pero si intentamos abrirlo nos daremos cuenta que no es posible ver su contenido, por lo que procedemos a desencriptarlo.</p>
+<h3 id="desencriptando">Desencriptando</h3>
+<p>Para ello vamos a ingresar el siguiente comando, en el que le pasamos el nombre del archivo y &ldquo;&gt;&rdquo; para cambiarle el nombre a &ldquo;archivodes.pdf&rdquo;.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">gpg --decrypt QmazcLvRjPMLY5UAGEDVLrJCKX3ySqb8TZxLmvt7pfbxgf &gt; archivodes.pdf
+</span></span></code></pre></div><p>Y listo, si ahora lo volvemos a abrir podremos acceder de manera normal a nuestro pdf. Así de sencillo es mandar archivos confidenciales o sensibles a través de una excelente plataforma como es IPFS.</p>
+<p>Bueno, eso es todo por hoy, espero que esta pequeña guía los haya animado a mantener su propio nodo y ha hacer uso de este grandioso protocolo. Como siempre, si tienen alguna duda o simplemente desean decirme algo no duden en contactarme.</p>
+<hr>
+<ul>
+<li>Discord: rooyca#6075</li>
+<li>Telegram: @seiseiseis</li>
+<li>Mastodon: @rooyca@mas.to</li>
+</ul>
+<h5 id="publicación-original">Publicación original</h5>
+<p><a href="https://blockgeni.com/a-guide-to-securely-share-files-on-the-blockchain-with-ipfs/"><em>Blockgeni.com</em></a></p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/es/tags/ipfs/">IPFS</a></li>
+      <li><a href="/es/tags/blockchain/">blockchain</a></li>
+    </ul>
+
+<div class="share-buttons">
+
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Una guía para compartir archivos en la Blockchain con IPFS on linkedin"
+        href="https://www.linkedin.com/in/heycharlola/">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+</div>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>© 2023</span>
+    <span>||</span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

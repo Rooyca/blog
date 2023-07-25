@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Alojar Wordpress en la nube (Google Cloud) | rooyca</title>
+<meta name="keywords" content="Wordpress, Google Cloud, Migración, php, Base de Datos" />
+<meta name="description" content="¿Has pensado en alojar tu sitio con WordPress en la nube, pero no sabes cómo? Hoy aprenderemos juntos el proceso para correr nuestro sitio en Google Cloud, pero un proceso similar podría utilizarse para correrlo en cualquier otra plataforma como AWS o Azure.">
+<meta name="author" content="rooyca">
+<link rel="canonical" href="/es/articulos/wordpress_cloud/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.7bfe087ae72df31787ec7a1360dd05ee246a179b51cf7a30a904b39d7f813b69.css" integrity="sha256-e/4Ieuct8xeH7HoTYN0F7iRqF5tRz3owqQSznX&#43;BO2k=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="/images/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="mask-icon" href="/images/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="es" href="/es/articulos/wordpress_cloud/" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="es/" accesskey="h" title="rooyca (Alt + H)">rooyca</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="/en/" title="English"
+                            aria-label="English">English</a>
+                    </li>
+                </ul>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="es/proyectos/" title="Proyectos">
+                    <span>Proyectos</span>
+                </a>
+            </li>
+            <li>
+                <a href="es/articulos/" title="Artículos">
+                    <span>Artículos</span>
+                </a>
+            </li>
+            <li>
+                <a href="es/contacto/" title="Contacto">
+                    <span>Contacto</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="es/">Home</a></div>
+    <h1 class="post-title">
+      Alojar Wordpress en la nube (Google Cloud)
+    </h1>
+    <div class="post-description">
+      ¿Has pensado en alojar tu sitio con WordPress en la nube, pero no sabes cómo? Hoy aprenderemos juntos el proceso para correr nuestro sitio en Google Cloud, pero un proceso similar podría utilizarse para correrlo en cualquier otra plataforma como AWS o Azure.
+    </div>
+    <div class="post-meta"><span title='2022-07-01 00:00:00 +0000 UTC'>julio 1, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;rooyca</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#creando-la-m%c3%a1quina-virtual" aria-label="Creando la Máquina Virtual">Creando la Máquina Virtual</a></li>
+                <li>
+                    <a href="#iniciando-sesi%c3%b3n-en-nuestra-mv" aria-label="Iniciando sesión en nuestra MV">Iniciando sesión en nuestra MV</a></li>
+                <li>
+                    <a href="#aumentando-la-memoria-ram" aria-label="&amp;ldquo;Aumentando&amp;rdquo; la memoria RAM">&ldquo;Aumentando&rdquo; la memoria RAM</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content">
+  <p><img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/2/20/WordPress_logo.svg" alt="Wordpress"  />
+</p>
+<h1 id="creando-la-máquina-virtual">Creando la Máquina Virtual</h1>
+<p>&ldquo;WordPress es un sistema de gestión de contenidos lanzado el 27 de mayo de 2003, enfocado a la creación de cualquier tipo de página web&rdquo;. Según estas veinte <a href="https://blog.hubspot.com/website/wordpress-stats#:~:text=(W3Techs%2C%202022),every%20five%20websites%20use%20WordPress.">estadísticas</a> sobre WordPress para el 2022 encontramos que WordPress es usado por el 43.2% de todas las páginas en Internet.</p>
+<p>Para poder correr WordPress en Google Cloud (GCloud de ahora en adelante), primeramente debemos crear una máquina virtual con una de las imágenes con las que cuenta GCloud. Para ello vamos a la parte superior izquierda, damos clic en &ldquo;Más Productos&rdquo; y buscamos &ldquo;Marketplace&rdquo;.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1656712908/Blog/Imgs/hosting%20wordpress/1_hjegaj.png" alt="Una"  />
+</p>
+<p>Se nos abrirá una ventana en la que buscaremos WordPress y le daremos a la primera opción (openlitespeed-wordpress)</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1656710344/Blog/Imgs/hosting%20wordpress/3_o7rjwl.png" alt="Dos"  />
+</p>
+<p>A continuación vamos a darle a &ldquo;Iniciar&rdquo;, después de esto se nos abrirá una ventana en la que podremos modificar las características que tendrá nuestra máquina virtual, mi recomendación es que la dejemos tal como se ve en la siguiente imagen (por supuesto escogiendo un nombre diferente). Todo lo demás que no se alcanza a ver en la imagen es porque deberemos dejarlo tal cual está. Presionamos, aceptar Términos y Condiciones y luego crear.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1656710344/Blog/Imgs/hosting%20wordpress/5_lbdvbs.png" alt="Tres"  />
+</p>
+<p>Y listo, eso sería todo, ya tenemos configurada nuestra máquina virtual. El resultado final debería ser algo como lo siguiente:</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1656711028/Blog/Imgs/hosting%20wordpress/6_tcnjcy.png" alt="Cuatro"  />
+</p>
+<h1 id="iniciando-sesión-en-nuestra-mv">Iniciando sesión en nuestra MV</h1>
+<p>Para poder completar la instalación de WordPress y demás complemento en nuestra máquina virtual, es necesario completar una serie de pasos.</p>
+<p>Primeramente, debemos instalar Google Cloud CLI, en el siguiente <a href="https://cloud.google.com/sdk/docs/install">link</a> encontrarás una guía completa con todo el proceso, pero si lo que deseas es únicamente instalarlo puedes abrir una Power Shell como Administrador y ejecutar el siguiente comando:</p>
+<pre tabindex="0"><code>(New-Object Net.WebClient).DownloadFile(&#34;https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe&#34;, &#34;$env:Temp\GoogleCloudSDKInstaller.exe&#34;)
+
+&amp; $env:Temp\GoogleCloudSDKInstaller.exe
+    
+</code></pre><p>Una vez hecho esto e instalado el CLI vamos a Inicio y buscamos &ldquo;gcloud&rdquo; abrimos el primer resultado y ejecutamos:</p>
+<pre tabindex="0"><code>gcloud auth login
+</code></pre><p>Se abrirá una ventana del navegador en la que tendremos que escoger nuestra cuenta de Google con la que creamos la máquina virtual. Damos aceptar a todo y listo.</p>
+<p>Una vez la consola nos diga que estamos logeados de manera exitosa tendremos que correr el siguiente comando:</p>
+<pre tabindex="0"><code>gcloud compute ssh --zone &#34;TU_ZONA&#34; &#34;NOMBRE_MAQUINA_VIRTUAL&#34;  --project &#34;NOMBRE_PROYECTO&#34;
+</code></pre><p>Nos abrirá una ventana en la que deberemos ingresar nuestro dominio y un correo para poder configurar el SSL.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1656711850/Blog/Imgs/hosting%20wordpress/7_se6twg.png" alt="Cinco"  />
+</p>
+<p>Después de realizar este proceso nos dirigimos a:</p>
+<p><strong>http://NUESTRA_IP/wp-admin</strong></p>
+<p>Para instalar WordPress.</p>
+<p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1656712691/Blog/Imgs/hosting%20wordpress/8_dmaxmo.png" alt="Seis"  />
+</p>
+<h1 id="aumentando-la-memoria-ram">&ldquo;Aumentando&rdquo; la memoria RAM</h1>
+<p>Es muy poca la memoria RAM que configuramos para nuestra máquina virtual, por lo que es altamente recomendable hacer Swap. &ldquo;El Swap es el espacio que el disco duro tiene para intercambiar la memoria física con la memoria virtual&rdquo;. Para ello vamos a ejecutar los siguientes comandos, en orden:</p>
+<pre tabindex="0"><code>sudo fallocate -l 1GB /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+free -m
+
+#Para que cuando se reinicie el servidor conservemos el archivo SWAP
+echo &#39;/swapfile none swap sw 00&#39; | sudo tee -a /etc/fstab
+</code></pre><p>Y eso sería todo, así de sencillo es correr WordPress en Google Cloud.</p>
+<p>Recuerden que si tienen alguna duda pueden escribirme por:</p>
+<ul>
+<li>Discord: rooyca#6075</li>
+<li>Telegram: @seiseiseis</li>
+<li>Mastodon: @rooyca@mas.to</li>
+</ul>
+<p>Hasta la próxima. Que tengan un excelente día.</p>
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/es/tags/wordpress/">Wordpress</a></li>
+      <li><a href="/es/tags/google-cloud/">Google Cloud</a></li>
+      <li><a href="/es/tags/migraci%C3%B3n/">Migración</a></li>
+      <li><a href="/es/tags/php/">php</a></li>
+      <li><a href="/es/tags/base-de-datos/">Base de Datos</a></li>
+    </ul>
+
+<div class="share-buttons">
+
+    <a target="_blank" rel="noopener noreferrer" aria-label="share Alojar Wordpress en la nube (Google Cloud) on linkedin"
+        href="https://www.linkedin.com/in/heycharlola/">
+        <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve">
+            <path
+                d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+        </svg>
+    </a>
+</div>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>© 2023</span>
+    <span>||</span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

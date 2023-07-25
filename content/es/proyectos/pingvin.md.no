@@ -1,0 +1,10 @@
+---
+title: Pingvin - Intercabio de archivos
+date: 2023-03-26
+description:  Una plataforma de intercambio de archivos autohospedada que combina ligereza y belleza, perfecta para compartir archivos de manera eficiente y sin interrupciones.
+type: page
+topic: project
+link: "https://share.ronaldc.click"
+image: "https://user-images.githubusercontent.com/58886915/225038319-b2ef742c-3a74-4eb6-9689-4207a36842a4.png"
+---
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dominio on rooyca</title>
+    <link>/es/tags/dominio/</link>
+    <description>Recent content in dominio on rooyca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>© 2023</copyright>
+    <lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/es/tags/dominio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enviar correos desde Gmail usando tu propio dominio</title>
+      <link>/es/articulos/correos_desde_gmail_con_dominio_propio/</link>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/es/articulos/correos_desde_gmail_con_dominio_propio/</guid>
+      <description>Primero - Redireccionar el trafico Lo primero que debemos hacer es redireccionar el trafico de nuestro cuenta de correo electrónico (en este caso me@rooyca.xyz) hacia Gmail. Para ello vamos a nuestro proveedor de dominio o nuestro CDN de preferencia, en mi caso CloudFlare. Ahora nos dirigimos a la parte de Email &amp;gt; Routes &amp;gt; Create address.
+Creamos nuestra dirección apuntando al Gmail con el que vamos a configurar nuestra cuenta.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,139 @@
+baseURL: #https://rooyca.github.io/blog/
+paginate: 5
+theme: charlolamode
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  es:
+    contentDir: content/es
+    disabled: false
+    languageCode: es-ES
+    languageDirection: ltr
+    languageName: Spanish
+    params:
+      subtitle: ideas, tutoriales y cosas sin sentido
+    title: rooyca
+    weight: 2
+
+    menu:
+        main:
+            - name: Contacto
+              url: /contacto/
+              weight: 30
+            - name: Artículos
+              url: /articulos/
+              weight: 20
+            - name: Proyectos
+              url: /proyectos/
+              weight: 15
+    params:
+
+      profileMode:
+          enabled: true
+          title: rooyca
+          description: |
+
+            Hola, soy Ronald (rooyca pa' los compas)
+
+            Bienvenidos a mi interpretación del mundo.
+
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    params:
+      subtitle: ideas, tutorials and nonsense
+    title: rooyca
+    weight: 1
+
+    menu:
+        main:
+            - name: Contact
+              url: /contact/
+              weight: 30
+            - name: Articles
+              url: /articles/
+              weight: 20
+            - name: Projects
+              url: /projects/
+              weight: 15
+
+     # - name: Categories
+        #   url: /categories/
+        #   weight: 10
+        # - name: new Tab
+        #   url: /newtab/
+        #   weight: defines order of tabs
+
+params:
+    author: rooyca
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: true
+    displayFullLangName: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+
+    profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        title: rooyca
+        description: |
+
+          Hello there, I’m Ronald a.k.a rooyca
+
+          Welcome to my interpretation of the world.
+
+        imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
+        imageTitle: profile
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Portfolio
+              url: https://rooyca.github.io/portfolio
+    mainSections:
+      - articles
+
+    socialIcons:
+        - name: kofi
+          url: "https://ko-fi.com/rooyca"
+        - name: github
+          url: "https://github.com/rooyca"
+        - name: twitter
+          url: "https://twitter.com/rooycaa"
+        - name: hackerrank
+          url: "https://www.hackerrank.com/rooyca"
+        - name: keybase
+          url: "https://keybase.io/rooyca"
+        - name: mastodon
+          url: "https://mas.to/@rooyca"
+        - name: pgpkey
+          url: "https://keybase.io/rooyca/pgp_keys.asc"
+        - name: telegram
+          url: "https://t.me/seiseiseis"
+
+    # change favicon in images folder (icon for web tab)
+    assets:
+          favicon: "/images/favicon.ico"
+          favicon16x16: "/images/favicon-16x16.png"
+          favicon32x32: "/images/favicon-32x32.png"
+          apple_touch_icon: "/images/apple-touch-icon.png"
+          safari_pinned_tab: "/images/apple-touch-icon.png"
+
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+
+copyright: © 2023
