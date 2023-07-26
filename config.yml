@@ -101,22 +101,22 @@ params:
       - articles
 
     socialIcons:
-        - name: kofi
-          url: "https://ko-fi.com/rooyca"
         - name: github
           url: "https://github.com/rooyca"
         - name: twitter
           url: "https://twitter.com/rooycaa"
-        - name: hackerrank
-          url: "https://www.hackerrank.com/rooyca"
-        - name: keybase
-          url: "https://keybase.io/rooyca"
-        - name: mastodon
-          url: "https://mas.to/@rooyca"
-        - name: pgpkey
-          url: "https://pgp.rooyca.workers.dev/?fp=0CCBAE3240C1522155278DE4CB666DEC17F3A6D5"
         - name: telegram
           url: "https://t.me/seiseiseis"
+        - name: mastodon
+          url: "https://mas.to/@rooyca"
+        - name: keybase
+          url: "https://keybase.io/rooyca"
+        - name: hackerrank
+          url: "https://www.hackerrank.com/rooyca"
+        - name: kofi
+          url: "https://ko-fi.com/rooyca"
+        - name: pgpkey
+          url: "https://pgp.rooyca.workers.dev/?fp=0CCBAE3240C1522155278DE4CB666DEC17F3A6D5"
 
     # change favicon in images folder (icon for web tab)
     assets:
