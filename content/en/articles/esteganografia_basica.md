@@ -101,8 +101,4 @@ Lo que creará una carpeta "shake" en nuestro directorio actual. Al ejecutar el 
 
 Bueno, eso sería todo por el día de hoy. Si quieres expander tus conocimientos sobre este tema te recomiendo leer [este](https://linuxhint.com/hide_files_inside_images_linux/) y [este](https://ostechnix.com/hide-files-inside-images-linux/) articulo. ¿Eso no es suficiente? Te recomiendo [este](https://academy.hoppersroppers.org/course/view.php?id=7#section-4) curso de CTF, que abarca estos temas y muchos más. Y recuerda, si tienes alguna duda, queja, sugerencia o reclamo no dudes en hacérmelo saber.
 
----
 
--    Discord: rooyca#6075
--    Telegram: @seiseiseis
--	 Mastodon: @rooyca@mas.to

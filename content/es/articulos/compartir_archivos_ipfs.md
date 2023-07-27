@@ -114,11 +114,6 @@ Y listo, si ahora lo volvemos a abrir podremos acceder de manera normal a nuestr
 
 Bueno, eso es todo por hoy, espero que esta pequeña guía los haya animado a mantener su propio nodo y ha hacer uso de este grandioso protocolo. Como siempre, si tienen alguna duda o simplemente desean decirme algo no duden en contactarme.
 
----
-
--    Discord: rooyca#6075
--    Telegram: @seiseiseis
--	 Mastodon: @rooyca@mas.to
 
 ##### Publicación original
 

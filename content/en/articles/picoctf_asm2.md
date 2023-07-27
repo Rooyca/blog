@@ -205,10 +205,6 @@ Como dige anteriormente, el _script_ es una "traducción" como hice antes pero c
 
 Espero les haya sido de tanta utilidad como a mí, cualquier duda no _duden_ en enviarme un mensaje.
 
--    Discord: rooyca#6075
--    Telegram: @seiseiseis
--	 Mastodon: @rooyca@mas.to
-
 ---
 
 ##### Post original: [https://mregraoncyber.com/picoctf-writeup-asm2/](https://mregraoncyber.com/picoctf-writeup-asm2/)

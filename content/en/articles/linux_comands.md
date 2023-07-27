@@ -37,8 +37,3 @@ En donde "price" es el comando que le quiero asignar a la cadena: "python3 ~/Des
 
 Eso sería todo, si tienen alguna duda no duden en hacermelo saber. 
 
----
-
--    Discord: rooyca#6075
--    Telegram: @seiseiseis
--	 Mastodon: @rooyca@mas.to

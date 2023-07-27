@@ -50,19 +50,11 @@ Y listo, así de fácil tendríamos nuestra radio online transmitiendo. Si quere
 
 En una próxima publicación veremos, como conectarnos a nuestra radio, para transmitir desde aplicaciones externas como **Mixxx**, **VirtualDJ** o **MPD**, también veremos cómo obtener el enlace **.m3u** que nos permitirá escuchar nuestra emisora desde **VLC** o cualquier otro reproductor que admita **m3u**.
 
-# Contacto
-
-Eso sería todo por ahora. Cualquier duda, sugerencia, queja o reclamo:
-
--  Discord: rooyca#6075
--  Telegram: @seiseiseis
--  Mastodon: @rooyca@mas.to
-
 ---
 
 - Puedes sintonizar mi emisora desde 
 
 	- La página oficial de [**ZenoRadio**](https://zeno.fm/radio/villa-de-la-cancion/)
 	- Desde el enlace [**.m3u**](https://stream.zeno.fm/jjempnshdlotv.m3u)
-	- Desde mi página [**https://vc.ronaldc.click**](https://vc.ronaldc.click)
+	- Desde mi página [https://vc.ronaldc.click](https://vc.ronaldc.click)
 

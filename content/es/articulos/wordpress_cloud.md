@@ -102,8 +102,4 @@ Y eso sería todo, así de sencillo es correr WordPress en Google Cloud.
 
 Recuerden que si tienen alguna duda pueden escribirme por: 
 
--    Discord: rooyca#6075
--    Telegram: @seiseiseis
--	 Mastodon: @rooyca@mas.to
-
 Hasta la próxima. Que tengan un excelente día.

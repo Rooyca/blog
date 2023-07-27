@@ -94,8 +94,4 @@ Y... ya, eso sería todo, si hemos seguido correctamente todos los pasos hasta a
 
 Bueno, eso sería todo por el día de hoy. Si quieres probar esta API [AQUÍ](https://lor-finder.herokuapp.com/) te dejo un link en el cual podras hacerlo. Y recuerda, si tienes alguna duda, queja, sugerencia o reclamo no dudes en hacérmelo saber.
 
----
 
--    Discord: rooyca#6075
--    Telegram: @seiseiseis
--	 Mastodon: @rooyca@mas.to
