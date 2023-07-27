@@ -1,7 +1,7 @@
 ---
-title: MarkUP - Markdown Parser 
+title: MarkUP - Comparte tu Markdow
 date: 2023-07-07
-description:  Es un parser de Markdown que convierte el texto en HTML. Markdown es un lenguaje de marcado ligero con sintaxis de texto plano. Es ampliamente utilizado en la documentación de software, foros, blogs, etc.
+description:  Convierte markdown a HTML y compártelo fácilmente. Interfaz sencilla e intuitiva de usar.
 type: page
 topic: project
 link: "https://yoo.lat/markup"
