@@ -67,6 +67,16 @@ languages:
         # - name: new Tab
         #   url: /newtab/
         #   weight: defines order of tabs
+    params:
+      profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        title: rooyca
+        description: |
+
+          Hello there, I’m Ronald a.k.a rooyca
+
+          Welcome to my interpretation of the world.
 
 params:
     author: rooyca
@@ -81,15 +91,6 @@ params:
     ShowToc: true
 
     profileMode:
-        # Disable to populate home page with 'mainSections' content
-        enabled: true
-        title: rooyca
-        description: |
-
-          Hello there, I’m Ronald a.k.a rooyca
-
-          Welcome to my interpretation of the world.
-
         imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
         imageTitle: profile
         # imageWidth: 120
