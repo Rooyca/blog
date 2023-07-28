@@ -37,6 +37,8 @@ languages:
             Hola, soy Ronald (rooyca pa' los compas)
 
             Bienvenidos a mi interpretación del mundo.
+          imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
+          imageTitle: profile
 
   en:
     contentDir: content/en
@@ -77,6 +79,8 @@ languages:
           Hello there, I’m Ronald a.k.a rooyca
 
           Welcome to my interpretation of the world.
+        imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
+        imageTitle: profile
 
 params:
     author: rooyca
@@ -91,8 +95,7 @@ params:
     ShowToc: true
 
     profileMode:
-        imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
-        imageTitle: profile
+
         # imageWidth: 120
         # imageHeight: 120
         buttons:
