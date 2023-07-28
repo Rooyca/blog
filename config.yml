@@ -39,6 +39,12 @@ languages:
             Bienvenidos a mi interpretación del mundo.
           imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
           imageTitle: profile
+          
+          # imageWidth: 120
+          # imageHeight: 120
+          buttons:
+              - name: Portfolio
+                url: https://rooyca.github.io/portfolio
 
   en:
     contentDir: content/en
@@ -82,6 +88,12 @@ languages:
         imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
         imageTitle: profile
 
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Portfolio
+              url: https://rooyca.github.io/portfolio
+
 params:
     author: rooyca
 
@@ -94,13 +106,6 @@ params:
     ShowCodeCopyButtons: true
     ShowToc: true
 
-    profileMode:
-
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Portfolio
-              url: https://rooyca.github.io/portfolio
     mainSections:
       - articles
 
