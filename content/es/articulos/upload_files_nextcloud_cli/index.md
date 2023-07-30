@@ -101,11 +101,11 @@ Si tenemos en cuenta la url del ejemplo anterior, el comando sería el siguiente
 Para usarlo solo tenemos que ejecutar el siguiente comando:
 
 ```bash
-python cloudsend.py <folderLink> <file>
+python upload_file.py <folderLink> <file>
 ```
 
 Si tenemos en cuenta la url del ejemplo anterior, el comando sería el siguiente:
 
 ```bash
-python cloudsend.py https://nextcloud.example.com/index.php/s/xXxXxXxXx test.txt
+python upload_file.py https://nextcloud.example.com/index.php/s/xXxXxXxXx test.txt
 ```
