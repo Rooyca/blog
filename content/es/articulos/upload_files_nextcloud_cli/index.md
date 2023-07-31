@@ -61,16 +61,19 @@ choco install curl
 Una vez instalado `CURL` ya podemos ejecutar el script. Para ello abrimos una terminal en la carpeta donde tengamos el script y ejecutamos el siguiente comando:
 
 ```bash
-upload_file.bat <ruta_archivo> <user> <ip_server>
+upload_file.bat
 ```
 
-Si tenemos en cuenta la url del ejemplo anterior, el comando sería el siguiente:
+El script nos pedirá los siguientes datos:
 
-```bash
-upload_file.bat test.txt xXxXxXxXx nextcloud.example.com
-```
+1. Nombre del archivo que queremos subir.
+2. Nombre de usuario (La parte del link que va después de `index.php/s/`).
+3. IP o dominio de Nextcloud.
+4. Nombre del archivo que queremos subir (OPCIONAL).
 
-Es decir estariamos subiendo el archivo `test.txt` (el cual se encuentra en nuestro directorio actual) al link compartido `https://nextcloud.example.com/index.php/s/xXxXxXxXx`.
+Una vez hayamos introducido todos los datos podremos ingresar la opción `5` para subir el archivo, una vez subido podremos regresar al menu y subir otro archivo o salir del script.
+
+>> El script automaticamente guarda la `IP` y el `Nombre usuario` en archivos txt para que no tengamos que volver a introducirlos.
 
 ### Linux
 
