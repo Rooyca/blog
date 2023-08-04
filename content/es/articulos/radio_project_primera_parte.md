@@ -56,5 +56,3 @@ En una próxima publicación veremos, como conectarnos a nuestra radio, para tra
 
 	- La página oficial de [**ZenoRadio**](https://zeno.fm/radio/villa-de-la-cancion/)
 	- Desde el enlace [**.m3u**](https://stream.zeno.fm/jjempnshdlotv.m3u)
-	- Desde mi página [https://vc.ronaldc.click](https://vc.ronaldc.click)
-

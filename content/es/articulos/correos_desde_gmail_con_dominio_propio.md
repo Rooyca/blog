@@ -92,10 +92,3 @@ Si nos dirigimos a la parte de *Redactar* podremos observar que ya podemos envia
 
 Y eso sería todo, así de fácil es configurar una dirección de correo con nuestro dominio. Recuerda, si tienes alguna duda, queja, sugerencia o reclamo no dudes en hacérmela saber.
 
-
----
-
-#### PD: Disculpas por la calidad de las imágenes 😔
-
-
-

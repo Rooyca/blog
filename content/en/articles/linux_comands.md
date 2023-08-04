@@ -8,32 +8,32 @@ description: Tired of having to type twenty variables to execute a simple comman
 topic: linux
 ---
 
-# Creando nuestros Aliases
+# Creating our Aliases
 
-Alias es una forma sencilla de mapper, bindear, unir(?) comandos. Esta es la mejor manera de ahorrarnos tiempo a la hora de escribir cadenas larguísimas de comandos. Si nosotros escribimos "alias" en nuestra terminal debería aparecernos los aliases predeterminados de nuestro sistema, algo así:
+Alias is a simple way to map, bin, join(?) commands. This is the best way to save time when typing long strings of commands. If we type "aliases" in our terminal we should get the default aliases of our system, something like this:
 ![ALIASES-DEFAULT](https://res.cloudinary.com/rooyca/image/upload/v1632189896/Blog/Imgs/Commands-Linux/alias-predeterminados_lhjdfr.png)
 
-Como podran notar, en mi caso tengo dos alias customizados: **price** y **subl**; el primero es un script en python que uso para ver el comportamiento del mercado crypto y el segundo es simplemtente para abrir SublimeText. 
+As you may notice, in my case I have two custom aliases: **price** and **subl**; the first one is a python script I use to see the crypto market behavior and the second one is simply to open SublimeText. 
 
-### Modificando nuestro archivo .bashrc
+### Modifying our .bashrc file
 
-Para poder lograr que nuestros alias sean permanentes y no solo durante una seccion de la terminal debemos modificar un archivo llamado .bashrc, que por lo general se encuentra en */home/usuario/* para esto debemos abrirlo con el editor de texto de nuestra preferencia, en mi caso voy a utilizar vim:
+In order to make our aliases permanent and not only during a section of the terminal we must modify a file called .bashrc, which is usually located in */home/user/* for this we must open it with the text editor of our preference, in my case I will use vim:
 
     vim ~/.bashrc
 
 ![VIM-ALIASES](https://res.cloudinary.com/rooyca/image/upload/v1632190837/Blog/Imgs/Commands-Linux/vim-aliases_wgtx0d.png)
 
-Bajamos hasta encontrar la seccion de Aliases y añadimos nuestro comando de la siguiente manera:
+We go down until we find the Aliases section and add our command as follows:
 
-    alias nuestro-comando='comando-a-mapear'
+    alias our-command='command-to-bind'
 
-Un ejemplo más claro sería el siguiente:
+A clearer example would be the following:
     
     alias price='python3 ~/Desktop/get_price.py'
 
-En donde "price" es el comando que le quiero asignar a la cadena: "python3 ~/Desktop/get_price.py". Ahora lo último que nos queda es guardar los cambias y listo, así de sencillo tenemos nuestro comando personalizado. 
+Where "price" is the command I want to assign to the string: "python3 ~/Desktop/get_price.py". Now the last thing we have to do is to save the changes and that's it, that's it, we have our custom command. 
 
 ![GET-PRICE](https://res.cloudinary.com/rooyca/image/upload/v1632191334/Blog/Imgs/Commands-Linux/get-price_mntpwd.png)
 
-Eso sería todo, si tienen alguna duda no duden en hacermelo saber. 
+That would be all, if you have any doubt don't hesitate to let me know. 
 

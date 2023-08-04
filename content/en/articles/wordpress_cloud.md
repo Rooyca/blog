@@ -12,38 +12,35 @@ topic: cloud,wordpress
 
 ![Wordpress](https://upload.wikimedia.org/wikipedia/commons/2/20/WordPress_logo.svg)
 
-# Creando la Máquina Virtual
+# Creating the Virtual Machine
 
-"WordPress es un sistema de gestión de contenidos lanzado el 27 de mayo de 2003, enfocado a la creación de cualquier tipo de página web". Según estas veinte [estadísticas](https://blog.hubspot.com/website/wordpress-stats#:~:text=(W3Techs%2C%202022),every%20five%20websites%20use%20WordPress.) sobre WordPress para el 2022 encontramos que WordPress es usado por el 43.2% de todas las páginas en Internet.
+"WordPress is a content management system released on May 27, 2003, focused on the creation of any type of website." According to these twenty [statistics](https://blog.hubspot.com/website/wordpress-stats#:~:text=(W3Techs%2C%20202022),every%20five%20websites%20use%20WordPress.) about WordPress by 2022 we find that WordPress is used by 43.2% of all sites on the Internet.
 
-Para poder correr WordPress en Google Cloud (GCloud de ahora en adelante), primeramente debemos crear una máquina virtual con una de las imágenes con las que cuenta GCloud. Para ello vamos a la parte superior izquierda, damos clic en "Más Productos" y buscamos "Marketplace". 
+In order to run WordPress on Google Cloud (GCloud from now on), we must first create a virtual machine with one of the images that GCloud has. To do this we go to the top left, click on "More Products" and look for "Marketplace". 
 
 ![Una](https://res.cloudinary.com/rooyca/image/upload/v1656712908/Blog/Imgs/hosting%20wordpress/1_hjegaj.png)
 
-Se nos abrirá una ventana en la que buscaremos WordPress y le daremos a la primera opción (openlitespeed-wordpress)
+A window will open in which we will look for WordPress and we will give the first option (openlitespeed-wordpress)
 
-![Dos](https://res.cloudinary.com/rooyca/image/upload/v1656710344/Blog/Imgs/hosting%20wordpress/3_o7rjwl.png)
+![Two](https://res.cloudinary.com/rooyca/image/upload/v1656710344/Blog/Imgs/hosting%20wordpress/3_o7rjwl.png)
 
-A continuación vamos a darle a "Iniciar", después de esto se nos abrirá una ventana en la que podremos modificar las características que tendrá nuestra máquina virtual, mi recomendación es que la dejemos tal como se ve en la siguiente imagen (por supuesto escogiendo un nombre diferente). Todo lo demás que no se alcanza a ver en la imagen es porque deberemos dejarlo tal cual está. Presionamos, aceptar Términos y Condiciones y luego crear.
+Next we are going to give it to "Start", after this a window will open in which we will be able to modify the characteristics that will have our virtual machine, my recommendation is that we leave it as it is seen in the following image (of course choosing a different name). Everything else that you can't see in the image is because we will have to leave it as it is. Click, accept Terms and Conditions and then create.
 
 
 ![Tres](https://res.cloudinary.com/rooyca/image/upload/v1656710344/Blog/Imgs/hosting%20wordpress/5_lbdvbs.png)
 
 
-
-Y listo, eso sería todo, ya tenemos configurada nuestra máquina virtual. El resultado final debería ser algo como lo siguiente:
-
+All right, that's it, we have our virtual machine configured. The final result should be something like the following:
 
 
-![Cuatro](https://res.cloudinary.com/rooyca/image/upload/v1656711028/Blog/Imgs/hosting%20wordpress/6_tcnjcy.png)
+![Four](https://res.cloudinary.com/rooyca/image/upload/v1656711028/Blog/Imgs/hosting%20wordpress/6_tcnjcy.png)
 
 
+# Logging into our VM
 
-# Iniciando sesión en nuestra MV
+In order to complete the installation of WordPress and other plugins in our virtual machine, it is necessary to complete a series of steps.
 
-Para poder completar la instalación de WordPress y demás complemento en nuestra máquina virtual, es necesario completar una serie de pasos.
-
-Primeramente, debemos instalar Google Cloud CLI, en el siguiente [link](https://cloud.google.com/sdk/docs/install) encontrarás una guía completa con todo el proceso, pero si lo que deseas es únicamente instalarlo puedes abrir una Power Shell como Administrador y ejecutar el siguiente comando:
+First, we must install Google Cloud CLI, in the following [link](https://cloud.google.com/sdk/docs/install) you will find a complete guide with the whole process, but if you just want to install it you can open a Power Shell as Administrator and run the following command:
 
 ```
 (New-Object Net.WebClient).DownloadFile("https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe", "$env:Temp\GoogleCloudSDKInstaller.exe")
@@ -51,39 +48,39 @@ Primeramente, debemos instalar Google Cloud CLI, en el siguiente [link](https://
 & $env:Temp\GoogleCloudSDKInstaller.exe
     
 ```
-Una vez hecho esto e instalado el CLI vamos a Inicio y buscamos "gcloud" abrimos el primer resultado y ejecutamos:
+Once this is done and the CLI is installed, go to Start and search for "gcloud", open the first result and execute:
 
 ```
 gcloud auth login
 ```
 
-Se abrirá una ventana del navegador en la que tendremos que escoger nuestra cuenta de Google con la que creamos la máquina virtual. Damos aceptar a todo y listo.
+A browser window will open in which we will have to choose our Google account with which we created the virtual machine. Accept everything and that's it.
 
-Una vez la consola nos diga que estamos logeados de manera exitosa tendremos que correr el siguiente comando:
+Once the console tells us that we are successfully logged in we will have to run the following command:
 
 ```
-gcloud compute ssh --zone "TU_ZONA" "NOMBRE_MAQUINA_VIRTUAL"  --project "NOMBRE_PROYECTO"
+gcloud compute ssh --zone "YOUR_ZONE" "VM_NAME"  --project "PROJECT_NAME"
 ```
 
-Nos abrirá una ventana en la que deberemos ingresar nuestro dominio y un correo para poder configurar el SSL.
+It will open a window in which we will have to enter our domain and an email to be able to configure the SSL.
 
 
-![Cinco](https://res.cloudinary.com/rooyca/image/upload/v1656711850/Blog/Imgs/hosting%20wordpress/7_se6twg.png)
+![Five](https://res.cloudinary.com/rooyca/image/upload/v1656711850/Blog/Imgs/hosting%20wordpress/7_se6twg.png)
 
 
-Después de realizar este proceso nos dirigimos a:
+After this process we go to:
 
-**http://NUESTRA_IP/wp-admin**
+**http://YOUR_IP/wp-admin**
 
-Para instalar WordPress.
-
-
-![Seis](https://res.cloudinary.com/rooyca/image/upload/v1656712691/Blog/Imgs/hosting%20wordpress/8_dmaxmo.png)
+To install WordPress.
 
 
-# "Aumentando" la memoria RAM
+![Six](https://res.cloudinary.com/rooyca/image/upload/v1656712691/Blog/Imgs/hosting%20wordpress/8_dmaxmo.png)
 
-Es muy poca la memoria RAM que configuramos para nuestra máquina virtual, por lo que es altamente recomendable hacer Swap. "El Swap es el espacio que el disco duro tiene para intercambiar la memoria física con la memoria virtual". Para ello vamos a ejecutar los siguientes comandos, en orden:
+
+# "Increasing" the RAM memory
+
+It is very little RAM memory that we configure for our virtual machine, so it is highly recommended to Swap. "Swap is the space that the hard disk has to exchange physical memory with virtual memory". To do this we are going to run the following commands, in order:
 
 ```
 sudo fallocate -l 1GB /swapfile
@@ -96,6 +93,6 @@ free -m
 echo '/swapfile none swap sw 00' | sudo tee -a /etc/fstab
 ```
 
-Y eso sería todo, así de sencillo es correr WordPress en Google Cloud.
+And that's it, that's how easy it is to run WordPress on Google Cloud.
 
-Hasta la próxima. Que tengan un excelente día.
+See you next time. Have a great day.
