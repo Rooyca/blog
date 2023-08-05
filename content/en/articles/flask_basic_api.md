@@ -9,29 +9,29 @@ description: Today we're going to learn how to create a simple API with Flask. A
 topic: Flask,api
 ---
 
-Antes que nada, aqui te dejo el [link](https://github.com/Rooyca/API-LoRFinder) por si deseas clonar directamente el repositorio de Github.
+First of all, here is the [link](https://github.com/Rooyca/API-LoRFinder) in case you want to clone directly the Github repository.
 
-# Desarollando nuestra API 
+# Developing our API 
 
-Para este tutorial vamos a utilizar principalmente el "Mini"-Framework Flask y algunas extenciones del mismo. Para la instalación de todos los paquetes me gustaria dejarte dos opciones:
-1. Instalar los siguientes paquetes con el comando `pip install x-paquete` 
+For this tutorial we are going to use mainly the "Mini"-Framework Flask and some extensions of it. For the installation of all the packages I would like to leave you with two options:
+1. Install the following packages with the `pip install x-package` command. 
 - flask
 - flask_restful
 - flask_sqlalchemy
 
-2. Descargar el el archivo [`requirements.txt`](https://github.com/Rooyca/API-LoRFinder/blob/main/requirements.txt) e instalar todo de una vez con el comando `pip install -r requirements.txt`
+2. Download the file [`requirements.txt`](https://github.com/Rooyca/API-LoRFinder/blob/main/requirements.txt) and install everything at once with the command `pip install -r requirements.txt`.
 
-La primera opcion nos permite ir familiarizandonos poco a poco con las herramientas que vamos utilizando a lo largo de este tutorial y la segunda nos agiliza el trabajo. 
+The first option allows us to familiarize ourselves little by little with the tools that we are going to use throughout this tutorial and the second one speeds up the work. 
 
-¿Cuál usar? Depende de... 
+Which one to use? It's up to...
 ![YOU-LOR](https://res.cloudinary.com/rooyca/image/upload/v1632278025/Blog/Imgs/Website%20and%20Api%20with%20Flask%20%28LoR%29/lor_gi6hgv.jpg)
 
-...*ti*
+...*you*
 
 
-## Estructura de nuestra API
+## Structure of our API
 
-Vamos a explicar de manera súper básica la estructura de nuestra API. Para mayor informacion te invito a visitar la documentacion oficial de [FlaskRESTful](https://flask-restful.readthedocs.io/en/latest/). 
+We are going to explain in a very basic way the structure of our API. For more information I invite you to visit the official documentation of [FlaskRESTful](https://flask-restful.readthedocs.io/en/latest/). 
 
 ``` python
 1. from flask import Flask
@@ -44,7 +44,7 @@ Vamos a explicar de manera súper básica la estructura de nuestra API. Para may
 7. db = SQLAlchemy(app)
 ```
 
-En las lineas uno, dos y tres importamos Flask, algunas clases desde flask_restful y SQLAlchemy, que será la encargada de realizar las conexiones con nuestra base de datos. Depués, de la linea cuatro a siete realizamos la configuracion de nuestra aplicacion y establecemos una conexion a través de `sqlite` con nuestra base de datos.
+In lines one, two and three we import Flask, some classes from flask_restful and SQLAlchemy, which will be in charge of making the connections with our database. Then, from line four to seven we make the configuration of our application and establish a connection through `sqlite` with our database.
 
 ```python
 class Players(db.Model):
@@ -62,7 +62,7 @@ resource_fields = {
     'puuid':fields.String
 }
 ```
-Aquí primero creamos la clase `Players` que será la encargada de manejar la "extructura" de nuestra base de datos. Como podemos ver, creamos una tabla llamada `players` y cuatro columnas. Por último creamos un diccionario llamado `resource_fields` para serializar nuestra informacion de tal manera que podamos mostrarla en formato JSON. (¿Qué es [JSON](https://es.wikipedia.org/wiki/JSON)?)
+Here we first create the `Players` class that will be in charge of managing the "structure" of our database. As we can see, we create a table called `players` and four columns. Finally we create a dictionary called `resource_fields` to serialize our information so that we can display it in JSON format. (What is [JSON](https://es.wikipedia.org/wiki/JSON)?)
 
 ```python
 class Player(Resource):
@@ -77,21 +77,19 @@ api.add_resource(Player, "/<string:name>")
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
 ```
-Por último, creamos la clase Player que organizará los datos de nuestra base de datos de la forma en que le especificamos en nuestro diccionario `resource_fields`. Luego definimos una función **get** que tomará como argumantos *self* y el nombre del jugador del cual queremos conocer la información. Con estos datos hacemos un `query` a nuestra base de datos, diciéndole que nos muestre el primer el primer jugador llamado `name`. 
+Finally, we create the Player class that will organize the data in our database in the way we specify in our `resource_fields` dictionary. Then we define a **get** function that will take as argument *self* and the name of the player of which we want to know the information. With this data we do a `query` to our database, telling it to show us the first player named `name`. 
 
-`api.add_resource(Player, "/<string:name>")` es una de las partes fundamentales de nuestro código, pues es aquí donde especificamos la ruta a la cual se hará la request, o dicho de otra forma, es aquí donde definimos nuestro Endpoint. En este caso sería simplemente a la ruta de inicio, es decir:
+`api.add_resource(Player, "/<string:name>")` is one of the fundamental parts of our code, because it is here where we specify the route to which the request will be made, or in other words, it is here where we define our Endpoint. In this case it would be simply to the start path, that is:
 
 ```bash
 https://0.0.0.0:8000/Bluegod
 ```
-Por último, la parte de `if __name__ == "__main__":` sencillamente evita que se ejecute la aplicación cuando es importada por otro script y en la parte de `app.run(host='0.0.0.0')` podriamos añadirle `debug=True` para que cada que realizamos un cambio y tenemos nuestra aplicación corriendo este cambio se aplica inmediatamente después de guardar, esto ayuda mucho cuando estamos testeando o añadiendo nuevas funciones, pero se recomienda quitarlo a la hora de hacer *deploy* de nuestra App.
+Finally, the `if __name__ == "__main__":` part simply prevents the application from running when it is imported by another script and in the `app.run(host='0.0.0. 0')` we could add `debug=True` so that every time we make a change and we have our application running this change is applied immediately after saving, this helps a lot when we are testing or adding new functions, but it is recommended to remove it when making *deploy* of our App.
 
-Y... ya, eso sería todo, si hemos seguido correctamente todos los pasos hasta aquí deberiamos tener nuestra API funcionando. ¡Vamos a probarla! 
+And... now, that would be all, if we have followed correctly all the steps up to here we should have our API working, let's test it! 
 
 ![RESULTADO-JSON](https://res.cloudinary.com/rooyca/image/upload/v1632289004/Blog/Imgs/Website%20and%20Api%20with%20Flask%20%28LoR%29/json_vvz4hc.png)
 
-¡Excelente! Sí funciona. 
+Excellent! It does work. 
 
-Bueno, eso sería todo por el día de hoy. Si quieres probar esta API [AQUÍ](https://lor-finder.herokuapp.com/) te dejo un link en el cual podras hacerlo. Y recuerda, si tienes alguna duda, queja, sugerencia o reclamo no dudes en hacérmelo saber.
-
-
+Well, that's all for today. If you want to try this API [HERE](https://lor-finder.herokuapp.com/) I leave you a link where you can do it. And remember, if you have any doubt, complaint, suggestion or claim don't hesitate to let me know.
