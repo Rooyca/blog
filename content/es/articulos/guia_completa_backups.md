@@ -28,30 +28,9 @@ Hay cuatro tipos principales de copias de seguridad: **completas**, **incrementa
 
 También es importante tener en cuenta que no existe una sola estrategia de copia de seguridad que sea perfecta para todos. Debe desarrollar una estrategia que sea adecuada para sus necesidades.
 
-## Herramientas de Backup en Linux
-
-Algunas de las herramientas de copia de seguridad más populares en Linux son:
-
-* **rsync** es una herramienta de línea de comandos que se utiliza para copiar archivos y directorios de forma recursiva. Es una herramienta muy versátil que se puede utilizar para hacer copias de seguridad, sincronizar archivos y transferir archivos entre diferentes sistemas.
-
-* **rsnapshot** es una herramienta de línea de comandos que se utiliza para realizar copias de seguridad incrementales de archivos y directorios. Rsnapshot es una herramienta muy eficiente que se puede utilizar para realizar copias de seguridad de grandes cantidades de datos.
-
-* **Duplicity** es una herramienta de línea de comandos que se utiliza para hacer copias de seguridad de archivos y directorios en la nube. Duplicity es una herramienta muy versátil que se puede utilizar para hacer copias de seguridad de archivos en una variedad de servicios de almacenamiento en la nube, incluidos Amazon S3, Google Cloud Storage y Microsoft Azure Blob Storage.
-
-* **rclone** es una herramienta de línea de comandos que se utiliza para sincronizar archivos entre diferentes sistemas, incluidos servidores locales, servidores remotos y servicios de almacenamiento en la nube. Rclone es una herramienta muy versátil que se puede utilizar para sincronizar archivos en una variedad de formatos, incluidos archivos de imagen, archivos de audio y archivos de video.
+## Instalación de `rclone`
 
 ![rclone](https://res.cloudinary.com/rooyca/image/upload/v1691629511/Blog/Imgs/guia_backups/logo_on_light__horizontal_color_nvxrkk.svg)
-
-En esta guía se hará uso de `rclone`, por lo que a continuación se mostrarán algunas características de `rclone`:
-
-* Soporta una amplia variedad de ubicaciones, incluidas unidades locales, unidades externas, servidores remotos y servicios de almacenamiento en la nube.
-* Es una herramienta muy eficiente que se puede utilizar para almacenar grandes cantidades de datos.
-* Es una herramienta muy versátil que se puede utilizar para almacenar copias de seguridad de archivos en una variedad de formatos.
-* Es una herramienta de código abierto que está disponible de forma gratuita.
-
-`rclone` es una excelente opción para almacenar copias de seguridad de archivos. Es una herramienta poderosa, versátil y eficiente que se puede utilizar para almacenar copias de seguridad de archivos en una variedad de ubicaciones.
-
-### Instalación y configuración de `rclone`
 
 > [Guía de instalación](https://rclone.org/install/). 
 
@@ -73,7 +52,7 @@ sudo pacman -S rclone
 sudo dnf install rclone
 ```
 
-### Configuración
+### Configuración de `rclone`
 
 Hay muchas maneras de configurar `rclone`. Todas ellas se pueden encontrar en la [documentacion oficial](https://rclone.org/docs/). Hoy vamos a utilizar `Google drive`.
 
@@ -87,27 +66,101 @@ Es importante tener en cuenta que para poder configurarlo correctamente son nece
 
 >> IMPORTANTE: Se debe añadir el correo de la cuenta de Google que se desea utilizar para almacenar los backups como tester del proyecto.
 
-Para ello vamos a seguir [esta guía](https://rclone.org/drive/), es muy fácil. Después de que todo está configurado como en la instrucción podemos continuar. Pero antes es importante tener en cuenta:
+Para ello vamos a seguir [esta guía](https://rclone.org/drive/), es muy sencillo. Pero antes es importante tener en cuenta:
 
-1. Tenemos que añadir local como un remote.
-2. Es recomendable añadir una contraseña fuerte para nuestra configuración local.
-3. Tenemos que añadir nuestra unidad y, a continuación, si queremos establecer el cifrado tenemos que añadir otro remoto que llamado `encryp/decryp`, o algo así. (Establece la misma contraseña que estableciste al subir los archivos)
-4. Hay muchas opciones que podemos usar `copy`, `move`, `sync`, etc. pero vamos a usar solo `sync` en este caso.
-5. Al sincronizar local con remoto necesitamos pasar el remoto como el nuevo remoto (el encriptado que creamos en el paso 3). 
-6. Para descargar archivos puedes usar:
+1. Tenemos que añadir `local` como un `remote`.
+2. Es recomendable añadir una contraseña robusta para nuestra configuración local.
+3. Tenemos que añadir nuestra unidad y si queremos cifrarla tenemos que añadir otro `remote` llamado `encryp/decryp`.
+4. Hay muchas opciones que podemos usar: `copy`, `move`, `sync`, etc. En este caso usaremos `sync`.
+
+Para descargar archivos podemos usar:
 
 ```bash
 rclone copy bipbop:enc/2023-05-16-CTF.zip arch:/home/rooyca
 ```
-Where `bipbop:enc` its our remote encrypted, but the trick is to use the filename as the original filename, in this case `2023-05-16-CTF.zip`, instead of the encrypted one that its showing our Drive folder. `arch:/home/rooyca` its the local remote with the path.
+Donde `bipbop:enc` es nuestro remoto encriptado. El truco está en usar el nombre original del fichero, en este caso `2023-05-16-CTF.zip`, en lugar del encriptado que muestra nuestra carpeta Drive. La segunda parte `arch:/home/rooyca` es nuesto `local`.
 
-That should do.
-
-Or we can copy the entire folder:
+O tambíen podemos copiar toda la carpeta:
 
 ```bash
 rclone copy bipbop:enc arch:/home/rooyca
 ```
 
-In this example we are copying the entire folder `enc` from our remote `bipbop` to our local remote `arch` in the path `/home/rooyca`.
+En este ejemplo estamos copiando toda la carpeta `enc` de nuestro remoto `bipbop` a nuestro remoto local `arch` en la ruta `/home/rooyca`.
 
+## Instalación y configuración de `rooykup`
+
+Como podemos ver es menianamente sencillo configurar `rclone`, pero para facilitar aún más la tarea he creado un script que automatiza todo el proceso.
+
+![rooykup](https://raw.githubusercontent.com/Rooyca/rooykup-backup-and-sync/master/rooykup_example.gif)
+
+### Instalación
+
+- Clonamos [este repositorio](https://github.com/Rooyca/rooykup-backup-and-sync/)
+- Creamos un archivo `config.toml` en `~/.config/rooykup` con la siguiente estructura:
+
+```toml
+[config]
+workingDirectory = "/path/to/working/directory"
+shutDownAfterBackup = false
+alwaysCompress = false
+remote = ["remote:folder", "remote2:"]
+local = "local:"
+configPass = "here your super secure passphrase for rclone config" 
+
+[exclude]
+directories = [".git", "node_modules"] # If none leave it empty 
+
+[[pathAndDirName]]
+path = "/path/to/folder/to/backup"
+zipName = "NameOfTheZipFile
+
+[[pathAndDirName]]
+path = "/path/to/folder/to/backup2"
+zipName = "AnotherNameOfTheZipFile"
+```
+
+Puedes añadir todos los `[[pathAndDirName]]` que necesites.
+
+### Uso
+
+- Ejectua `python rooykup.py` para iniciar el proceso de respaldo.
+	- Si deseas ejecutarlo periódicamente, puedes usar `cron` o `systemd`
+- También puedes crear un alias en tu archivo `.bashrc` o `.zshrc`.
+
+```bash
+alias rooykup="python /path/to/rooykup.py"
+```
+
+- Si desea apagar el ordenador después del backup, cambia `shutDownAfterBackup` a `true` en tu fichero `config.toml` o ejecútalo con la opción `-s`.
+
+- Si quieres comprimir siempre los ficheros, cambia `alwaysCompress` a `true` en tu fichero `config.toml` o ejecútalo con la opción `-c`. Esto comprimirá incluso si el directorio ya tiene un fichero comprimido el día de hoy.
+
+
+## Respaldar dotfiles y demás en GitHub
+
+![git](https://res.cloudinary.com/rooyca/image/upload/v1691699867/Blog/Imgs/guia_backups/git_repo_backups_hgrkho.png)
+
+Hay muchas formas de hacer esto, pero en esta ocación haremos uso del template que he creado para este propósito: [tamplate-backups](https://github.com/Rooyca/template-backups). Ahí encontraremos una lista de checkeo y un script que nos ayudará a automatizar el proceso.
+
+### Uso
+
+1. Clonamos [este repositorio](https://github.com/Rooyca/template-backups)
+2. Exportamos las variables de entorno (Opcional)
+
+```bash
+export DONT_BACKUP="Trash,pnpm,gem"
+export BACKUP_DIR="/home/user/mybackup"
+```
+
+3. Ejecutamos los comandos:
+
+```bash
+cd template-backups
+chmod +x rokup.sh
+./rokup.sh
+```
+
+---
+
+ULTIMA ACTUALIZACIÓN: 2023-08-10
