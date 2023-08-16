@@ -1,5 +1,5 @@
 ---
-title: "Build paquetes para AUR"
+title: "Guía para crear paquetes en el repositorio de usuarios de Arch Linux"
 date: 2023-08-16
 type: page
 tags: 
@@ -7,7 +7,7 @@ tags:
 - "Arch"
 - "Linux"
 - "Build"
-description: Building paquetes para el repositorio de usuarios de Arch Linux.
+description: "En este artículo aprenderás a crear paquetes para el repositorio de usuarios de Arch Linux."
 topic: AUR,Arch,Linux,Build
 ---
 
