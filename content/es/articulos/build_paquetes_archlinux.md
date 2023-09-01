@@ -92,7 +92,15 @@ package() {
 
 > **Nota**: Puedes encontrar más información sobre el archivo **PKGBUILD** en la [documentación oficial](https://wiki.archlinux.org/title/PKGBUILD).
 
-Una vez creado el archivo, lo añadimos al repositorio, pero primero nos aseguramos de crear el archivo **.SRCINFO**.
+Podemos testear que el paquete se construye correctamente con el comando **makepkg**.
+
+```bash
+makepkg -si
+```
+
+Si todo sale bien, podemos continuar con el proceso de publicación.
+
+Ahora nos aseguramos de crear el archivo **.SRCINFO**.
 
 ```bash
 makepkg --printsrcinfo > .SRCINFO
