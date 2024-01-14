@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Build on rooyca</title>
+    <link>/es/tags/build/</link>
+    <description>Recent content in Build on rooyca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>© 2023</copyright>
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/es/tags/build/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guía de construcción y publicación de paquetes en COPR (Fedora)</title>
+      <link>/es/articulos/build_package_fedora/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>/es/articulos/build_package_fedora/</guid>
+      <description>Empaquetando RPM Link original: RPM Packaging&#xA;Ejecuta:&#xA;sudo dnf install fedora-packager rpmdevtools gcc rpmdev-setuptree cd ~/rpmbuild/SOURCES wget http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz cd ~/rpmbuild/SPECS rpmdev-newspec --macros hello.spec Ahora puedes abrir el archivo hello.spec y modificarlo. Coloca el siguiente contenido:&#xA;Name: hello Version: 2.10 Release: 1%{?dist} Summary: El programa &amp;#34;Hola Mundo&amp;#34; de GNU License: GPLv3+ URL: http://ftp.gnu.org/gnu/hello Source0: https://ftp.gnu.org/gnu/hello/hello-%{version}.tar.gz BuildRequires: gettext Requires(post): info Requires(preun): info %description El programa &amp;#34;Hola Mundo&amp;#34;, realizado con todas las características de un proyecto FOSS adecuado, incluyendo configuración, construcción, internacionalización, archivos de ayuda, etc.</description>
+    </item>
+    <item>
+      <title>Guía de construcción y publicación de paquetes en PyPI</title>
+      <link>/es/articulos/build_package_python/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>/es/articulos/build_package_python/</guid>
+      <description>Introducción En PyPI los desarrolladores pueden publicar sus paquetes Python para que otros los descarguen e instalen en sus propios proyectos. Esto hace que sea mucho más fácil compartir y reutilizar código en la comunidad de desarrolladores de Python. Los paquetes pueden contener desde simples módulos con funciones y clases hasta frameworks y herramientas complejas.&#xA;Requisitos Python 3.6 o superior. Cuenta en PyPI. PIP Actualizado. python3 -m pip install --upgrade pip Twine.</description>
+    </item>
+    <item>
+      <title>Guía de construcción y publicación de paquetes en el repositorio de usuarios (AUR) de Archlinux</title>
+      <link>/es/articulos/build_paquetes_archlinux/</link>
+      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>/es/articulos/build_paquetes_archlinux/</guid>
+      <description>Nota: Este artículo no profundizará en muchos temas y conceptos, por lo que se recomendable leer la documentación oficial de Arch.&#xA;Nota: El contenido de este artículo se basa en mi experiencia personal, por lo que puede que no sea la mejor forma de hacerlo.&#xA;Resultado final: hmta&#xA;Introducción El repositorio de usuarios de Arch (AUR) es un repositorio impulsado por la comunidad y para la comunidad. Contiene descripciones de paquetes (PKGBUILD) que te permiten compilar un paquete desde el código fuente con makepkg y luego instalarlo a través de pacman.</description>
+    </item>
+  </channel>
+</rss>

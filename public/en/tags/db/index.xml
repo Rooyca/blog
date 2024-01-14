@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DB on rooyca</title>
+    <link>/en/tags/db/</link>
+    <description>Recent content in DB on rooyca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>© 2023</copyright>
+    <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/en/tags/db/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hosting WordPress in the cloud (Google Cloud)</title>
+      <link>/en/articles/wordpress_cloud/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>/en/articles/wordpress_cloud/</guid>
+      <description>Creating the Virtual Machine &amp;ldquo;WordPress is a content management system released on May 27, 2003, focused on the creation of any type of website.&amp;rdquo; According to these twenty statistics about WordPress by 2022 we find that WordPress is used by 43.2% of all sites on the Internet.&#xA;In order to run WordPress on Google Cloud (GCloud from now on), we must first create a virtual machine with one of the images that GCloud has.</description>
+    </item>
+  </channel>
+</rss>

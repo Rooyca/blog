@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on rooyca</title>
+    <link>/es/tags/python/</link>
+    <description>Recent content in Python on rooyca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>© 2023</copyright>
+    <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/es/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guía de construcción y publicación de paquetes en PyPI</title>
+      <link>/es/articulos/build_package_python/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>/es/articulos/build_package_python/</guid>
+      <description>Introducción En PyPI los desarrolladores pueden publicar sus paquetes Python para que otros los descarguen e instalen en sus propios proyectos. Esto hace que sea mucho más fácil compartir y reutilizar código en la comunidad de desarrolladores de Python. Los paquetes pueden contener desde simples módulos con funciones y clases hasta frameworks y herramientas complejas.&#xA;Requisitos Python 3.6 o superior. Cuenta en PyPI. PIP Actualizado. python3 -m pip install --upgrade pip Twine.</description>
+    </item>
+    <item>
+      <title>Subir archivos a Nextcloud desde la línea de comandos</title>
+      <link>/es/articulos/upload_files_nextcloud_cli/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>/es/articulos/upload_files_nextcloud_cli/</guid>
+      <description>Puedes encontrar todos los archivos necesarios para este tutorial en el siguiente repo: https://github.com/Rooyca/upload-nextcloud-cli&#xA;Te recomiendo clonar el repositorio en tu equipo. Para ello ejecuta el siguiente comando en la terminal:&#xA;git clone https://github.com/Rooyca/upload-nextcloud-cli Configuración Crear un link compartido para una carpeta de Nextcloud. Recordar seleccionar la opción &amp;ldquo;File Drop (upload only)&amp;rdquo;, o &amp;ldquo;Allow upload and editing&amp;rdquo; al crear el link compartido. Imagen tomada de https://cylab.be&#xA;Copiar el link compartido.</description>
+    </item>
+  </channel>
+</rss>

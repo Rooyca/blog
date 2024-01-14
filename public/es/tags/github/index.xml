@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on rooyca</title>
+    <link>/es/tags/github/</link>
+    <description>Recent content in github on rooyca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>© 2023</copyright>
+    <lastBuildDate>Wed, 09 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/es/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guía completa sobre Backups usando rooykup, rclone y github</title>
+      <link>/es/articulos/guia_completa_backups/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>/es/articulos/guia_completa_backups/</guid>
+      <description>Introducción Un backup es una copia de seguridad de los datos e información que se puede realizar a baja o alta escala. La programación y realización de una copia de seguridad resulta fundamental para el mantenimiento de un equipo o sistema, debido a que previene la pérdida de datos e información importante y permite tener un plan de acción en caso de presentar problemas como virus, fallos en los discos duro, accidentes, entre otros.</description>
+    </item>
+  </channel>
+</rss>
