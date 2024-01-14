@@ -8,50 +8,50 @@ description: Guia sensilla para instalar PostgreSQL en Termux (Terminal de coman
 topic: termux,postgres
 ---
 
-Primero instalamos `postgres`:
+## Instalación
+
+Instalamos el paquete `postgresql`:
 
 ```bash
 pkg install postgresql
 ```
 
-Luego creamos es skeleton de la base de datos:
+Luego creamos el `skeleton` de la base de datos:
 
 ```bash
 mkdir -p $PREFIX/var/lib/postgresql
 initdb -D $PREFIX/var/lib/postgresql
 ```
 
-Ahora iniciamos la base de datos:
+Ahora iniciamos nuestra DB:
 
 ```bash
 pg_ctl -D $PREFIX/var/lib/postgresql start
 ```
 
-Cuando queramos detener la base de datos podemos usar:
+Cuando queramos detenerla podemos usar:
 
 ```bash
 pg_ctl -D $PREFIX/var/lib/postgresql stop
 ```
 
-Para conectarnos a la base de datos necesitamos un usuario, podemos crear uno usando:
+Para conectarnos necesitamos un usuario. Podemos crear uno usando:
 
 ```bash
 createuser --superuser --pwprompt NOMBRE_DE_USUARIO
 ```
 
-Ahora creamos nuestra base de datos:
+Para crear una base de datos usamos:
 
 ```bash
 createdb NOMBRE_DE_BASE_DE_DATOS
 ```
 
-Nos conectamos a la base de datos:
+Nos conectamos usando:
 
 ```bash
 psql NOMBRE_DE_BASE_DE_DATOS
 ```
-
-Y listo, ya podemos usar nuestra base de datos.
 
 ## Acceder a la DB en Local
 
