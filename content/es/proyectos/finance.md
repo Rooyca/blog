@@ -4,6 +4,6 @@ date: 2022-06-15
 description:  Una aplicación sencilla de finanzas permite a los usuarios hacer un seguimiento de sus ingresos, gastos y presupuesto de manera fácil y eficiente. Proporciona una interfaz fácil de usar con funciones como agregar transacciones, categorizar gastos, generar informes y establecer objetivos financieros.
 type: page
 topic: project
-link: "https://yoo.lat/finance"
+link: "https://finance-app-psi.vercel.app/"
 image: "https://rooyca.github.io/portfolio/img/works/finance.png"
 ---
