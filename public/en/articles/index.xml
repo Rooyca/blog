@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on rooyca</title>
-    <link>/en/articles/</link>
+    <link>//localhost:1313/en/articles/</link>
     <description>Recent content in Articles on rooyca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>© 2023</copyright>
+    <copyright>© 2024</copyright>
     <lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/en/articles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/en/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create a 100% free online radio station - Radio Project (Part 1)</title>
-      <link>/en/articles/radio_project_part_one/</link>
+      <link>//localhost:1313/en/articles/radio_project_part_one/</link>
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>/en/articles/radio_project_part_one/</guid>
+      <guid>//localhost:1313/en/articles/radio_project_part_one/</guid>
       <description>Welcome to Radio Project Today I want to start a series of posts in which we will learn together the steps to follow when creating an online radio station. At first, when I started this project I found several platforms that offered this service for free, but the vast majority of pages were paid and others had aged quite badly. But one day I found ZenoRadio (NO ADVERTISING, it really is a good platform), a modern alternative and with a very generous free plan.</description>
     </item>
     <item>
       <title>Send emails from Gmail using your own domain</title>
-      <link>/en/articles/send_emails_from_own_domain_with_gmail/</link>
+      <link>//localhost:1313/en/articles/send_emails_from_own_domain_with_gmail/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>/en/articles/send_emails_from_own_domain_with_gmail/</guid>
+      <guid>//localhost:1313/en/articles/send_emails_from_own_domain_with_gmail/</guid>
       <description>1 - Redirecting Traffic The first thing to do is to redirect the traffic from our email account (in this case me@rooyca.xyz) to Gmail. To do this we go to our domain provider or our CDN of choice, in my case CloudFlare. Now we go to the Email &amp;gt; Routes &amp;gt; Create address.&#xA;We create our address pointing to the Gmail with which we are going to configure our account.</description>
     </item>
     <item>
       <title>Hosting WordPress in the cloud (Google Cloud)</title>
-      <link>/en/articles/wordpress_cloud/</link>
+      <link>//localhost:1313/en/articles/wordpress_cloud/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>/en/articles/wordpress_cloud/</guid>
+      <guid>//localhost:1313/en/articles/wordpress_cloud/</guid>
       <description>Creating the Virtual Machine &amp;ldquo;WordPress is a content management system released on May 27, 2003, focused on the creation of any type of website.&amp;rdquo; According to these twenty statistics about WordPress by 2022 we find that WordPress is used by 43.2% of all sites on the Internet.&#xA;In order to run WordPress on Google Cloud (GCloud from now on), we must first create a virtual machine with one of the images that GCloud has.</description>
     </item>
     <item>
       <title>How to extract the complete works of Shakespeare from an image</title>
-      <link>/en/articles/basic_steganography/</link>
+      <link>//localhost:1313/en/articles/basic_steganography/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>/en/articles/basic_steganography/</guid>
+      <guid>//localhost:1313/en/articles/basic_steganography/</guid>
       <description>Steganography What is it? Unlike cryptography, where it is obvious that something is being hidden, steganography hides information in such a way that no suspicions are raised that something is hidden. This is achieved by means of different techniques that allow us to hide files, images, texts or even videos inside other files.&#xA;How does it work? There are different techniques to hide information inside files. One of the most commonly used and perhaps the easiest to understand is commonly known as the &amp;ldquo;Least Significant Bit Technique&amp;rdquo; or LSB.</description>
     </item>
     <item>
       <title>Create your first API with Flask</title>
-      <link>/en/articles/flask_basic_api/</link>
+      <link>//localhost:1313/en/articles/flask_basic_api/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>/en/articles/flask_basic_api/</guid>
+      <guid>//localhost:1313/en/articles/flask_basic_api/</guid>
       <description>First of all, here is the link in case you want to clone directly the Github repository.&#xA;Developing our API For this tutorial we are going to use mainly the &amp;ldquo;Mini&amp;rdquo;-Framework Flask and some extensions of it. For the installation of all the packages I would like to leave you with two options:&#xA;Install the following packages with the pip install x-package command. flask flask_restful flask_sqlalchemy Download the file requirements.txt and install everything at once with the command pip install -r requirements.</description>
     </item>
     <item>
       <title>Creating our own commands in Linux | Alias</title>
-      <link>/en/articles/linux_comands/</link>
+      <link>//localhost:1313/en/articles/linux_comands/</link>
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>/en/articles/linux_comands/</guid>
+      <guid>//localhost:1313/en/articles/linux_comands/</guid>
       <description>Creating our Aliases Alias is a simple way to map, bin, join(?) commands. This is the best way to save time when typing long strings of commands. If we type &amp;ldquo;aliases&amp;rdquo; in our terminal we should get the default aliases of our system, something like this: As you may notice, in my case I have two custom aliases: price and subl; the first one is a python script I use to see the crypto market behavior and the second one is simply to open SublimeText.</description>
     </item>
   </channel>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on rooyca</title>
-    <link>/en/contact/</link>
+    <link>//localhost:1313/en/contact/</link>
     <description>Recent content in Contact on rooyca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>© 2023</copyright>
-    <atom:link href="/en/contact/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024</copyright>
+    <atom:link href="//localhost:1313/en/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on rooyca</title>
-    <link>/es/tags/linux/</link>
+    <link>//localhost:1313/es/tags/linux/</link>
     <description>Recent content in Linux on rooyca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <copyright>© 2023</copyright>
+    <copyright>© 2024</copyright>
     <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/es/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/es/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guía de construcción y publicación de paquetes en COPR (Fedora)</title>
-      <link>/es/articulos/build_package_fedora/</link>
+      <link>//localhost:1313/es/articulos/build_package_fedora/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/es/articulos/build_package_fedora/</guid>
+      <guid>//localhost:1313/es/articulos/build_package_fedora/</guid>
       <description>Empaquetando RPM Link original: RPM Packaging&#xA;Ejecuta:&#xA;sudo dnf install fedora-packager rpmdevtools gcc rpmdev-setuptree cd ~/rpmbuild/SOURCES wget http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz cd ~/rpmbuild/SPECS rpmdev-newspec --macros hello.spec Ahora puedes abrir el archivo hello.spec y modificarlo. Coloca el siguiente contenido:&#xA;Name: hello Version: 2.10 Release: 1%{?dist} Summary: El programa &amp;#34;Hola Mundo&amp;#34; de GNU License: GPLv3+ URL: http://ftp.gnu.org/gnu/hello Source0: https://ftp.gnu.org/gnu/hello/hello-%{version}.tar.gz BuildRequires: gettext Requires(post): info Requires(preun): info %description El programa &amp;#34;Hola Mundo&amp;#34;, realizado con todas las características de un proyecto FOSS adecuado, incluyendo configuración, construcción, internacionalización, archivos de ayuda, etc.</description>
     </item>
     <item>
       <title>Guía de construcción y publicación de paquetes en el repositorio de usuarios (AUR) de Archlinux</title>
-      <link>/es/articulos/build_paquetes_archlinux/</link>
+      <link>//localhost:1313/es/articulos/build_paquetes_archlinux/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/es/articulos/build_paquetes_archlinux/</guid>
+      <guid>//localhost:1313/es/articulos/build_paquetes_archlinux/</guid>
       <description>Nota: Este artículo no profundizará en muchos temas y conceptos, por lo que se recomendable leer la documentación oficial de Arch.&#xA;Nota: El contenido de este artículo se basa en mi experiencia personal, por lo que puede que no sea la mejor forma de hacerlo.&#xA;Resultado final: hmta&#xA;Introducción El repositorio de usuarios de Arch (AUR) es un repositorio impulsado por la comunidad y para la comunidad. Contiene descripciones de paquetes (PKGBUILD) que te permiten compilar un paquete desde el código fuente con makepkg y luego instalarlo a través de pacman.</description>
     </item>
     <item>
       <title>Subir archivos a Nextcloud desde la línea de comandos</title>
-      <link>/es/articulos/upload_files_nextcloud_cli/</link>
+      <link>//localhost:1313/es/articulos/upload_files_nextcloud_cli/</link>
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/es/articulos/upload_files_nextcloud_cli/</guid>
+      <guid>//localhost:1313/es/articulos/upload_files_nextcloud_cli/</guid>
       <description>Puedes encontrar todos los archivos necesarios para este tutorial en el siguiente repo: https://github.com/Rooyca/upload-nextcloud-cli&#xA;Te recomiendo clonar el repositorio en tu equipo. Para ello ejecuta el siguiente comando en la terminal:&#xA;git clone https://github.com/Rooyca/upload-nextcloud-cli Configuración Crear un link compartido para una carpeta de Nextcloud. Recordar seleccionar la opción &amp;ldquo;File Drop (upload only)&amp;rdquo;, o &amp;ldquo;Allow upload and editing&amp;rdquo; al crear el link compartido. Imagen tomada de https://cylab.be&#xA;Copiar el link compartido.</description>
     </item>
     <item>
       <title>Pi-hole para Android - [ROOT]</title>
-      <link>/es/articulos/pihole_android/</link>
+      <link>//localhost:1313/es/articulos/pihole_android/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
-      <guid>/es/articulos/pihole_android/</guid>
+      <guid>//localhost:1313/es/articulos/pihole_android/</guid>
       <description>Post original: Aquí Nota: No hay ningún respaldo o asociación entre esta página y Pi-hole© LLC. Si encuentras esto útil, ellos merecen tu apoyo.&#xA;Pi-hole es una aplicación para el bloqueo de anuncios y rastreadores para Linux que actúa como un &amp;ldquo;agujero negro&amp;rdquo; de DNS destinado mayoritariamente para el uso en redes privadas. Está diseñado para dispositivos integrados de baja potencia con capacidad de red, enfocándose en la Raspberry Pi como su plataforma de hardware de referencia.</description>
     </item>
     <item>
       <title>Como extraer la obra completa de Shakespeare de una Imagen</title>
-      <link>/es/articulos/esteganografia_basica/</link>
+      <link>//localhost:1313/es/articulos/esteganografia_basica/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>/es/articulos/esteganografia_basica/</guid>
+      <guid>//localhost:1313/es/articulos/esteganografia_basica/</guid>
       <description>Esteganografía ¿Qué es? A diferencia de la criptografía, donde es obvio que se está ocultando algo, la esteganografía oculta la información de tal forma que no se levante sospechas de que hay algo oculto. Esto se consigue por medio de diferentes técnicas que nos permiten ocultar archivos, imágenes, textos o incluso vídeos dentro de otros archivos.&#xA;¿Cómo funciona? Hay diferentes técnicas para ocultar información dentro de archivos. Una de las más usadas y quizás la más sencilla de entender es la comúnmente conocido como &amp;ldquo;Técnica del Bit menos significante&amp;rdquo; o LSB (por sus siglas en inglés).</description>
     </item>
     <item>
       <title>Creando nuestros propios comandos en Linux | Alias</title>
-      <link>/es/articulos/linux_comands/</link>
+      <link>//localhost:1313/es/articulos/linux_comands/</link>
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>/es/articulos/linux_comands/</guid>
+      <guid>//localhost:1313/es/articulos/linux_comands/</guid>
       <description>Creando nuestros Aliases Alias es una forma sencilla de mapper, bindear, unir(?) comandos. Esta es la mejor manera de ahorrarnos tiempo a la hora de escribir cadenas larguísimas de comandos. Si nosotros escribimos &amp;ldquo;alias&amp;rdquo; en nuestra terminal debería aparecernos los aliases predeterminados de nuestro sistema, algo así: Como podran notar, en mi caso tengo dos alias customizados: price y subl; el primero es un script en python que uso para ver el comportamiento del mercado crypto y el segundo es simplemtente para abrir SublimeText.</description>
     </item>
   </channel>

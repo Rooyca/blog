@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cloudflare on rooyca</title>
-    <link>/en/tags/cloudflare/</link>
-    <description>Recent content in cloudflare on rooyca</description>
+    <title>Cloudflare on rooyca</title>
+    <link>//localhost:1313/en/tags/cloudflare/</link>
+    <description>Recent content in Cloudflare on rooyca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>© 2023</copyright>
+    <copyright>© 2024</copyright>
     <lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/en/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/en/tags/cloudflare/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Send emails from Gmail using your own domain</title>
-      <link>/en/articles/send_emails_from_own_domain_with_gmail/</link>
+      <link>//localhost:1313/en/articles/send_emails_from_own_domain_with_gmail/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>/en/articles/send_emails_from_own_domain_with_gmail/</guid>
+      <guid>//localhost:1313/en/articles/send_emails_from_own_domain_with_gmail/</guid>
       <description>1 - Redirecting Traffic The first thing to do is to redirect the traffic from our email account (in this case me@rooyca.xyz) to Gmail. To do this we go to our domain provider or our CDN of choice, in my case CloudFlare. Now we go to the Email &amp;gt; Routes &amp;gt; Create address.&#xA;We create our address pointing to the Gmail with which we are going to configure our account.</description>
     </item>
   </channel>

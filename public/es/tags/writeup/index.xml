@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>writeup on rooyca</title>
-    <link>/es/tags/writeup/</link>
-    <description>Recent content in writeup on rooyca</description>
+    <title>Writeup on rooyca</title>
+    <link>//localhost:1313/es/tags/writeup/</link>
+    <description>Recent content in Writeup on rooyca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <copyright>© 2023</copyright>
+    <copyright>© 2024</copyright>
     <lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/es/tags/writeup/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/es/tags/writeup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PicoCTF Writeup – Reverse Engineering (asm2)</title>
-      <link>/es/articulos/picoctf_asm2/</link>
+      <link>//localhost:1313/es/articulos/picoctf_asm2/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>/es/articulos/picoctf_asm2/</guid>
+      <guid>//localhost:1313/es/articulos/picoctf_asm2/</guid>
       <description>Información: Nombre de la plataforma: PicoCTF&#xA;Nombre del reto: asm2&#xA;Categoría: Ingeniería Inversa&#xA;Puntos: 250&#xA;PicoCTF 2019.&#xA;Descripción del reto: ¿Qué retorna asm2(0xb, 0x2e)? Envía la bandera como un valor hexadecimal (comienza con &amp;lsquo;0x&amp;rsquo;). NOTA: El envío para este reto NO será en el formato normal de las banderas. Código.&#xA;Pista: Condiciones en ensamblador&#xA;Writeup (Inicio) En este reto, tenemos el código fuente en ensamblador. El archivo se llama test.S y acontinuación puedes ver el código en cuestion:</description>
     </item>
   </channel>

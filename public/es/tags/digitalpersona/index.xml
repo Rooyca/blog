@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DigitalPersona on rooyca</title>
+    <link>//localhost:1313/es/tags/digitalpersona/</link>
+    <description>Recent content in DigitalPersona on rooyca</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-ES</language>
+    <copyright>© 2024</copyright>
+    <lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/es/tags/digitalpersona/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Base de datos en Access con lector de huella (U.are.U 4500)</title>
+      <link>//localhost:1313/es/articulos/lector_huella_access/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/articulos/lector_huella_access/</guid>
+      <description>Introducción En este artículo se muestra de manera muy sencilla cómo integrar un lector de huella digital (U.are.U 4500) con una base de datos en Access. Para ello, se hace uso de las librerias que proporciona el RTE de DigitalPersona. Para más información, se puede consultar la documentación oficial.&#xA;Requisitos Descargar SDK Fingerprint Enrollment Workflow Fingerprint Verification Workflow Fingerprint Data Object Serialization/Deserialization Serialización Deserialización Evento Capture_OnComplete en el enrolamiento Private Sub Capture_OnComplete(ByVal ReaderSerNum As String, ByVal Sample As Object) Dim Feedback As DPFPCaptureFeedbackEnum Dim blob() As Byte Feedback = CreateFtrs.</description>
+    </item>
+  </channel>
+</rss>

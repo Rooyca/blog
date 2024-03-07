@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Windows on rooyca</title>
-    <link>/es/tags/windows/</link>
+    <link>//localhost:1313/es/tags/windows/</link>
     <description>Recent content in Windows on rooyca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <copyright>© 2023</copyright>
+    <copyright>© 2024</copyright>
     <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/es/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/es/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Active Directory (Homelab)</title>
-      <link>/es/articulos/active_directory/</link>
+      <link>//localhost:1313/es/articulos/active_directory/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>/es/articulos/active_directory/</guid>
+      <guid>//localhost:1313/es/articulos/active_directory/</guid>
       <description>Requisitos Homelab Virtualización: VMWare ISO: Windows Server 2022 &amp;amp; Windows 10 Pro Configuración VMWare En este caso usaré VMWare Workstation PRO 17. Es importante ingresar una licencia válida para poder usar todas las funcionalidades, podemos usar una de las que se encuentran en este gist.&#xA;Windows Server 2022 Instalación Descargar la ISO de Windows Server 2022 desde aquí Crear una nueva máquina virtual en VMWare (Usar BIOS en caso de encontrar algún problema a la hora de bootear) Instalar Windows Server 2022 Cambiar nombre del equipo Configurar la red (IP estática y/o 127.</description>
     </item>
     <item>
       <title>Subir archivos a Nextcloud desde la línea de comandos</title>
-      <link>/es/articulos/upload_files_nextcloud_cli/</link>
+      <link>//localhost:1313/es/articulos/upload_files_nextcloud_cli/</link>
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/es/articulos/upload_files_nextcloud_cli/</guid>
+      <guid>//localhost:1313/es/articulos/upload_files_nextcloud_cli/</guid>
       <description>Puedes encontrar todos los archivos necesarios para este tutorial en el siguiente repo: https://github.com/Rooyca/upload-nextcloud-cli&#xA;Te recomiendo clonar el repositorio en tu equipo. Para ello ejecuta el siguiente comando en la terminal:&#xA;git clone https://github.com/Rooyca/upload-nextcloud-cli Configuración Crear un link compartido para una carpeta de Nextcloud. Recordar seleccionar la opción &amp;ldquo;File Drop (upload only)&amp;rdquo;, o &amp;ldquo;Allow upload and editing&amp;rdquo; al crear el link compartido. Imagen tomada de https://cylab.be&#xA;Copiar el link compartido.</description>
     </item>
   </channel>

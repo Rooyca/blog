@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fedora on rooyca</title>
-    <link>/es/tags/fedora/</link>
+    <link>//localhost:1313/es/tags/fedora/</link>
     <description>Recent content in Fedora on rooyca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <copyright>© 2023</copyright>
+    <copyright>© 2024</copyright>
     <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/es/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/es/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Guía de construcción y publicación de paquetes en COPR (Fedora)</title>
-      <link>/es/articulos/build_package_fedora/</link>
+      <link>//localhost:1313/es/articulos/build_package_fedora/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>/es/articulos/build_package_fedora/</guid>
+      <guid>//localhost:1313/es/articulos/build_package_fedora/</guid>
       <description>Empaquetando RPM Link original: RPM Packaging&#xA;Ejecuta:&#xA;sudo dnf install fedora-packager rpmdevtools gcc rpmdev-setuptree cd ~/rpmbuild/SOURCES wget http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz cd ~/rpmbuild/SPECS rpmdev-newspec --macros hello.spec Ahora puedes abrir el archivo hello.spec y modificarlo. Coloca el siguiente contenido:&#xA;Name: hello Version: 2.10 Release: 1%{?dist} Summary: El programa &amp;#34;Hola Mundo&amp;#34; de GNU License: GPLv3+ URL: http://ftp.gnu.org/gnu/hello Source0: https://ftp.gnu.org/gnu/hello/hello-%{version}.tar.gz BuildRequires: gettext Requires(post): info Requires(preun): info %description El programa &amp;#34;Hola Mundo&amp;#34;, realizado con todas las características de un proyecto FOSS adecuado, incluyendo configuración, construcción, internacionalización, archivos de ayuda, etc.</description>
     </item>
   </channel>

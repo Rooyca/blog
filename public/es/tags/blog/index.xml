@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on rooyca</title>
-    <link>/es/tags/blog/</link>
+    <link>//localhost:1313/es/tags/blog/</link>
     <description>Recent content in Blog on rooyca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
-    <copyright>© 2023</copyright>
+    <copyright>© 2024</copyright>
     <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/es/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/es/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crea tu blog con HUGO y publicalo en Cloudflare Pages</title>
-      <link>/es/articulos/hugo_cloudflare_pages/</link>
+      <link>//localhost:1313/es/articulos/hugo_cloudflare_pages/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>/es/articulos/hugo_cloudflare_pages/</guid>
+      <guid>//localhost:1313/es/articulos/hugo_cloudflare_pages/</guid>
       <description>POST Original: https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/&#xA;Instalar Hugo Instala el CLI de Hugo, con las instrucciones adecuadas para tu sistema operativo:&#xA;Linux Hugo puede venir incluido en el package manager de tu distro. Si ese es el caso, puedes instalarlo directamente usando el package manager. - por ejemplo, en Ubuntu, usa el siguiente comando:&#xA;sudo apt-get install hugo Si, por el contrario, tu package manager no incluye Hugo o deseas descargarlo directamente, dirigete a la parte de Instalación Manual.</description>
     </item>
   </channel>

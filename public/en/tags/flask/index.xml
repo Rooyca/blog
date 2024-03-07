@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>flask on rooyca</title>
-    <link>/en/tags/flask/</link>
-    <description>Recent content in flask on rooyca</description>
+    <title>Flask on rooyca</title>
+    <link>//localhost:1313/en/tags/flask/</link>
+    <description>Recent content in Flask on rooyca</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>© 2023</copyright>
+    <copyright>© 2024</copyright>
     <lastBuildDate>Tue, 21 Sep 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/en/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/en/tags/flask/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create your first API with Flask</title>
-      <link>/en/articles/flask_basic_api/</link>
+      <link>//localhost:1313/en/articles/flask_basic_api/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>/en/articles/flask_basic_api/</guid>
+      <guid>//localhost:1313/en/articles/flask_basic_api/</guid>
       <description>First of all, here is the link in case you want to clone directly the Github repository.&#xA;Developing our API For this tutorial we are going to use mainly the &amp;ldquo;Mini&amp;rdquo;-Framework Flask and some extensions of it. For the installation of all the packages I would like to leave you with two options:&#xA;Install the following packages with the pip install x-package command. flask flask_restful flask_sqlalchemy Download the file requirements.txt and install everything at once with the command pip install -r requirements.</description>
     </item>
   </channel>
