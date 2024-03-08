@@ -1,7 +1,6 @@
-#baseURL: "https://rooyca.github.io/blog/"
+baseURL: "/"
 paginate: 5
 theme: charlolamode
-relativeURLs: true
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
