@@ -1,4 +1,4 @@
-baseURL: "/blog"
+baseURL: "rooyca.github.io/blog"
 paginate: 5
 theme: charlolamode
 
