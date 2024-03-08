@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "/blog/"
 paginate: 5
 theme: charlolamode
 
