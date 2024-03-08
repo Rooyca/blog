@@ -40,8 +40,6 @@ languages:
           imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
           imageTitle: profile
           
-          # imageWidth: 120
-          # imageHeight: 120
           buttons:
               - name: Portfolio
                 url: https://rooyca.github.io/portfolio
