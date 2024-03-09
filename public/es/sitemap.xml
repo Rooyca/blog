@@ -2,13 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/es/tags/access/</loc>
-    <lastmod>2024-03-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/es/articulos/</loc>
-    <lastmod>2024-03-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/es/articulos/lector_huella_access/</loc>
+    <loc>//localhost:1313/es/tags/cisco-packet-tracer/</loc>
+    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/cloud/</loc>
+    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/articulos/conexion_cloud_con_redes_lan/</loc>
+    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/lan/</loc>
+    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/redes/</loc>
+    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/</loc>
+    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="//localhost:1313/es/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/tags/</loc>
+    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="//localhost:1313/es/tags/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/tags/access/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/es/tags/db/</loc>
@@ -30,31 +68,8 @@
     <loc>//localhost:1313/es/tags/fingerprint/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/es/</loc>
+    <loc>//localhost:1313/es/articulos/lector_huella_access/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="//localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="//localhost:1313/es/"
-                />
-  </url><url>
-    <loc>//localhost:1313/es/tags/</loc>
-    <lastmod>2024-03-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="//localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="//localhost:1313/es/tags/"
-                />
   </url><url>
     <loc>//localhost:1313/es/articulos/postgres_on_termux/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>

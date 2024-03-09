@@ -7,10 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
-    <lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Base de datos en Access con lector de huella (U.are.U 4500)</title>
+      <title>Conectar cuatro redes LAN por medio de una Nube</title>
+      <link>//localhost:1313/es/articulos/conexion_cloud_con_redes_lan/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/articulos/conexion_cloud_con_redes_lan/</guid>
+      <description>Tenemos el siguiente ejercicio:&#xA;Ejercicio 3. Configurar un router para que los equipos tenga salida a Internet. Elabore tres redes locales cada una con dos host y segmentalas a través de su ip.&#xA;Lo primero será configurar las redes de la izquierda, para ello vamos a usar el rango de IP 192.168.10.0, la mascara de red 255.255.255.0 y el Dafault Gateway 192.168.10.1. Es decir, como tenemos seis nodos podriamos asignarles las siguientes IP&amp;rsquo;s:</description>
+    </item>
+    <item>
+      <title>Integrar lector de huella (U.are.U 4500) con Access</title>
       <link>//localhost:1313/es/articulos/lector_huella_access/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/lector_huella_access/</guid>

@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
-    <lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cisco Packet Tracer</title>
+      <link>//localhost:1313/es/tags/cisco-packet-tracer/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/tags/cisco-packet-tracer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CLOUD</title>
+      <link>//localhost:1313/es/tags/cloud/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/tags/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LAN</title>
+      <link>//localhost:1313/es/tags/lan/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/tags/lan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Redes</title>
+      <link>//localhost:1313/es/tags/redes/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/tags/redes/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Access</title>
       <link>//localhost:1313/es/tags/access/</link>
