@@ -1,3 +1,3 @@
-## rooyca's blog
+# rooyca's blog
 
 ![blog preview](preview.png)
