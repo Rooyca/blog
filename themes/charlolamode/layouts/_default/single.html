@@ -46,9 +46,9 @@
     {{- end }}
   </footer>
 
-  {{- if (.Param "comments") }}
-  {{- partial "comments.html" . }}
-  {{- end }}
+  <div class="article-container">
+    {{- partial "comments.html" . }}
+  </div>
 </article>
 
 {{- end }}{{/* end main */}}
