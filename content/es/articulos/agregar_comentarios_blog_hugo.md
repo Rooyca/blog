@@ -6,9 +6,9 @@ tags:
 - "Hugo"
 - "Blog"
 - "Github"
-- "Utteranc"
+- "Utterances"
 description: "Agrega comentarios a tu Hugo blog usando Github Issues"
-topic: Hugo,Blog,Github,Comments
+topic: Hugo,Blog,Github,Comments,Utterances
 ---
 
 > [Post original](https://mscipio.github.io/post/utterances-comment-engine/)
@@ -17,12 +17,12 @@ topic: Hugo,Blog,Github,Comments
 
 ## Pasos para instalar
 
-1. Para que Utteranc funcione de forma correcta es necesario tener un sitio en un repositorio público en Github.
-2. Instalar la app de Utteranc en el repo.
+1. Para que Utterances funcione de forma correcta es necesario tener un sitio en un repositorio público en Github.
+2. Instalar la app de Utterances en el repo.
 
 ![install](https://mscipio.github.io/img/posts/utterances/app-setup.png)
 
-3. Ingresa a la [página oficial de Utteranc](https://utteranc.es/) y llena el formulario. Se generará un HTML que deberás pegar en tu sitio web. La información que te pedirá el formulario es:
+3. Ingresa a la [página oficial de Utterances](https://utteranc.es/) y llena el formulario. Se generará un HTML que deberás pegar en tu sitio web. La información que te pedirá el formulario es:
 
 > - **nombre del repositorio**: generalmente es algo como <usuario>/<repo>
 > - **issue-term**: el término que se usará para identificar los comentarios. (ejemplo: `title`)
