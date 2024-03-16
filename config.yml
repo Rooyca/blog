@@ -41,7 +41,7 @@ languages:
           
           buttons:
               - name: Portfolio
-                url: https://rooyca.github.io/portfolio
+                url: https://rooyca.github.io/
 
   en:
     contentDir: content/en
@@ -89,7 +89,7 @@ languages:
         # imageHeight: 120
         buttons:
             - name: Portfolio
-              url: https://rooyca.github.io/portfolio
+              url: https://rooyca.github.io/
 
 params:
     author: rooyca
