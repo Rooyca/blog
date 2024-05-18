@@ -4,11 +4,18 @@
     <title>Linux on rooyca</title>
     <link>//localhost:1313/es/tags/linux/</link>
     <description>Recent content in Linux on rooyca</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
-    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/es/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conecta tus dispositivos Bluetooth en Arch Linux</title>
+      <link>//localhost:1313/es/articulos/bluetooth_arch_linux/bluetooth_archlinux/</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/articulos/bluetooth_arch_linux/bluetooth_archlinux/</guid>
+      <description>Linux es todo diversion hasta que tienes que conectar un dispositivo bluetooth. Un buen comienzo es la archwiki, pero en mi caso no fue suficiente. Seguí todos los pasos sin exito.&#xA;Al revisar el estado con systemctl status bluetooth.service obtenía los siguientes errores:&#xA;Intenté actualizar a la version más reciente, pues este es un error conocido en la versión 5.75. Pero no funcionó.</description>
+    </item>
     <item>
       <title>Guía de construcción y publicación de paquetes en COPR (Fedora)</title>
       <link>//localhost:1313/es/articulos/build_package_fedora/</link>

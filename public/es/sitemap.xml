@@ -2,8 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/es/tags/arch/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/es/articulos/</loc>
-    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/bluetooth/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/articulos/bluetooth_arch_linux/bluetooth_archlinux/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/linux/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/tags/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="//localhost:1313/es/tags/linux/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="//localhost:1313/es/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/tags/</loc>
+    <lastmod>2024-05-18T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="//localhost:1313/es/tags/"
+                />
+  </url><url>
+    <loc>//localhost:1313/es/articulos/agregar_comentarios_blog_hugo/</loc>
+    <lastmod>2024-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/blog/</loc>
+    <lastmod>2024-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/github/</loc>
+    <lastmod>2024-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/hugo/</loc>
+    <lastmod>2024-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/es/tags/utterances/</loc>
+    <lastmod>2024-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/es/tags/cisco-packet-tracer/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
@@ -19,32 +82,6 @@
   </url><url>
     <loc>//localhost:1313/es/tags/redes/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/es/</loc>
-    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="//localhost:1313/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="//localhost:1313/es/"
-                />
-  </url><url>
-    <loc>//localhost:1313/es/tags/</loc>
-    <lastmod>2024-03-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="//localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="//localhost:1313/es/tags/"
-                />
   </url><url>
     <loc>//localhost:1313/es/tags/access/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
@@ -104,19 +141,6 @@
     <loc>//localhost:1313/es/articulos/build_package_fedora/</loc>
     <lastmod>2023-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/es/tags/linux/</loc>
-    <lastmod>2023-08-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="//localhost:1313/en/tags/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="//localhost:1313/es/tags/linux/"
-                />
-  </url><url>
     <loc>//localhost:1313/es/articulos/build_package_python/</loc>
     <lastmod>2023-08-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -126,9 +150,6 @@
     <loc>//localhost:1313/es/tags/python/</loc>
     <lastmod>2023-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/es/tags/arch/</loc>
-    <lastmod>2023-08-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/es/tags/aur/</loc>
     <lastmod>2023-08-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -136,9 +157,6 @@
     <lastmod>2023-08-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/es/tags/backups/</loc>
-    <lastmod>2023-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/es/tags/github/</loc>
     <lastmod>2023-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/es/articulos/guia_completa_backups/</loc>
@@ -159,9 +177,6 @@
     <loc>//localhost:1313/es/articulos/upload_files_nextcloud_cli/</loc>
     <lastmod>2023-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/es/tags/blog/</loc>
-    <lastmod>2023-07-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/es/tags/cloudflare/</loc>
     <lastmod>2023-07-27T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -176,9 +191,6 @@
                 />
   </url><url>
     <loc>//localhost:1313/es/articulos/hugo_cloudflare_pages/</loc>
-    <lastmod>2023-07-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/es/tags/hugo/</loc>
     <lastmod>2023-07-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/es/tags/pages/</loc>

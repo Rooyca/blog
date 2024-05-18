@@ -4,11 +4,18 @@
     <title>Blog on rooyca</title>
     <link>//localhost:1313/es/tags/blog/</link>
     <description>Recent content in Blog on rooyca</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
-    <lastBuildDate>Thu, 27 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/es/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agregar comentarios a tu blog usando Utteranc.es (Github Issues)</title>
+      <link>//localhost:1313/es/articulos/agregar_comentarios_blog_hugo/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/articulos/agregar_comentarios_blog_hugo/</guid>
+      <description>Post original&#xA;Utteranc.es es un widget liviano el cual nos permite usar los Github Issues como los comentarios de nuestro blog. Es de código abierto, se ve estético, los comentarios se guardan en Github y lo mejor, viene con temas oscuros. SÍ, tienes que iniciar sección con Github, pero está bien porque la gran mayoría tiene una cuenta.&#xA;Pasos para instalar Para que Utterances funcione de forma correcta es necesario tener un sitio en un repositorio público en Github.</description>
+    </item>
     <item>
       <title>Crea tu blog con HUGO y publicalo en Cloudflare Pages</title>
       <link>//localhost:1313/es/articulos/hugo_cloudflare_pages/</link>

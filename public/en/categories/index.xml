@@ -4,7 +4,7 @@
     <title>Categories on rooyca</title>
     <link>//localhost:1313/en/categories/</link>
     <description>Recent content in Categories on rooyca</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© 2024</copyright>
     <atom:link href="//localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" />
