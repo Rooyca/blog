@@ -5,5 +5,5 @@ description:  Este es un lector de PDF que combina funcionalidad y estética, br
 type: page
 topic: project
 link: "https://github.com/Rooyca/PDF2Slide"
-image: "https://rooyca.github.io/portfolio/img/works/portafolio.png"
+image: "https://rooyca.github.io/img/works/portafolio.png"
 ---

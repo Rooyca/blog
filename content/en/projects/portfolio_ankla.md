@@ -5,5 +5,5 @@ description:  This is a PDF reader that combines both functionality and aestheti
 type: page
 topic: project
 link: "https://github.com/Rooyca/PDF2Slide"
-image: "https://rooyca.github.io/portfolio/img/works/portafolio.png"
+image: "https://rooyca.github.io/img/works/portafolio.png"
 ---

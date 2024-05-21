@@ -5,5 +5,5 @@ description:  Una aplicación sencilla de finanzas permite a los usuarios hacer 
 type: page
 topic: project
 link: "https://finance-app-psi.vercel.app/"
-image: "https://rooyca.github.io/portfolio/img/works/finance.png"
+image: "https://rooyca.github.io/img/works/finance.png"
 ---
