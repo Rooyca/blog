@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rust on rooyca</title>
+    <link>//localhost:1313/es/tags/rust/</link>
+    <description>Recent content in Rust on rooyca</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <copyright>© 2024</copyright>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/es/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build Rust Apps en android | Termux</title>
+      <link>//localhost:1313/es/articulos/build_rust_apps_android/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/articulos/build_rust_apps_android/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

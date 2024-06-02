@@ -10,11 +10,12 @@ description: "Linux es todo diversion hasta que tienes que conectar un dispositi
 topic: Arch,Linux,Bluetooth
 ---
 
->> En el presente artículo se presume que has seguido la guía: [Bluetooth - ArchWiki](https://wiki.archlinux.org/title/bluetooth).
+> En el presente artículo se presume que has seguido la guía: [Bluetooth - ArchWiki](https://wiki.archlinux.org/title/bluetooth).
 
----
 
-Al evaluar el estado mediante `systemctl status bluetooth.service`, seencontró el siguiente error:
+### Error
+
+Al evaluar el estado mediante `systemctl status bluetooth.service`, se encontró el siguiente error:
 
 ![Estado](status.png)
 

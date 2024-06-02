@@ -144,6 +144,8 @@
 
         <div class="inner"><ul>
                 <li>
+                    <a href="#error" aria-label="Error">Error</a></li>
+                <li>
                     <a href="#soluci%c3%b3n" aria-label="Solución">Solución</a>
                 </li>
             </ul>
@@ -153,12 +155,10 @@
 
   <div class="post-content">
   <blockquote>
-<blockquote>
 <p>En el presente artículo se presume que has seguido la guía: <a href="https://wiki.archlinux.org/title/bluetooth">Bluetooth - ArchWiki</a>.</p>
 </blockquote>
-</blockquote>
-<hr>
-<p>Al evaluar el estado mediante <code>systemctl status bluetooth.service</code>, seencontró el siguiente error:</p>
+<h3 id="error">Error</h3>
+<p>Al evaluar el estado mediante <code>systemctl status bluetooth.service</code>, se encontró el siguiente error:</p>
 <p><img loading="lazy" src="status.png" alt="Estado"  />
 </p>
 <p>Se intentó resolver el error actualizando a la versión más reciente, dado que se trata de un problema documentado en la <a href="https://github.com/bluez/bluez/issues/821">versión 5.75</a>. No obstante, esto no funcionó.</p>

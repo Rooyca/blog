@@ -7,17 +7,24 @@
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
-    <lastBuildDate>Sat, 18 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/es/articulos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Editar PATH en Termux</title>
+      <link>//localhost:1313/es/articulos/edit_path_termux/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/articulos/edit_path_termux/</guid>
+      <description>En $HOME, usando nuestro editor de confianza, editamos .bash_profile file (si no existe, lo creamos)&#xA;Por ejemplo, si queremos añadir cargo a nuestro PATH, nuestro archivo final debería quedar algo así:&#xA;PATH=&amp;#34;$PATH:/data/data/com.termux/files/home/.cargo/bin&amp;#34; </description>
+    </item>
     <item>
       <title>Conecta tus dispositivos Bluetooth en Arch Linux</title>
       <link>//localhost:1313/es/articulos/bluetooth_arch_linux/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/bluetooth_arch_linux/</guid>
-      <description>En el presente artículo se presume que has seguido la guía: Bluetooth - ArchWiki.&#xA;Al evaluar el estado mediante systemctl status bluetooth.service, seencontró el siguiente error:&#xA;Se intentó resolver el error actualizando a la versión más reciente, dado que se trata de un problema documentado en la versión 5.75. No obstante, esto no funcionó.&#xA;Solución La solución hallada consistió en establecer la conexión del dispositivo Bluetooth mediante el comando bluetoothctl.</description>
+      <description>En el presente artículo se presume que has seguido la guía: Bluetooth - ArchWiki.&#xA;Error Al evaluar el estado mediante systemctl status bluetooth.service, se encontró el siguiente error:&#xA;Se intentó resolver el error actualizando a la versión más reciente, dado que se trata de un problema documentado en la versión 5.75. No obstante, esto no funcionó.&#xA;Solución La solución hallada consistió en establecer la conexión del dispositivo Bluetooth mediante el comando bluetoothctl.</description>
     </item>
     <item>
-      <title>Agregar comentarios a tu blog usando Utteranc.es (Github Issues)</title>
+      <title>Agregar comentarios a tu blog usando Github Issues | Utteranc.es</title>
       <link>//localhost:1313/es/articulos/agregar_comentarios_blog_hugo/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/agregar_comentarios_blog_hugo/</guid>
@@ -38,18 +45,11 @@
       <description>Introducción En este artículo se muestra de manera muy sencilla cómo integrar un lector de huella digital (U.are.U 4500) con una base de datos en Access. Para ello, se hace uso de las librerias que proporciona el RTE de DigitalPersona. Para más información, se puede consultar la documentación oficial.&#xA;Requisitos Descargar SDK Fingerprint Enrollment Workflow Fingerprint Verification Workflow Fingerprint Data Object Serialization/Deserialization Serialización Deserialización Evento Capture_OnComplete en el enrolamiento Private Sub Capture_OnComplete(ByVal ReaderSerNum As String, ByVal Sample As Object) Dim Feedback As DPFPCaptureFeedbackEnum Dim blob() As Byte Feedback = CreateFtrs.</description>
     </item>
     <item>
-      <title>Instalar PostgreSQL en Termux (Android)</title>
+      <title>Instalar PostgreSQL en Termux</title>
       <link>//localhost:1313/es/articulos/postgres_on_termux/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/postgres_on_termux/</guid>
       <description>Instalación Instalamos el paquete postgresql:&#xA;pkg install postgresql Luego creamos el skeleton de la base de datos:&#xA;mkdir -p $PREFIX/var/lib/postgresql initdb -D $PREFIX/var/lib/postgresql Ahora iniciamos nuestra DB:&#xA;pg_ctl -D $PREFIX/var/lib/postgresql start Cuando queramos detenerla podemos usar:&#xA;pg_ctl -D $PREFIX/var/lib/postgresql stop Para conectarnos necesitamos un usuario. Podemos crear uno usando:&#xA;createuser --superuser --pwprompt NOMBRE_DE_USUARIO Para crear una base de datos usamos:&#xA;createdb NOMBRE_DE_BASE_DE_DATOS Nos conectamos usando:&#xA;psql NOMBRE_DE_BASE_DE_DATOS Acceder a la DB en Local Para acceder a la base de datos desde otra terminal o cliente debemos configurar los archivos pg_hba.</description>
-    </item>
-    <item>
-      <title>Active Directory (Homelab)</title>
-      <link>//localhost:1313/es/articulos/active_directory/</link>
-      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/articulos/active_directory/</guid>
-      <description>Requisitos Homelab Virtualización: VMWare ISO: Windows Server 2022 &amp;amp; Windows 10 Pro Configuración VMWare En este caso usaré VMWare Workstation PRO 17. Es importante ingresar una licencia válida para poder usar todas las funcionalidades, podemos usar una de las que se encuentran en este gist.&#xA;Windows Server 2022 Instalación Descargar la ISO de Windows Server 2022 desde aquí Crear una nueva máquina virtual en VMWare (Usar BIOS en caso de encontrar algún problema a la hora de bootear) Instalar Windows Server 2022 Cambiar nombre del equipo Configurar la red (IP estática y/o 127.</description>
     </item>
     <item>
       <title>Guía de construcción y publicación de paquetes en COPR (Fedora)</title>
@@ -99,13 +99,6 @@
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/pihole_android/</guid>
       <description>Post original: Aquí Nota: No hay ningún respaldo o asociación entre esta página y Pi-hole© LLC. Si encuentras esto útil, ellos merecen tu apoyo.&#xA;Pi-hole es una aplicación para el bloqueo de anuncios y rastreadores para Linux que actúa como un &amp;ldquo;agujero negro&amp;rdquo; de DNS destinado mayoritariamente para el uso en redes privadas. Está diseñado para dispositivos integrados de baja potencia con capacidad de red, enfocándose en la Raspberry Pi como su plataforma de hardware de referencia.</description>
-    </item>
-    <item>
-      <title>Crear una estacion de radio online 100% Gratis - Radio Project (Parte 1)</title>
-      <link>//localhost:1313/es/articulos/radio_project_primera_parte/</link>
-      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/articulos/radio_project_primera_parte/</guid>
-      <description>Bienvenidx a Radio Project Hoy quiero comenzar una serie de publicaciones en las que iremos aprendiendo juntos los pasos que hay que seguir a la hora de crear una estación de radio online. En un primer momento, cuando comencé con este proyecto me encontré con varias plataformas que ofrecían este servicio de forma gratuita, pero la gran mayoría de páginas eran de pago y otras habían envejecido bastante mal, es decir, su interfaz no era la más moderna, precisamente; Pero un día encontré ZenoRadio (NO ES PUBLICIDAD, en verdad es buena la plataforma), una alternativa moderna y con un plan gratuito bastante generoso.</description>
     </item>
     <item>
       <title>Creando un acortador de enlaces en 12 lineas de código usando Cloudflare Workers &#43; Bonus</title>
@@ -162,6 +155,20 @@
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/linux_comands/</guid>
       <description>Creando nuestros Aliases Alias es una forma sencilla de mapper, bindear, unir(?) comandos. Esta es la mejor manera de ahorrarnos tiempo a la hora de escribir cadenas larguísimas de comandos. Si nosotros escribimos &amp;ldquo;alias&amp;rdquo; en nuestra terminal debería aparecernos los aliases predeterminados de nuestro sistema, algo así: Como podran notar, en mi caso tengo dos alias customizados: price y subl; el primero es un script en python que uso para ver el comportamiento del mercado crypto y el segundo es simplemtente para abrir SublimeText.</description>
+    </item>
+    <item>
+      <title>Active Directory (Homelab)</title>
+      <link>//localhost:1313/es/articulos/active_directory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/articulos/active_directory/</guid>
+      <description>Requisitos Homelab Virtualización: VMWare ISO: Windows Server 2022 &amp;amp; Windows 10 Pro Configuración VMWare En este caso usaré VMWare Workstation PRO 17. Es importante ingresar una licencia válida para poder usar todas las funcionalidades, podemos usar una de las que se encuentran en este gist.&#xA;Windows Server 2022 Instalación Descargar la ISO de Windows Server 2022 desde aquí Crear una nueva máquina virtual en VMWare (Usar BIOS en caso de encontrar algún problema a la hora de bootear) Instalar Windows Server 2022 Cambiar nombre del equipo Configurar la red (IP estática y/o 127.</description>
+    </item>
+    <item>
+      <title>Crear una estacion de radio online 100% Gratis - Radio Project (Parte 1)</title>
+      <link>//localhost:1313/es/articulos/radio_project_primera_parte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/es/articulos/radio_project_primera_parte/</guid>
+      <description>Bienvenidx a Radio Project Hoy quiero comenzar una serie de publicaciones en las que iremos aprendiendo juntos los pasos que hay que seguir a la hora de crear una estación de radio online. En un primer momento, cuando comencé con este proyecto me encontré con varias plataformas que ofrecían este servicio de forma gratuita, pero la gran mayoría de páginas eran de pago y otras habían envejecido bastante mal, es decir, su interfaz no era la más moderna, precisamente; Pero un día encontré ZenoRadio (NO ES PUBLICIDAD, en verdad es buena la plataforma), una alternativa moderna y con un plan gratuito bastante generoso.</description>
     </item>
   </channel>
 </rss>

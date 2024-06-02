@@ -1,6 +1,6 @@
 ---
 title: "Active Directory (Homelab)"
-date: 2023-09-04
+date: -2023-09-04
 type: page
 tags: 
 - "active directory"

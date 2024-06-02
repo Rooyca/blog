@@ -11,10 +11,10 @@
     <atom:link href="//localhost:1313/es/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conecta tus dispositivos Bluetooth en Arch Linux</title>
-      <link>//localhost:1313/es/articulos/bluetooth_arch_linux/bluetooth_archlinux/</link>
+      <link>//localhost:1313/es/articulos/bluetooth_arch_linux/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/articulos/bluetooth_arch_linux/bluetooth_archlinux/</guid>
-      <description>Linux es todo diversion hasta que tienes que conectar un dispositivo bluetooth. Un buen comienzo es la archwiki, pero en mi caso no fue suficiente. Seguí todos los pasos sin exito.&#xA;Al revisar el estado con systemctl status bluetooth.service obtenía los siguientes errores:&#xA;Intenté actualizar a la version más reciente, pues este es un error conocido en la versión 5.75. Pero no funcionó.</description>
+      <guid>//localhost:1313/es/articulos/bluetooth_arch_linux/</guid>
+      <description>En el presente artículo se presume que has seguido la guía: Bluetooth - ArchWiki.&#xA;Al evaluar el estado mediante systemctl status bluetooth.service, seencontró el siguiente error:&#xA;Se intentó resolver el error actualizando a la versión más reciente, dado que se trata de un problema documentado en la versión 5.75. No obstante, esto no funcionó.&#xA;Solución La solución hallada consistió en establecer la conexión del dispositivo Bluetooth mediante el comando bluetoothctl.</description>
     </item>
     <item>
       <title>Guía de construcción y publicación de paquetes en COPR (Fedora)</title>

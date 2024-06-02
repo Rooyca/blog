@@ -1,5 +1,5 @@
 ---
-title: "Agregar comentarios a tu blog usando Utteranc.es (Github Issues)"
+title: "Agregar comentarios a tu blog usando Github Issues | Utteranc.es"
 date: 2024-03-10
 type: page
 tags: 
