@@ -14,17 +14,17 @@
       <link>//localhost:1313/es/articulos/bluetooth_arch_linux/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/bluetooth_arch_linux/</guid>
-      <description>En el presente artículo se presume que has seguido la guía: Bluetooth - ArchWiki.&#xA;Al evaluar el estado mediante systemctl status bluetooth.service, seencontró el siguiente error:&#xA;Se intentó resolver el error actualizando a la versión más reciente, dado que se trata de un problema documentado en la versión 5.75. No obstante, esto no funcionó.&#xA;Solución La solución hallada consistió en establecer la conexión del dispositivo Bluetooth mediante el comando bluetoothctl.</description>
+      <description>En el presente artículo se presume que has seguido la guía: Bluetooth - ArchWiki.&#xA;Error Al evaluar el estado mediante systemctl status bluetooth.service, se encontró el siguiente error:&#xA;Se intentó resolver el error actualizando a la versión más reciente, dado que se trata de un problema documentado en la versión 5.75. No obstante, esto no funcionó.&#xA;Solución La solución hallada consistió en establecer la conexión del dispositivo Bluetooth mediante el comando bluetoothctl.</description>
     </item>
     <item>
-      <title>Guía de construcción y publicación de paquetes en COPR (Fedora)</title>
+      <title>Build y publica tus paquetes en COPR | Fedora</title>
       <link>//localhost:1313/es/articulos/build_package_fedora/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/build_package_fedora/</guid>
       <description>Empaquetando RPM Link original: RPM Packaging&#xA;Ejecuta:&#xA;sudo dnf install fedora-packager rpmdevtools gcc rpmdev-setuptree cd ~/rpmbuild/SOURCES wget http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz cd ~/rpmbuild/SPECS rpmdev-newspec --macros hello.spec Ahora puedes abrir el archivo hello.spec y modificarlo. Coloca el siguiente contenido:&#xA;Name: hello Version: 2.10 Release: 1%{?dist} Summary: El programa &amp;#34;Hola Mundo&amp;#34; de GNU License: GPLv3+ URL: http://ftp.gnu.org/gnu/hello Source0: https://ftp.gnu.org/gnu/hello/hello-%{version}.tar.gz BuildRequires: gettext Requires(post): info Requires(preun): info %description El programa &amp;#34;Hola Mundo&amp;#34;, realizado con todas las características de un proyecto FOSS adecuado, incluyendo configuración, construcción, internacionalización, archivos de ayuda, etc.</description>
     </item>
     <item>
-      <title>Guía de construcción y publicación de paquetes en el repositorio de usuarios (AUR) de Archlinux</title>
+      <title>Build y publica tus paquetes en AUR | Archlinux</title>
       <link>//localhost:1313/es/articulos/build_paquetes_archlinux/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/build_paquetes_archlinux/</guid>

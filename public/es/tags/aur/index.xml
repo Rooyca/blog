@@ -10,7 +10,7 @@
     <lastBuildDate>Wed, 16 Aug 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/es/tags/aur/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Guía de construcción y publicación de paquetes en el repositorio de usuarios (AUR) de Archlinux</title>
+      <title>Build y publica tus paquetes en AUR | Archlinux</title>
       <link>//localhost:1313/es/articulos/build_paquetes_archlinux/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/build_paquetes_archlinux/</guid>

@@ -14,7 +14,7 @@
       <link>//localhost:1313/es/articulos/bluetooth_arch_linux/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/bluetooth_arch_linux/</guid>
-      <description>En el presente artículo se presume que has seguido la guía: Bluetooth - ArchWiki.&#xA;Al evaluar el estado mediante systemctl status bluetooth.service, seencontró el siguiente error:&#xA;Se intentó resolver el error actualizando a la versión más reciente, dado que se trata de un problema documentado en la versión 5.75. No obstante, esto no funcionó.&#xA;Solución La solución hallada consistió en establecer la conexión del dispositivo Bluetooth mediante el comando bluetoothctl.</description>
+      <description>En el presente artículo se presume que has seguido la guía: Bluetooth - ArchWiki.&#xA;Error Al evaluar el estado mediante systemctl status bluetooth.service, se encontró el siguiente error:&#xA;Se intentó resolver el error actualizando a la versión más reciente, dado que se trata de un problema documentado en la versión 5.75. No obstante, esto no funcionó.&#xA;Solución La solución hallada consistió en establecer la conexión del dispositivo Bluetooth mediante el comando bluetoothctl.</description>
     </item>
   </channel>
 </rss>

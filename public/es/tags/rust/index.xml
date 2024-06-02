@@ -10,11 +10,11 @@
     <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/es/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Build Rust Apps en android | Termux</title>
-      <link>//localhost:1313/es/articulos/build_rust_apps_android/</link>
+      <title>Editar PATH en Termux</title>
+      <link>//localhost:1313/es/articulos/edit_path_termux/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/articulos/build_rust_apps_android/</guid>
-      <description></description>
+      <guid>//localhost:1313/es/articulos/edit_path_termux/</guid>
+      <description>En $HOME, usando nuestro editor de confianza, editamos .bash_profile file (si no existe, lo creamos)&#xA;Por ejemplo, si queremos añadir cargo a nuestro PATH, nuestro archivo final debería quedar algo así:&#xA;PATH=&amp;#34;$PATH:/data/data/com.termux/files/home/.cargo/bin&amp;#34; </description>
     </item>
   </channel>
 </rss>

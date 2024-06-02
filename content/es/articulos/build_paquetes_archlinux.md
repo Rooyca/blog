@@ -1,5 +1,5 @@
 ---
-title: "Build y publica tus paquetes en el AUR | Archlinux"
+title: "Build y publica tus paquetes en AUR | Archlinux"
 date: 2023-08-16
 type: page
 tags: 

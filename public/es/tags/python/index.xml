@@ -10,7 +10,7 @@
     <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/es/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Guía de construcción y publicación de paquetes en PyPI</title>
+      <title>Build y publica tus paquetes en PyPI</title>
       <link>//localhost:1313/es/articulos/build_package_python/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/es/articulos/build_package_python/</guid>
