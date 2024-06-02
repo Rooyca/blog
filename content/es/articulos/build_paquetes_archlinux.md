@@ -1,5 +1,5 @@
 ---
-title: "Guía de construcción y publicación de paquetes en el repositorio de usuarios (AUR) de Archlinux"
+title: "Build y publica tus paquetes en el AUR | Archlinux"
 date: 2023-08-16
 type: page
 tags: 

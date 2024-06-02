@@ -7,12 +7,11 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© 2024</copyright>
-    <lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/en/tags/free/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create a 100% free online radio station - Radio Project (Part 1)</title>
       <link>//localhost:1313/en/articles/_radio_project_part_one/</link>
-      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/articles/_radio_project_part_one/</guid>
       <description>Welcome to Radio Project Today I want to start a series of posts in which we will learn together the steps to follow when creating an online radio station. At first, when I started this project I found several platforms that offered this service for free, but the vast majority of pages were paid and others had aged quite badly. But one day I found ZenoRadio (NO ADVERTISING, it really is a good platform), a modern alternative and with a very generous free plan.</description>
     </item>

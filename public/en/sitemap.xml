@@ -30,46 +30,11 @@
     <loc>//localhost:1313/en/projects/milibre_personal_library_n/</loc>
     <lastmod>2023-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/en/articles/</loc>
-    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/en/articles/_radio_project_part_one/</loc>
-    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/en/tags/free/</loc>
-    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/en/tags/music/</loc>
-    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/en/tags/radio/</loc>
-    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="//localhost:1313/es/tags/radio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="//localhost:1313/en/tags/radio/"
-                />
-  </url><url>
-    <loc>//localhost:1313/en/tags/</loc>
-    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="//localhost:1313/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="//localhost:1313/en/tags/"
-                />
-  </url><url>
     <loc>//localhost:1313/en/projects/highlighter_obsidian_n/</loc>
     <lastmod>2023-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/en/articles/</loc>
+    <lastmod>2022-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/en/tags/cloudflare/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>
@@ -102,6 +67,19 @@
   </url><url>
     <loc>//localhost:1313/en/articles/send_emails_from_own_domain_with_gmail/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/en/tags/</loc>
+    <lastmod>2022-07-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="//localhost:1313/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/tags/"
+                />
   </url><url>
     <loc>//localhost:1313/en/tags/db/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
@@ -225,5 +203,23 @@
                 />
   </url><url>
     <loc>//localhost:1313/en/contact/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/articles/_radio_project_part_one/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/free/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/music/</loc>
+  </url><url>
+    <loc>//localhost:1313/en/tags/radio/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="//localhost:1313/es/tags/radio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="//localhost:1313/en/tags/radio/"
+                />
   </url>
 </urlset>

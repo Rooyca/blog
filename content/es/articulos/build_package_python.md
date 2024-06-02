@@ -1,5 +1,5 @@
 ---
-title: "Guía de construcción y publicación de paquetes en PyPI"
+title: "Build y publica tus paquetes en PyPI"
 date: 2023-08-17
 type: page
 tags: 

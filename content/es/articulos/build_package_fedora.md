@@ -1,5 +1,5 @@
 ---
-title: "Guía de construcción y publicación de paquetes en COPR (Fedora)"
+title: "Build y publica tus paquetes en COPR | Fedora"
 date: 2023-08-18
 type: page
 tags: 

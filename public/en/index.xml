@@ -38,13 +38,6 @@
       <description></description>
     </item>
     <item>
-      <title>Create a 100% free online radio station - Radio Project (Part 1)</title>
-      <link>//localhost:1313/en/articles/_radio_project_part_one/</link>
-      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/articles/_radio_project_part_one/</guid>
-      <description>Welcome to Radio Project Today I want to start a series of posts in which we will learn together the steps to follow when creating an online radio station. At first, when I started this project I found several platforms that offered this service for free, but the vast majority of pages were paid and others had aged quite badly. But one day I found ZenoRadio (NO ADVERTISING, it really is a good platform), a modern alternative and with a very generous free plan.</description>
-    </item>
-    <item>
       <title>Obsidian Highligter - Firefox Extention</title>
       <link>//localhost:1313/en/projects/highlighter_obsidian_n/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
@@ -99,6 +92,13 @@
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/en/articles/linux_comands/</guid>
       <description>Creating our Aliases Alias is a simple way to map, bin, join(?) commands. This is the best way to save time when typing long strings of commands. If we type &amp;ldquo;aliases&amp;rdquo; in our terminal we should get the default aliases of our system, something like this: As you may notice, in my case I have two custom aliases: price and subl; the first one is a python script I use to see the crypto market behavior and the second one is simply to open SublimeText.</description>
+    </item>
+    <item>
+      <title>Create a 100% free online radio station - Radio Project (Part 1)</title>
+      <link>//localhost:1313/en/articles/_radio_project_part_one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/en/articles/_radio_project_part_one/</guid>
+      <description>Welcome to Radio Project Today I want to start a series of posts in which we will learn together the steps to follow when creating an online radio station. At first, when I started this project I found several platforms that offered this service for free, but the vast majority of pages were paid and others had aged quite badly. But one day I found ZenoRadio (NO ADVERTISING, it really is a good platform), a modern alternative and with a very generous free plan.</description>
     </item>
   </channel>
 </rss>
