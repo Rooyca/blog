@@ -66,3 +66,31 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+/* TAGS */
+
+.container-tags {
+    margin-top: 20px;
+}
+
+.terms-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.terms-tags li {
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.terms-tags a {
+    display: block;
+    background: var(--tertiary);
+    border-radius: 6px;
+    transition: transform 0.1s;
+}
+
+.terms-tags a:active {
+    background: var(--tertiary);
+    transform: scale(0.96);
+}

@@ -6,4 +6,5 @@ type: page
 topic: project
 link: "https://github.com/Rooyca/PDF2Slide"
 image: "https://rooyca.github.io/img/works/portafolio.png"
+hideMeta: true
 ---

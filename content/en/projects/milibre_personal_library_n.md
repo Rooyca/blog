@@ -6,4 +6,5 @@ type: page
 topic: project
 link: "https://github.com/Rooyca/milibre-personal-library"
 image: "https://raw.githubusercontent.com/Rooyca/milibre-personal-library/main/gif_example.gif"
+hideMeta: true
 ---

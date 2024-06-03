@@ -6,4 +6,5 @@ type: page
 topic: project
 link: "https://finance-app-psi.vercel.app/"
 image: "https://rooyca.github.io/img/works/finance.png"
+hideMeta: true
 ---

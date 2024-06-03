@@ -6,4 +6,5 @@ type: page
 topic: project
 link: "https://github.com/Rooyca/rooykup-backup-and-sync"
 image: "https://raw.githubusercontent.com/Rooyca/rooykup-backup-and-sync/master/rooykup_example.gif"
+hideMeta: true
 ---

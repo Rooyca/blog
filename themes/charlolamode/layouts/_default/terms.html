@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <h1><i class="fas fa-tags"></i> {{ .Title }}</h1>
+    {{ .Content }}
+
+<div class="container-tags">
+<ul class="terms-tags">
+    {{ range sort .Site.Taxonomies.tags }}
+        <li>
+            <a href="{{ .Page.Permalink }}"><i class="fas fa-tags"></i> {{ .Page.Title }} <sup><strong><sup>{{ .Count }}</sup></strong></sup> </a>
+        </li>
+    {{ end }}
+</ul>
+</div>
+{{ end }}

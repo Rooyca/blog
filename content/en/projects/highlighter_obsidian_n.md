@@ -6,4 +6,5 @@ type: page
 topic: project
 link: "https://github.com/Rooyca/MarkOb-Obsidian-Highligter"
 image: "https://raw.githubusercontent.com/Rooyca/MarkOb/main/highlighter_obsidian.png"
+hideMeta: true
 ---

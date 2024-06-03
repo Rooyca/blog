@@ -6,4 +6,5 @@ type: page
 topic: project
 link: "https://markup-phi.vercel.app/"
 image: "https://raw.githubusercontent.com/Rooyca/markup/master/example.png"
+hideMeta: true
 ---

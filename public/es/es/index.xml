@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artículos on rooyca</title>
+    <link>http://localhost:1313/es/es/</link>
+    <description>Recent content in Artículos on rooyca</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <copyright>© 2024</copyright>
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eliminar la extensión .html de una URL</title>
+      <link>http://localhost:1313/es/articulos/remove_html_extention/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/remove_html_extention/</guid>
+      <description>Si no sabes de lo que estoy hablando, es cuando visitas un sitio web y la URL se ve algo así https://example.com/about.html. Específicamente, la ultima parte .html. La mayoría de las personas les gustaría ver algo como https://example.com/about. ¿Es más bonito, no te parece?&#xA;Afortunadamente, es bastante fácil de hacer en un sitio web estático. Aquí te muestro dos formas de hacerlo.&#xA;Método 1: Poner las páginas en carpetas Por ejemplo, si tenemos una estructura de páginas como esta:</description>
+    </item>
+    <item>
+      <title>Editar PATH en Termux</title>
+      <link>http://localhost:1313/es/articulos/edit_path_termux/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/edit_path_termux/</guid>
+      <description>En $HOME, usando nuestro editor de confianza, editamos .bash_profile file (si no existe, lo creamos)&#xA;Por ejemplo, si queremos añadir cargo a nuestro PATH, nuestro archivo final debería quedar algo así:&#xA;PATH=&amp;#34;$PATH:/data/data/com.termux/files/home/.cargo/bin&amp;#34; </description>
+    </item>
+    <item>
+      <title>Conecta tus dispositivos Bluetooth en Arch Linux</title>
+      <link>http://localhost:1313/es/articulos/bluetooth_arch_linux/</link>
+      <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/bluetooth_arch_linux/</guid>
+      <description>En el presente artículo se presume que has seguido la guía: Bluetooth - ArchWiki.&#xA;Error Al evaluar el estado mediante systemctl status bluetooth.service, se encontró el siguiente error:&#xA;Se intentó resolver el error actualizando a la versión más reciente, dado que se trata de un problema documentado en la versión 5.75. No obstante, esto no funcionó.&#xA;Solución La solución hallada consistió en establecer la conexión del dispositivo Bluetooth mediante el comando bluetoothctl.</description>
+    </item>
+    <item>
+      <title>Agregar comentarios a tu blog usando Github Issues | Utteranc.es</title>
+      <link>http://localhost:1313/es/articulos/agregar_comentarios_blog_hugo/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/agregar_comentarios_blog_hugo/</guid>
+      <description>Post original&#xA;Utteranc.es es un widget liviano el cual nos permite usar los Github Issues como los comentarios de nuestro blog. Es de código abierto, se ve estético, los comentarios se guardan en Github y lo mejor, viene con temas oscuros. SÍ, tienes que iniciar sección con Github, pero está bien porque la gran mayoría tiene una cuenta.&#xA;Pasos para instalar Para que Utterances funcione de forma correcta es necesario tener un sitio en un repositorio público en Github.</description>
+    </item>
+    <item>
+      <title>Conectar cuatro redes LAN por medio de una Nube</title>
+      <link>http://localhost:1313/es/articulos/conexion_cloud_con_redes_lan/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/conexion_cloud_con_redes_lan/</guid>
+      <description>Tenemos el siguiente ejercicio:&#xA;Ejercicio 3. Configurar un router para que los equipos tenga salida a Internet. Elabore tres redes locales cada una con dos host y segmentalas a través de su ip.&#xA;Lo primero será configurar las redes de la izquierda, para ello vamos a usar el rango de IP 192.168.10.0, la mascara de red 255.255.255.0 y el Dafault Gateway 192.168.10.1. Es decir, como tenemos seis nodos podriamos asignarles las siguientes IP&amp;rsquo;s:</description>
+    </item>
+    <item>
+      <title>Integrar lector de huella (U.are.U 4500) con Access</title>
+      <link>http://localhost:1313/es/articulos/lector_huella_access/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/lector_huella_access/</guid>
+      <description>Introducción En este artículo se muestra de manera muy sencilla cómo integrar un lector de huella digital (U.are.U 4500) con una base de datos en Access. Para ello, se hace uso de las librerias que proporciona el RTE de DigitalPersona. Para más información, se puede consultar la documentación oficial.&#xA;Requisitos Descargar SDK Fingerprint Enrollment Workflow Fingerprint Verification Workflow Fingerprint Data Object Serialization/Deserialization Serialización Deserialización Evento Capture_OnComplete en el enrolamiento Private Sub Capture_OnComplete(ByVal ReaderSerNum As String, ByVal Sample As Object) Dim Feedback As DPFPCaptureFeedbackEnum Dim blob() As Byte Feedback = CreateFtrs.</description>
+    </item>
+    <item>
+      <title>Instalar PostgreSQL en Termux</title>
+      <link>http://localhost:1313/es/articulos/postgres_on_termux/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/postgres_on_termux/</guid>
+      <description>Instalación Instalamos el paquete postgresql:&#xA;pkg install postgresql Luego creamos el skeleton de la base de datos:&#xA;mkdir -p $PREFIX/var/lib/postgresql initdb -D $PREFIX/var/lib/postgresql Ahora iniciamos nuestra DB:&#xA;pg_ctl -D $PREFIX/var/lib/postgresql start Cuando queramos detenerla podemos usar:&#xA;pg_ctl -D $PREFIX/var/lib/postgresql stop Para conectarnos necesitamos un usuario. Podemos crear uno usando:&#xA;createuser --superuser --pwprompt NOMBRE_DE_USUARIO Para crear una base de datos usamos:&#xA;createdb NOMBRE_DE_BASE_DE_DATOS Nos conectamos usando:&#xA;psql NOMBRE_DE_BASE_DE_DATOS Acceder a la DB en Local Para acceder a la base de datos desde otra terminal o cliente debemos configurar los archivos pg_hba.</description>
+    </item>
+    <item>
+      <title>Build y publica tus paquetes en COPR | Fedora</title>
+      <link>http://localhost:1313/es/articulos/build_package_fedora/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/build_package_fedora/</guid>
+      <description>Empaquetando RPM Link original: RPM Packaging&#xA;Ejecuta:&#xA;sudo dnf install fedora-packager rpmdevtools gcc rpmdev-setuptree cd ~/rpmbuild/SOURCES wget http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz cd ~/rpmbuild/SPECS rpmdev-newspec --macros hello.spec Ahora puedes abrir el archivo hello.spec y modificarlo. Coloca el siguiente contenido:&#xA;Name: hello Version: 2.10 Release: 1%{?dist} Summary: El programa &amp;#34;Hola Mundo&amp;#34; de GNU License: GPLv3+ URL: http://ftp.gnu.org/gnu/hello Source0: https://ftp.gnu.org/gnu/hello/hello-%{version}.tar.gz BuildRequires: gettext Requires(post): info Requires(preun): info %description El programa &amp;#34;Hola Mundo&amp;#34;, realizado con todas las características de un proyecto FOSS adecuado, incluyendo configuración, construcción, internacionalización, archivos de ayuda, etc.</description>
+    </item>
+    <item>
+      <title>Build y publica tus paquetes en PyPI</title>
+      <link>http://localhost:1313/es/articulos/build_package_python/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/build_package_python/</guid>
+      <description>Introducción En PyPI los desarrolladores pueden publicar sus paquetes Python para que otros los descarguen e instalen en sus propios proyectos. Esto hace que sea mucho más fácil compartir y reutilizar código en la comunidad de desarrolladores de Python. Los paquetes pueden contener desde simples módulos con funciones y clases hasta frameworks y herramientas complejas.&#xA;Requisitos Python 3.6 o superior. Cuenta en PyPI. PIP Actualizado. python3 -m pip install --upgrade pip Twine.</description>
+    </item>
+    <item>
+      <title>Build y publica tus paquetes en AUR | Archlinux</title>
+      <link>http://localhost:1313/es/articulos/build_paquetes_archlinux/</link>
+      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/build_paquetes_archlinux/</guid>
+      <description>Nota: Este artículo no profundizará en muchos temas y conceptos, por lo que se recomendable leer la documentación oficial de Arch.&#xA;Nota: El contenido de este artículo se basa en mi experiencia personal, por lo que puede que no sea la mejor forma de hacerlo.&#xA;Resultado final: hmta&#xA;Introducción El repositorio de usuarios de Arch (AUR) es un repositorio impulsado por la comunidad y para la comunidad. Contiene descripciones de paquetes (PKGBUILD) que te permiten compilar un paquete desde el código fuente con makepkg y luego instalarlo a través de pacman.</description>
+    </item>
+    <item>
+      <title>Guía completa sobre Backups usando rooykup, rclone y github</title>
+      <link>http://localhost:1313/es/articulos/guia_completa_backups/</link>
+      <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/guia_completa_backups/</guid>
+      <description>Introducción Un backup es una copia de seguridad de los datos e información que se puede realizar a baja o alta escala. La programación y realización de una copia de seguridad resulta fundamental para el mantenimiento de un equipo o sistema, debido a que previene la pérdida de datos e información importante y permite tener un plan de acción en caso de presentar problemas como virus, fallos en los discos duro, accidentes, entre otros.</description>
+    </item>
+    <item>
+      <title>Subir archivos a Nextcloud desde la línea de comandos</title>
+      <link>http://localhost:1313/es/articulos/upload_files_nextcloud_cli/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/upload_files_nextcloud_cli/</guid>
+      <description>Puedes encontrar todos los archivos necesarios para este tutorial en el siguiente repo: https://github.com/Rooyca/upload-nextcloud-cli&#xA;Te recomiendo clonar el repositorio en tu equipo. Para ello ejecuta el siguiente comando en la terminal:&#xA;git clone https://github.com/Rooyca/upload-nextcloud-cli Configuración Crear un link compartido para una carpeta de Nextcloud. Recordar seleccionar la opción &amp;ldquo;File Drop (upload only)&amp;rdquo;, o &amp;ldquo;Allow upload and editing&amp;rdquo; al crear el link compartido. Imagen tomada de https://cylab.be&#xA;Copiar el link compartido.</description>
+    </item>
+    <item>
+      <title>Crea tu blog con HUGO y publicalo en Cloudflare Pages</title>
+      <link>http://localhost:1313/es/articulos/hugo_cloudflare_pages/</link>
+      <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/hugo_cloudflare_pages/</guid>
+      <description>POST Original: https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/&#xA;Instalar Hugo Instala el CLI de Hugo, con las instrucciones adecuadas para tu sistema operativo:&#xA;Linux Hugo puede venir incluido en el package manager de tu distro. Si ese es el caso, puedes instalarlo directamente usando el package manager. - por ejemplo, en Ubuntu, usa el siguiente comando:&#xA;sudo apt-get install hugo Si, por el contrario, tu package manager no incluye Hugo o deseas descargarlo directamente, dirigete a la parte de Instalación Manual.</description>
+    </item>
+    <item>
+      <title>Pi-hole para Android - [ROOT]</title>
+      <link>http://localhost:1313/es/articulos/pihole_android/</link>
+      <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/pihole_android/</guid>
+      <description>Post original: Aquí Nota: No hay ningún respaldo o asociación entre esta página y Pi-hole© LLC. Si encuentras esto útil, ellos merecen tu apoyo.&#xA;Pi-hole es una aplicación para el bloqueo de anuncios y rastreadores para Linux que actúa como un &amp;ldquo;agujero negro&amp;rdquo; de DNS destinado mayoritariamente para el uso en redes privadas. Está diseñado para dispositivos integrados de baja potencia con capacidad de red, enfocándose en la Raspberry Pi como su plataforma de hardware de referencia.</description>
+    </item>
+    <item>
+      <title>Creando un acortador de enlaces en 12 lineas de código usando Cloudflare Workers &#43; Bonus</title>
+      <link>http://localhost:1313/es/articulos/cloudflare_url_shortener/</link>
+      <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/cloudflare_url_shortener/</guid>
+      <description>Post original aquí&#xA;Cloudflare Workers Cloudflare Workers, de forma muy resumida, es un entorno serverless que corre Javascript. Básicamente, escribes código que se ocupa de peticiones HTTP, similar a Node.js. El código es desplegado globalmente en toda la red de Cloudflare, lo que significa que siempre está corriendo lo más cerca posible del usuario final.&#xA;Para este proyecto, al ser algo pequeño, con el plan gratis será más que suficiente. Si te interesa hacer algo más grande te vendría bien revisar los planes de pago.</description>
+    </item>
+    <item>
+      <title>PicoCTF Writeup – Reverse Engineering (asm2)</title>
+      <link>http://localhost:1313/es/articulos/picoctf_asm2/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/picoctf_asm2/</guid>
+      <description>Información: Nombre de la plataforma: PicoCTF&#xA;Nombre del reto: asm2&#xA;Categoría: Ingeniería Inversa&#xA;Puntos: 250&#xA;PicoCTF 2019.&#xA;Descripción del reto: ¿Qué retorna asm2(0xb, 0x2e)? Envía la bandera como un valor hexadecimal (comienza con &amp;lsquo;0x&amp;rsquo;). NOTA: El envío para este reto NO será en el formato normal de las banderas. Código.&#xA;Pista: Condiciones en ensamblador&#xA;Writeup (Inicio) En este reto, tenemos el código fuente en ensamblador. El archivo se llama test.S y acontinuación puedes ver el código en cuestion:</description>
+    </item>
+    <item>
+      <title>Enviar correos desde Gmail usando tu propio dominio</title>
+      <link>http://localhost:1313/es/articulos/correos_desde_gmail_con_dominio_propio/</link>
+      <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/correos_desde_gmail_con_dominio_propio/</guid>
+      <description>Primero - Redireccionar el trafico Lo primero que debemos hacer es redireccionar el trafico de nuestro cuenta de correo electrónico (en este caso me@rooyca.xyz) hacia Gmail. Para ello vamos a nuestro proveedor de dominio o nuestro CDN de preferencia, en mi caso CloudFlare. Ahora nos dirigimos a la parte de Email &amp;gt; Routes &amp;gt; Create address.&#xA;Creamos nuestra dirección apuntando al Gmail con el que vamos a configurar nuestra cuenta.</description>
+    </item>
+    <item>
+      <title>Alojar Wordpress en la nube (Google Cloud)</title>
+      <link>http://localhost:1313/es/articulos/wordpress_cloud/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/wordpress_cloud/</guid>
+      <description>Creando la Máquina Virtual &amp;ldquo;WordPress es un sistema de gestión de contenidos lanzado el 27 de mayo de 2003, enfocado a la creación de cualquier tipo de página web&amp;rdquo;. Según estas veinte estadísticas sobre WordPress para el 2022 encontramos que WordPress es usado por el 43.2% de todas las páginas en Internet.&#xA;Para poder correr WordPress en Google Cloud (GCloud de ahora en adelante), primeramente debemos crear una máquina virtual con una de las imágenes con las que cuenta GCloud.</description>
+    </item>
+    <item>
+      <title>Una guía para compartir archivos en la Blockchain con IPFS</title>
+      <link>http://localhost:1313/es/articulos/compartir_archivos_ipfs/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/compartir_archivos_ipfs/</guid>
+      <description>IPFS, o Interplanetary File System, creado por Protocol Labs, es un protocolo peer-to-peer donde cada nodo almacena una colección de archivos hasheados. Un usuario que desee alguno de esos archivos se conecta a una capa de este protocolo y por medio del Hash, IPFS se encarga &amp;ldquo;recolectar&amp;rdquo; el archivo que está distribuido a través de los nodos y finalmente envía el archivo al usuario que lo solicitó.&#xA;¿Recuerdan BitTorrent? Pues es parecido, solo que con IPFS tienes más control de tus archivos y se hace referencia a tus archivos por medio de hashes.</description>
+    </item>
+    <item>
+      <title>Como extraer la obra completa de Shakespeare de una Imagen</title>
+      <link>http://localhost:1313/es/articulos/esteganografia_basica/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/esteganografia_basica/</guid>
+      <description>Esteganografía ¿Qué es? A diferencia de la criptografía, donde es obvio que se está ocultando algo, la esteganografía oculta la información de tal forma que no se levante sospechas de que hay algo oculto. Esto se consigue por medio de diferentes técnicas que nos permiten ocultar archivos, imágenes, textos o incluso vídeos dentro de otros archivos.&#xA;¿Cómo funciona? Hay diferentes técnicas para ocultar información dentro de archivos. Una de las más usadas y quizás la más sencilla de entender es la comúnmente conocido como &amp;ldquo;Técnica del Bit menos significante&amp;rdquo; o LSB (por sus siglas en inglés).</description>
+    </item>
+    <item>
+      <title>Crea tu primera API con FLASK</title>
+      <link>http://localhost:1313/es/articulos/flask_basic_api/</link>
+      <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/flask_basic_api/</guid>
+      <description>Antes que nada, aqui te dejo el link por si deseas clonar directamente el repositorio de Github.&#xA;Desarollando nuestra API Para este tutorial vamos a utilizar principalmente el &amp;ldquo;Mini&amp;rdquo;-Framework Flask y algunas extenciones del mismo. Para la instalación de todos los paquetes me gustaria dejarte dos opciones:&#xA;Instalar los siguientes paquetes con el comando pip install x-paquete flask flask_restful flask_sqlalchemy Descargar el el archivo requirements.txt e instalar todo de una vez con el comando pip install -r requirements.</description>
+    </item>
+    <item>
+      <title>Creando nuestros propios comandos en Linux | Alias</title>
+      <link>http://localhost:1313/es/articulos/linux_comands/</link>
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/linux_comands/</guid>
+      <description>Creando nuestros Aliases Alias es una forma sencilla de mapper, bindear, unir(?) comandos. Esta es la mejor manera de ahorrarnos tiempo a la hora de escribir cadenas larguísimas de comandos. Si nosotros escribimos &amp;ldquo;alias&amp;rdquo; en nuestra terminal debería aparecernos los aliases predeterminados de nuestro sistema, algo así: Como podran notar, en mi caso tengo dos alias customizados: price y subl; el primero es un script en python que uso para ver el comportamiento del mercado crypto y el segundo es simplemtente para abrir SublimeText.</description>
+    </item>
+    <item>
+      <title>Active Directory (Homelab)</title>
+      <link>http://localhost:1313/es/articulos/active_directory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/active_directory/</guid>
+      <description>Requisitos Homelab Virtualización: VMWare ISO: Windows Server 2022 &amp;amp; Windows 10 Pro Configuración VMWare En este caso usaré VMWare Workstation PRO 17. Es importante ingresar una licencia válida para poder usar todas las funcionalidades, podemos usar una de las que se encuentran en este gist.&#xA;Windows Server 2022 Instalación Descargar la ISO de Windows Server 2022 desde aquí Crear una nueva máquina virtual en VMWare (Usar BIOS en caso de encontrar algún problema a la hora de bootear) Instalar Windows Server 2022 Cambiar nombre del equipo Configurar la red (IP estática y/o 127.</description>
+    </item>
+    <item>
+      <title>Crear una estacion de radio online 100% Gratis - Radio Project (Parte 1)</title>
+      <link>http://localhost:1313/es/articulos/radio_project_primera_parte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/es/articulos/radio_project_primera_parte/</guid>
+      <description>Bienvenidx a Radio Project Hoy quiero comenzar una serie de publicaciones en las que iremos aprendiendo juntos los pasos que hay que seguir a la hora de crear una estación de radio online. En un primer momento, cuando comencé con este proyecto me encontré con varias plataformas que ofrecían este servicio de forma gratuita, pero la gran mayoría de páginas eran de pago y otras habían envejecido bastante mal, es decir, su interfaz no era la más moderna, precisamente; Pero un día encontré ZenoRadio (NO ES PUBLICIDAD, en verdad es buena la plataforma), una alternativa moderna y con un plan gratuito bastante generoso.</description>
+    </item>
+  </channel>
+</rss>
