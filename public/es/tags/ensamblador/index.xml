@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ensamblador on rooyca</title>
-    <link>//localhost:1313/es/tags/ensamblador/</link>
+    <link>https://dablog.pages.dev/es/tags/ensamblador/</link>
     <description>Recent content in Ensamblador on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
     <lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/es/tags/ensamblador/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dablog.pages.dev/es/tags/ensamblador/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PicoCTF Writeup – Reverse Engineering (asm2)</title>
-      <link>//localhost:1313/es/articulos/picoctf_asm2/</link>
+      <link>https://dablog.pages.dev/es/articulos/picoctf_asm2/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/articulos/picoctf_asm2/</guid>
+      <guid>https://dablog.pages.dev/es/articulos/picoctf_asm2/</guid>
       <description>Información: Nombre de la plataforma: PicoCTF&#xA;Nombre del reto: asm2&#xA;Categoría: Ingeniería Inversa&#xA;Puntos: 250&#xA;PicoCTF 2019.&#xA;Descripción del reto: ¿Qué retorna asm2(0xb, 0x2e)? Envía la bandera como un valor hexadecimal (comienza con &amp;lsquo;0x&amp;rsquo;). NOTA: El envío para este reto NO será en el formato normal de las banderas. Código.&#xA;Pista: Condiciones en ensamblador&#xA;Writeup (Inicio) En este reto, tenemos el código fuente en ensamblador. El archivo se llama test.S y acontinuación puedes ver el código en cuestion:</description>
     </item>
   </channel>

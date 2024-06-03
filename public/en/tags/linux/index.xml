@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on rooyca</title>
-    <link>//localhost:1313/en/tags/linux/</link>
+    <link>https://dablog.pages.dev/en/tags/linux/</link>
     <description>Recent content in Linux on rooyca</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© 2024</copyright>
     <lastBuildDate>Thu, 23 Sep 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dablog.pages.dev/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to extract the complete works of Shakespeare from an image</title>
-      <link>//localhost:1313/en/articles/basic_steganography/</link>
+      <link>https://dablog.pages.dev/en/articles/basic_steganography/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/articles/basic_steganography/</guid>
+      <guid>https://dablog.pages.dev/en/articles/basic_steganography/</guid>
       <description>Steganography What is it? Unlike cryptography, where it is obvious that something is being hidden, steganography hides information in such a way that no suspicions are raised that something is hidden. This is achieved by means of different techniques that allow us to hide files, images, texts or even videos inside other files.&#xA;How does it work? There are different techniques to hide information inside files. One of the most commonly used and perhaps the easiest to understand is commonly known as the &amp;ldquo;Least Significant Bit Technique&amp;rdquo; or LSB.</description>
     </item>
     <item>
       <title>Creating our own commands in Linux | Alias</title>
-      <link>//localhost:1313/en/articles/linux_comands/</link>
+      <link>https://dablog.pages.dev/en/articles/linux_comands/</link>
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/articles/linux_comands/</guid>
+      <guid>https://dablog.pages.dev/en/articles/linux_comands/</guid>
       <description>Creating our Aliases Alias is a simple way to map, bin, join(?) commands. This is the best way to save time when typing long strings of commands. If we type &amp;ldquo;aliases&amp;rdquo; in our terminal we should get the default aliases of our system, something like this: As you may notice, in my case I have two custom aliases: price and subl; the first one is a python script I use to see the crypto market behavior and the second one is simply to open SublimeText.</description>
     </item>
   </channel>

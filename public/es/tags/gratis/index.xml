@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gratis on rooyca</title>
-    <link>//localhost:1313/es/tags/gratis/</link>
+    <link>https://dablog.pages.dev/es/tags/gratis/</link>
     <description>Recent content in Gratis on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
-    <atom:link href="//localhost:1313/es/tags/gratis/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dablog.pages.dev/es/tags/gratis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crear una estacion de radio online 100% Gratis - Radio Project (Parte 1)</title>
-      <link>//localhost:1313/es/articulos/radio_project_primera_parte/</link>
+      <link>https://dablog.pages.dev/es/articulos/radio_project_primera_parte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/articulos/radio_project_primera_parte/</guid>
+      <guid>https://dablog.pages.dev/es/articulos/radio_project_primera_parte/</guid>
       <description>Bienvenidx a Radio Project Hoy quiero comenzar una serie de publicaciones en las que iremos aprendiendo juntos los pasos que hay que seguir a la hora de crear una estación de radio online. En un primer momento, cuando comencé con este proyecto me encontré con varias plataformas que ofrecían este servicio de forma gratuita, pero la gran mayoría de páginas eran de pago y otras habían envejecido bastante mal, es decir, su interfaz no era la más moderna, precisamente; Pero un día encontré ZenoRadio (NO ES PUBLICIDAD, en verdad es buena la plataforma), una alternativa moderna y con un plan gratuito bastante generoso.</description>
     </item>
   </channel>

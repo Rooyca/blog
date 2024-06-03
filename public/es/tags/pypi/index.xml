@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PyPI on rooyca</title>
-    <link>//localhost:1313/es/tags/pypi/</link>
+    <link>https://dablog.pages.dev/es/tags/pypi/</link>
     <description>Recent content in PyPI on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
     <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/es/tags/pypi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dablog.pages.dev/es/tags/pypi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build y publica tus paquetes en PyPI</title>
-      <link>//localhost:1313/es/articulos/build_package_python/</link>
+      <link>https://dablog.pages.dev/es/articulos/build_package_python/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/articulos/build_package_python/</guid>
+      <guid>https://dablog.pages.dev/es/articulos/build_package_python/</guid>
       <description>Introducción En PyPI los desarrolladores pueden publicar sus paquetes Python para que otros los descarguen e instalen en sus propios proyectos. Esto hace que sea mucho más fácil compartir y reutilizar código en la comunidad de desarrolladores de Python. Los paquetes pueden contener desde simples módulos con funciones y clases hasta frameworks y herramientas complejas.&#xA;Requisitos Python 3.6 o superior. Cuenta en PyPI. PIP Actualizado. python3 -m pip install --upgrade pip Twine.</description>
     </item>
   </channel>

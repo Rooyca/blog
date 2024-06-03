@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Steganography on rooyca</title>
-    <link>//localhost:1313/es/tags/steganography/</link>
+    <link>https://dablog.pages.dev/es/tags/steganography/</link>
     <description>Recent content in Steganography on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
     <lastBuildDate>Thu, 23 Sep 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/es/tags/steganography/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dablog.pages.dev/es/tags/steganography/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Como extraer la obra completa de Shakespeare de una Imagen</title>
-      <link>//localhost:1313/es/articulos/esteganografia_basica/</link>
+      <link>https://dablog.pages.dev/es/articulos/esteganografia_basica/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/articulos/esteganografia_basica/</guid>
+      <guid>https://dablog.pages.dev/es/articulos/esteganografia_basica/</guid>
       <description>Esteganografía ¿Qué es? A diferencia de la criptografía, donde es obvio que se está ocultando algo, la esteganografía oculta la información de tal forma que no se levante sospechas de que hay algo oculto. Esto se consigue por medio de diferentes técnicas que nos permiten ocultar archivos, imágenes, textos o incluso vídeos dentro de otros archivos.&#xA;¿Cómo funciona? Hay diferentes técnicas para ocultar información dentro de archivos. Una de las más usadas y quizás la más sencilla de entender es la comúnmente conocido como &amp;ldquo;Técnica del Bit menos significante&amp;rdquo; o LSB (por sus siglas en inglés).</description>
     </item>
   </channel>

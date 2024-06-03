@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on rooyca</title>
-    <link>//localhost:1313/en/projects/</link>
+    <link>https://dablog.pages.dev/en/projects/</link>
     <description>Recent content in Projects on rooyca</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© 2024</copyright>
     <lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/en/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dablog.pages.dev/en/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MarkUP - Share your Markdown</title>
-      <link>//localhost:1313/en/projects/markup/</link>
+      <link>https://dablog.pages.dev/en/projects/markup/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/projects/markup/</guid>
+      <guid>https://dablog.pages.dev/en/projects/markup/</guid>
       <description></description>
     </item>
     <item>
       <title>rooykup-cli - Backups commpressed and encrypted in the cloud</title>
-      <link>//localhost:1313/en/projects/rooykup/</link>
+      <link>https://dablog.pages.dev/en/projects/rooykup/</link>
       <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/projects/rooykup/</guid>
+      <guid>https://dablog.pages.dev/en/projects/rooykup/</guid>
       <description></description>
     </item>
     <item>
       <title>API Request - Obsidian Plugin</title>
-      <link>//localhost:1313/en/projects/api_request_obsidian_plugin_n/</link>
+      <link>https://dablog.pages.dev/en/projects/api_request_obsidian_plugin_n/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/projects/api_request_obsidian_plugin_n/</guid>
+      <guid>https://dablog.pages.dev/en/projects/api_request_obsidian_plugin_n/</guid>
       <description></description>
     </item>
     <item>
       <title>MiLibre - Personal Library</title>
-      <link>//localhost:1313/en/projects/milibre_personal_library_n/</link>
+      <link>https://dablog.pages.dev/en/projects/milibre_personal_library_n/</link>
       <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/projects/milibre_personal_library_n/</guid>
+      <guid>https://dablog.pages.dev/en/projects/milibre_personal_library_n/</guid>
       <description></description>
     </item>
     <item>
       <title>Obsidian Highligter - Firefox Extention</title>
-      <link>//localhost:1313/en/projects/highlighter_obsidian_n/</link>
+      <link>https://dablog.pages.dev/en/projects/highlighter_obsidian_n/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/projects/highlighter_obsidian_n/</guid>
+      <guid>https://dablog.pages.dev/en/projects/highlighter_obsidian_n/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance - Simple finances app</title>
-      <link>//localhost:1313/en/projects/finance/</link>
+      <link>https://dablog.pages.dev/en/projects/finance/</link>
       <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/projects/finance/</guid>
+      <guid>https://dablog.pages.dev/en/projects/finance/</guid>
       <description></description>
     </item>
     <item>
       <title>PDF2Slide - A lightweight and esthetic PDF reader</title>
-      <link>//localhost:1313/en/projects/portfolio_ankla/</link>
+      <link>https://dablog.pages.dev/en/projects/portfolio_ankla/</link>
       <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/projects/portfolio_ankla/</guid>
+      <guid>https://dablog.pages.dev/en/projects/portfolio_ankla/</guid>
       <description></description>
     </item>
   </channel>

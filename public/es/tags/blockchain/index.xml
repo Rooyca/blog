@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blockchain on rooyca</title>
-    <link>//localhost:1313/es/tags/blockchain/</link>
+    <link>https://dablog.pages.dev/es/tags/blockchain/</link>
     <description>Recent content in Blockchain on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
     <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/es/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dablog.pages.dev/es/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Una guía para compartir archivos en la Blockchain con IPFS</title>
-      <link>//localhost:1313/es/articulos/compartir_archivos_ipfs/</link>
+      <link>https://dablog.pages.dev/es/articulos/compartir_archivos_ipfs/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/articulos/compartir_archivos_ipfs/</guid>
+      <guid>https://dablog.pages.dev/es/articulos/compartir_archivos_ipfs/</guid>
       <description>IPFS, o Interplanetary File System, creado por Protocol Labs, es un protocolo peer-to-peer donde cada nodo almacena una colección de archivos hasheados. Un usuario que desee alguno de esos archivos se conecta a una capa de este protocolo y por medio del Hash, IPFS se encarga &amp;ldquo;recolectar&amp;rdquo; el archivo que está distribuido a través de los nodos y finalmente envía el archivo al usuario que lo solicitó.&#xA;¿Recuerdan BitTorrent? Pues es parecido, solo que con IPFS tienes más control de tus archivos y se hace referencia a tus archivos por medio de hashes.</description>
     </item>
   </channel>

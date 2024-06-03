@@ -2,403 +2,403 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on rooyca</title>
-    <link>//localhost:1313/es/tags/</link>
+    <link>https://dablog.pages.dev/es/tags/</link>
     <description>Recent content in Tags on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
     <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dablog.pages.dev/es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Android</title>
-      <link>//localhost:1313/es/tags/android/</link>
+      <link>https://dablog.pages.dev/es/tags/android/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/android/</guid>
+      <guid>https://dablog.pages.dev/es/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>//localhost:1313/es/tags/rust/</link>
+      <link>https://dablog.pages.dev/es/tags/rust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/rust/</guid>
+      <guid>https://dablog.pages.dev/es/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>Short</title>
-      <link>//localhost:1313/es/tags/short/</link>
+      <link>https://dablog.pages.dev/es/tags/short/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/short/</guid>
+      <guid>https://dablog.pages.dev/es/tags/short/</guid>
       <description></description>
     </item>
     <item>
       <title>Termux</title>
-      <link>//localhost:1313/es/tags/termux/</link>
+      <link>https://dablog.pages.dev/es/tags/termux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/termux/</guid>
+      <guid>https://dablog.pages.dev/es/tags/termux/</guid>
       <description></description>
     </item>
     <item>
       <title>Arch</title>
-      <link>//localhost:1313/es/tags/arch/</link>
+      <link>https://dablog.pages.dev/es/tags/arch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/arch/</guid>
+      <guid>https://dablog.pages.dev/es/tags/arch/</guid>
       <description></description>
     </item>
     <item>
       <title>Bluetooth</title>
-      <link>//localhost:1313/es/tags/bluetooth/</link>
+      <link>https://dablog.pages.dev/es/tags/bluetooth/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/bluetooth/</guid>
+      <guid>https://dablog.pages.dev/es/tags/bluetooth/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>//localhost:1313/es/tags/linux/</link>
+      <link>https://dablog.pages.dev/es/tags/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/linux/</guid>
+      <guid>https://dablog.pages.dev/es/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>//localhost:1313/es/tags/blog/</link>
+      <link>https://dablog.pages.dev/es/tags/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/blog/</guid>
+      <guid>https://dablog.pages.dev/es/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>//localhost:1313/es/tags/github/</link>
+      <link>https://dablog.pages.dev/es/tags/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/github/</guid>
+      <guid>https://dablog.pages.dev/es/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>//localhost:1313/es/tags/hugo/</link>
+      <link>https://dablog.pages.dev/es/tags/hugo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/hugo/</guid>
+      <guid>https://dablog.pages.dev/es/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Utterances</title>
-      <link>//localhost:1313/es/tags/utterances/</link>
+      <link>https://dablog.pages.dev/es/tags/utterances/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/utterances/</guid>
+      <guid>https://dablog.pages.dev/es/tags/utterances/</guid>
       <description></description>
     </item>
     <item>
       <title>Cisco Packet Tracer</title>
-      <link>//localhost:1313/es/tags/cisco-packet-tracer/</link>
+      <link>https://dablog.pages.dev/es/tags/cisco-packet-tracer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/cisco-packet-tracer/</guid>
+      <guid>https://dablog.pages.dev/es/tags/cisco-packet-tracer/</guid>
       <description></description>
     </item>
     <item>
       <title>CLOUD</title>
-      <link>//localhost:1313/es/tags/cloud/</link>
+      <link>https://dablog.pages.dev/es/tags/cloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/cloud/</guid>
+      <guid>https://dablog.pages.dev/es/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>LAN</title>
-      <link>//localhost:1313/es/tags/lan/</link>
+      <link>https://dablog.pages.dev/es/tags/lan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/lan/</guid>
+      <guid>https://dablog.pages.dev/es/tags/lan/</guid>
       <description></description>
     </item>
     <item>
       <title>Redes</title>
-      <link>//localhost:1313/es/tags/redes/</link>
+      <link>https://dablog.pages.dev/es/tags/redes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/redes/</guid>
+      <guid>https://dablog.pages.dev/es/tags/redes/</guid>
       <description></description>
     </item>
     <item>
       <title>Access</title>
-      <link>//localhost:1313/es/tags/access/</link>
+      <link>https://dablog.pages.dev/es/tags/access/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/access/</guid>
+      <guid>https://dablog.pages.dev/es/tags/access/</guid>
       <description></description>
     </item>
     <item>
       <title>DB</title>
-      <link>//localhost:1313/es/tags/db/</link>
+      <link>https://dablog.pages.dev/es/tags/db/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/db/</guid>
+      <guid>https://dablog.pages.dev/es/tags/db/</guid>
       <description></description>
     </item>
     <item>
       <title>DigitalPersona</title>
-      <link>//localhost:1313/es/tags/digitalpersona/</link>
+      <link>https://dablog.pages.dev/es/tags/digitalpersona/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/digitalpersona/</guid>
+      <guid>https://dablog.pages.dev/es/tags/digitalpersona/</guid>
       <description></description>
     </item>
     <item>
       <title>Fingerprint</title>
-      <link>//localhost:1313/es/tags/fingerprint/</link>
+      <link>https://dablog.pages.dev/es/tags/fingerprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/fingerprint/</guid>
+      <guid>https://dablog.pages.dev/es/tags/fingerprint/</guid>
       <description></description>
     </item>
     <item>
       <title>Postgres</title>
-      <link>//localhost:1313/es/tags/postgres/</link>
+      <link>https://dablog.pages.dev/es/tags/postgres/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/postgres/</guid>
+      <guid>https://dablog.pages.dev/es/tags/postgres/</guid>
       <description></description>
     </item>
     <item>
       <title>Build</title>
-      <link>//localhost:1313/es/tags/build/</link>
+      <link>https://dablog.pages.dev/es/tags/build/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/build/</guid>
+      <guid>https://dablog.pages.dev/es/tags/build/</guid>
       <description></description>
     </item>
     <item>
       <title>Copr</title>
-      <link>//localhost:1313/es/tags/copr/</link>
+      <link>https://dablog.pages.dev/es/tags/copr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/copr/</guid>
+      <guid>https://dablog.pages.dev/es/tags/copr/</guid>
       <description></description>
     </item>
     <item>
       <title>Fedora</title>
-      <link>//localhost:1313/es/tags/fedora/</link>
+      <link>https://dablog.pages.dev/es/tags/fedora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/fedora/</guid>
+      <guid>https://dablog.pages.dev/es/tags/fedora/</guid>
       <description></description>
     </item>
     <item>
       <title>PyPI</title>
-      <link>//localhost:1313/es/tags/pypi/</link>
+      <link>https://dablog.pages.dev/es/tags/pypi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/pypi/</guid>
+      <guid>https://dablog.pages.dev/es/tags/pypi/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>//localhost:1313/es/tags/python/</link>
+      <link>https://dablog.pages.dev/es/tags/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/python/</guid>
+      <guid>https://dablog.pages.dev/es/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>AUR</title>
-      <link>//localhost:1313/es/tags/aur/</link>
+      <link>https://dablog.pages.dev/es/tags/aur/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/aur/</guid>
+      <guid>https://dablog.pages.dev/es/tags/aur/</guid>
       <description></description>
     </item>
     <item>
       <title>Backups</title>
-      <link>//localhost:1313/es/tags/backups/</link>
+      <link>https://dablog.pages.dev/es/tags/backups/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/backups/</guid>
+      <guid>https://dablog.pages.dev/es/tags/backups/</guid>
       <description></description>
     </item>
     <item>
       <title>Rclone</title>
-      <link>//localhost:1313/es/tags/rclone/</link>
+      <link>https://dablog.pages.dev/es/tags/rclone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/rclone/</guid>
+      <guid>https://dablog.pages.dev/es/tags/rclone/</guid>
       <description></description>
     </item>
     <item>
       <title>Rooykup</title>
-      <link>//localhost:1313/es/tags/rooykup/</link>
+      <link>https://dablog.pages.dev/es/tags/rooykup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/rooykup/</guid>
+      <guid>https://dablog.pages.dev/es/tags/rooykup/</guid>
       <description></description>
     </item>
     <item>
       <title>CLI</title>
-      <link>//localhost:1313/es/tags/cli/</link>
+      <link>https://dablog.pages.dev/es/tags/cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/cli/</guid>
+      <guid>https://dablog.pages.dev/es/tags/cli/</guid>
       <description></description>
     </item>
     <item>
       <title>Nextcloud</title>
-      <link>//localhost:1313/es/tags/nextcloud/</link>
+      <link>https://dablog.pages.dev/es/tags/nextcloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/nextcloud/</guid>
+      <guid>https://dablog.pages.dev/es/tags/nextcloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>//localhost:1313/es/tags/windows/</link>
+      <link>https://dablog.pages.dev/es/tags/windows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/windows/</guid>
+      <guid>https://dablog.pages.dev/es/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloudflare</title>
-      <link>//localhost:1313/es/tags/cloudflare/</link>
+      <link>https://dablog.pages.dev/es/tags/cloudflare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/cloudflare/</guid>
+      <guid>https://dablog.pages.dev/es/tags/cloudflare/</guid>
       <description></description>
     </item>
     <item>
       <title>Pages</title>
-      <link>//localhost:1313/es/tags/pages/</link>
+      <link>https://dablog.pages.dev/es/tags/pages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/pages/</guid>
+      <guid>https://dablog.pages.dev/es/tags/pages/</guid>
       <description></description>
     </item>
     <item>
       <title>Pi-Hole</title>
-      <link>//localhost:1313/es/tags/pi-hole/</link>
+      <link>https://dablog.pages.dev/es/tags/pi-hole/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/pi-hole/</guid>
+      <guid>https://dablog.pages.dev/es/tags/pi-hole/</guid>
       <description></description>
     </item>
     <item>
       <title>URL Shortener</title>
-      <link>//localhost:1313/es/tags/url-shortener/</link>
+      <link>https://dablog.pages.dev/es/tags/url-shortener/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/url-shortener/</guid>
+      <guid>https://dablog.pages.dev/es/tags/url-shortener/</guid>
       <description></description>
     </item>
     <item>
       <title>Ensamblador</title>
-      <link>//localhost:1313/es/tags/ensamblador/</link>
+      <link>https://dablog.pages.dev/es/tags/ensamblador/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/ensamblador/</guid>
+      <guid>https://dablog.pages.dev/es/tags/ensamblador/</guid>
       <description></description>
     </item>
     <item>
       <title>Picoctf</title>
-      <link>//localhost:1313/es/tags/picoctf/</link>
+      <link>https://dablog.pages.dev/es/tags/picoctf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/picoctf/</guid>
+      <guid>https://dablog.pages.dev/es/tags/picoctf/</guid>
       <description></description>
     </item>
     <item>
       <title>Writeup</title>
-      <link>//localhost:1313/es/tags/writeup/</link>
+      <link>https://dablog.pages.dev/es/tags/writeup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/writeup/</guid>
+      <guid>https://dablog.pages.dev/es/tags/writeup/</guid>
       <description></description>
     </item>
     <item>
       <title>Dominio</title>
-      <link>//localhost:1313/es/tags/dominio/</link>
+      <link>https://dablog.pages.dev/es/tags/dominio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/dominio/</guid>
+      <guid>https://dablog.pages.dev/es/tags/dominio/</guid>
       <description></description>
     </item>
     <item>
       <title>Gmail</title>
-      <link>//localhost:1313/es/tags/gmail/</link>
+      <link>https://dablog.pages.dev/es/tags/gmail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/gmail/</guid>
+      <guid>https://dablog.pages.dev/es/tags/gmail/</guid>
       <description></description>
     </item>
     <item>
       <title>Base De Datos</title>
-      <link>//localhost:1313/es/tags/base-de-datos/</link>
+      <link>https://dablog.pages.dev/es/tags/base-de-datos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/base-de-datos/</guid>
+      <guid>https://dablog.pages.dev/es/tags/base-de-datos/</guid>
       <description></description>
     </item>
     <item>
       <title>Google Cloud</title>
-      <link>//localhost:1313/es/tags/google-cloud/</link>
+      <link>https://dablog.pages.dev/es/tags/google-cloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/google-cloud/</guid>
+      <guid>https://dablog.pages.dev/es/tags/google-cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Migración</title>
-      <link>//localhost:1313/es/tags/migraci%C3%B3n/</link>
+      <link>https://dablog.pages.dev/es/tags/migraci%C3%B3n/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/migraci%C3%B3n/</guid>
+      <guid>https://dablog.pages.dev/es/tags/migraci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Php</title>
-      <link>//localhost:1313/es/tags/php/</link>
+      <link>https://dablog.pages.dev/es/tags/php/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/php/</guid>
+      <guid>https://dablog.pages.dev/es/tags/php/</guid>
       <description></description>
     </item>
     <item>
       <title>Wordpress</title>
-      <link>//localhost:1313/es/tags/wordpress/</link>
+      <link>https://dablog.pages.dev/es/tags/wordpress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/wordpress/</guid>
+      <guid>https://dablog.pages.dev/es/tags/wordpress/</guid>
       <description></description>
     </item>
     <item>
       <title>Blockchain</title>
-      <link>//localhost:1313/es/tags/blockchain/</link>
+      <link>https://dablog.pages.dev/es/tags/blockchain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/blockchain/</guid>
+      <guid>https://dablog.pages.dev/es/tags/blockchain/</guid>
       <description></description>
     </item>
     <item>
       <title>IPFS</title>
-      <link>//localhost:1313/es/tags/ipfs/</link>
+      <link>https://dablog.pages.dev/es/tags/ipfs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/ipfs/</guid>
+      <guid>https://dablog.pages.dev/es/tags/ipfs/</guid>
       <description></description>
     </item>
     <item>
       <title>Steganography</title>
-      <link>//localhost:1313/es/tags/steganography/</link>
+      <link>https://dablog.pages.dev/es/tags/steganography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/steganography/</guid>
+      <guid>https://dablog.pages.dev/es/tags/steganography/</guid>
       <description></description>
     </item>
     <item>
       <title>Api</title>
-      <link>//localhost:1313/es/tags/api/</link>
+      <link>https://dablog.pages.dev/es/tags/api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/api/</guid>
+      <guid>https://dablog.pages.dev/es/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Flask</title>
-      <link>//localhost:1313/es/tags/flask/</link>
+      <link>https://dablog.pages.dev/es/tags/flask/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/flask/</guid>
+      <guid>https://dablog.pages.dev/es/tags/flask/</guid>
       <description></description>
     </item>
     <item>
       <title>Active Directory</title>
-      <link>//localhost:1313/es/tags/active-directory/</link>
+      <link>https://dablog.pages.dev/es/tags/active-directory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/active-directory/</guid>
+      <guid>https://dablog.pages.dev/es/tags/active-directory/</guid>
       <description></description>
     </item>
     <item>
       <title>Gratis</title>
-      <link>//localhost:1313/es/tags/gratis/</link>
+      <link>https://dablog.pages.dev/es/tags/gratis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/gratis/</guid>
+      <guid>https://dablog.pages.dev/es/tags/gratis/</guid>
       <description></description>
     </item>
     <item>
       <title>Homelab</title>
-      <link>//localhost:1313/es/tags/homelab/</link>
+      <link>https://dablog.pages.dev/es/tags/homelab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/homelab/</guid>
+      <guid>https://dablog.pages.dev/es/tags/homelab/</guid>
       <description></description>
     </item>
     <item>
       <title>Musica</title>
-      <link>//localhost:1313/es/tags/musica/</link>
+      <link>https://dablog.pages.dev/es/tags/musica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/musica/</guid>
+      <guid>https://dablog.pages.dev/es/tags/musica/</guid>
       <description></description>
     </item>
     <item>
       <title>Radio</title>
-      <link>//localhost:1313/es/tags/radio/</link>
+      <link>https://dablog.pages.dev/es/tags/radio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/tags/radio/</guid>
+      <guid>https://dablog.pages.dev/es/tags/radio/</guid>
       <description></description>
     </item>
   </channel>

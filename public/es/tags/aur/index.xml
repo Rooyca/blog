@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AUR on rooyca</title>
-    <link>//localhost:1313/es/tags/aur/</link>
+    <link>https://dablog.pages.dev/es/tags/aur/</link>
     <description>Recent content in AUR on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
     <lastBuildDate>Wed, 16 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/es/tags/aur/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dablog.pages.dev/es/tags/aur/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build y publica tus paquetes en AUR | Archlinux</title>
-      <link>//localhost:1313/es/articulos/build_paquetes_archlinux/</link>
+      <link>https://dablog.pages.dev/es/articulos/build_paquetes_archlinux/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/es/articulos/build_paquetes_archlinux/</guid>
+      <guid>https://dablog.pages.dev/es/articulos/build_paquetes_archlinux/</guid>
       <description>Nota: Este artículo no profundizará en muchos temas y conceptos, por lo que se recomendable leer la documentación oficial de Arch.&#xA;Nota: El contenido de este artículo se basa en mi experiencia personal, por lo que puede que no sea la mejor forma de hacerlo.&#xA;Resultado final: hmta&#xA;Introducción El repositorio de usuarios de Arch (AUR) es un repositorio impulsado por la comunidad y para la comunidad. Contiene descripciones de paquetes (PKGBUILD) que te permiten compilar un paquete desde el código fuente con makepkg y luego instalarlo a través de pacman.</description>
     </item>
   </channel>

@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: https://dablog.pages.dev/
 paginate: 5
 theme: charlolamode
 
@@ -98,10 +98,13 @@ params:
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
+    ShowWordCount: true
     displayFullLangName: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowToc: true
+    DateFormat: "2 Jan 2006"
+    hideAuthor: true
     #comments: true
 
     mainSections:

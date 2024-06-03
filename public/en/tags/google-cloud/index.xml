@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google Cloud on rooyca</title>
-    <link>//localhost:1313/en/tags/google-cloud/</link>
+    <link>https://dablog.pages.dev/en/tags/google-cloud/</link>
     <description>Recent content in Google Cloud on rooyca</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© 2024</copyright>
     <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/en/tags/google-cloud/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dablog.pages.dev/en/tags/google-cloud/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hosting WordPress in the cloud (Google Cloud)</title>
-      <link>//localhost:1313/en/articles/wordpress_cloud/</link>
+      <link>https://dablog.pages.dev/en/articles/wordpress_cloud/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/en/articles/wordpress_cloud/</guid>
+      <guid>https://dablog.pages.dev/en/articles/wordpress_cloud/</guid>
       <description>Creating the Virtual Machine &amp;ldquo;WordPress is a content management system released on May 27, 2003, focused on the creation of any type of website.&amp;rdquo; According to these twenty statistics about WordPress by 2022 we find that WordPress is used by 43.2% of all sites on the Internet.&#xA;In order to run WordPress on Google Cloud (GCloud from now on), we must first create a virtual machine with one of the images that GCloud has.</description>
     </item>
   </channel>
