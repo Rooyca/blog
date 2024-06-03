@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
-    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dablog.pages.dev/es/articulos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eliminar la extensión .html de una URL</title>
+      <link>https://dablog.pages.dev/es/articulos/remove_html_extention/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/articulos/remove_html_extention/</guid>
+      <description>Si no sabes de lo que estoy hablando, es cuando visitas un sitio web y la URL se ve algo así https://example.com/about.html. Específicamente, la ultima parte .html. La mayoría de las personas les gustaría ver algo como https://example.com/about. ¿Es más bonito, no te parece?&#xA;Afortunadamente, es bastante fácil de hacer en un sitio web estático. Aquí te muestro dos formas de hacerlo.&#xA;Método 1: Poner las páginas en carpetas Por ejemplo, si tenemos una estructura de páginas como esta:</description>
+    </item>
     <item>
       <title>Editar PATH en Termux</title>
       <link>https://dablog.pages.dev/es/articulos/edit_path_termux/</link>
