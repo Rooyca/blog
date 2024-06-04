@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© 2024</copyright>
-    <lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dablog.pages.dev/en/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTTP request from Obsidian notes</title>
+      <link>https://dablog.pages.dev/en/articles/http_request_from_obsidian/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/en/articles/http_request_from_obsidian/</guid>
+      <description>Are you an Obsidian user looking to elevate your note-taking experience with dynamic data integration? Look no further than APIR (api-request) – an Obsidian plugin designed to streamline HTTP requests directly into your notes.&#xA;⚡ How to Use With APIR, integrating HTTP requests into your notes is a breeze. Simply create a code-block within your note, specifying the language as req. Inside this code-block, customize parameters such as URL, method, body, headers, and more to tailor your request precisely to your needs.</description>
+    </item>
     <item>
       <title>Send emails from Gmail using your own domain</title>
       <link>https://dablog.pages.dev/en/articles/send_emails_from_own_domain_with_gmail/</link>

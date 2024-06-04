@@ -2,14 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dablog.pages.dev/en/projects/markup/</loc>
-    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+    <loc>https://dablog.pages.dev/en/articles/</loc>
+    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/projects/</loc>
-    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+    <loc>https://dablog.pages.dev/en/articles/http_request_from_obsidian/</loc>
+    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/en/tags/obsidian/</loc>
+    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/en/tags/plugin/</loc>
+    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/en/tags/productivity/</loc>
+    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/en/</loc>
-    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
@@ -20,6 +29,25 @@
                 hreflang="en-US"
                 href="https://dablog.pages.dev/en/"
                 />
+  </url><url>
+    <loc>https://dablog.pages.dev/en/tags/</loc>
+    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://dablog.pages.dev/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://dablog.pages.dev/en/tags/"
+                />
+  </url><url>
+    <loc>https://dablog.pages.dev/en/projects/markup/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/en/projects/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/en/projects/rooykup/</loc>
     <lastmod>2023-05-16T00:00:00+00:00</lastmod>
@@ -32,9 +60,6 @@
   </url><url>
     <loc>https://dablog.pages.dev/en/projects/highlighter_obsidian_n/</loc>
     <lastmod>2023-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dablog.pages.dev/en/articles/</loc>
-    <lastmod>2022-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/en/tags/cloudflare/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>
@@ -67,19 +92,6 @@
   </url><url>
     <loc>https://dablog.pages.dev/en/articles/send_emails_from_own_domain_with_gmail/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dablog.pages.dev/en/tags/</loc>
-    <lastmod>2022-07-09T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/"
-                />
   </url><url>
     <loc>https://dablog.pages.dev/en/tags/db/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
