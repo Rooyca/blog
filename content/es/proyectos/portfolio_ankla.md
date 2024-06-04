@@ -1,5 +1,5 @@
 ---
-title: PDF2Slide - Un lector de PDFs liviano
+title: PDF2Slide - Un lector de PDF liviano
 date: 2022-06-15
 description:  Este es un lector de PDF que combina funcionalidad y estética, brindando a los usuarios una interfaz liviana y visualmente atractiva.
 type: page
