@@ -54,6 +54,15 @@
 
 </script>
 
+<!-- Ackee Analytics -->
+{{- if (not .Site.Params.disableAckee ) }}
+<script async 
+    src="{{ .Site.Params.ackeeScriptURL }}"
+    data-ackee-server="{{ .Site.Params.ackeeServerURL }}" 
+    data-ackee-domain-id="{{ .Site.Params.ackeeDomainID }}"> 
+</script>
+{{- end }}
+
 {{- if (not .Site.Params.disableScrollToTop) }}
 <script>
     var mybutton = document.getElementById("top-link");
