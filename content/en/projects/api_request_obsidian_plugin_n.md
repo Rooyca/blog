@@ -5,6 +5,6 @@ description:  An Obsidian plugin that allows you to make HTTP requests within yo
 type: page
 topic: project
 link: "https://github.com/Rooyca/obsidian-api-request"
-image: "https://raw.githubusercontent.com/Rooyca/obsidian-api-request/master/config_img.png"
+image: "https://raw.githubusercontent.com/Rooyca/obsidian-api-request/master/showcase_1.gif"
 hideMeta: true
 ---
