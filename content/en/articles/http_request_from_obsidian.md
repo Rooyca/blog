@@ -3,7 +3,7 @@ title: "HTTP request from Obsidian notes"
 date: 2024-06-02
 type: page
 tags: 
-- "Obsidian"
+- "obsidian"
 - "plugin"
 - "productivity"
 description: Make HTTP request within your Obsidina notes.

@@ -3,11 +3,10 @@ title: "Build y publica tus paquetes en PyPI"
 date: 2023-08-17
 type: page
 tags: 
-- "PyPI"
-- "Python"
-- "Build"
+- "pypi"
+- "python"
+- "build"
 description: "En la siguiente guía aprenderemos, de manera sencilla, a crear y publicar paquetes en PyPI."
-topic: PyPI,Python,Build
 ---
 
 ## Introducción

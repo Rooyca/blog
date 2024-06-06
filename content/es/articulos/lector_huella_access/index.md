@@ -3,12 +3,10 @@ title: "Integrar lector de huella (U.are.U 4500) con Access"
 date: 2024-03-06
 type: page
 tags: 
-- "Access"
-- "DB"
-- "Fingerprint"
-- "DigitalPersona"
+- "access"
+- "db"
+- "fingerprint"
 description: "Aprende a integrar un lector de huella con Access haciendo uso del SDK de DigitalPersona."
-topic: Access,DB,Fingerprint,DigitalPersona
 ---
 
 ## Introducción

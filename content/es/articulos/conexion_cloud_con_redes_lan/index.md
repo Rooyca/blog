@@ -3,12 +3,11 @@ title: "Conectar cuatro redes LAN por medio de una Nube"
 date: 2024-03-09
 type: page
 tags: 
-- "Cisco Packet Tracer"
-- "LAN"
-- "CLOUD"
-- "Redes"
+- "cisco"
+- "lan"
+- "cloud"
+- "red"
 description: "Realizar una conexión entre cuatro redes LAN por medio de una nube, utilizando Cisco Packet Tracer."
-topic: CiscoPacketTracer,Redes,LAN,CLOUD
 ---
 
 Tenemos el siguiente ejercicio: 

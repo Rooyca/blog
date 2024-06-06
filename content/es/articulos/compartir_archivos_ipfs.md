@@ -2,10 +2,9 @@
 title: "Una guía para compartir archivos en la Blockchain con IPFS"
 date: 2021-10-05
 tags: 
-- "IPFS"
+- "ipfs"
 - "blockchain"
 description: IPFS es un protocolo hypermedia peer-to-peer diseñado para preservar y hacer crecer el conocimiento de la humanidad haciendo la web más abierta, más resiliente y mejor.
-topic: ipfs,blockchain
 ---
 
 ![IPFS-IMG](https://cdn-images-1.medium.com/v2/resize:fit:1200/1*lGh_L0ldPWz1kFMcKvj4Qw.png)

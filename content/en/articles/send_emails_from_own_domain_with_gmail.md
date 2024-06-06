@@ -7,7 +7,6 @@ tags:
 - "cloudflare"
 - "domain"
 description: Tired of paying your provider every month just to use your email(s)? Well, no more, because today we will learn how to configure our email accounts with Gmail in four simple steps
-topic: gmail,Cloudflare,domain
 ---
 
 # 1 - Redirecting Traffic

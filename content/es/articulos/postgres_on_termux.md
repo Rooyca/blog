@@ -3,10 +3,9 @@ title: "Instalar PostgreSQL en Termux"
 date: 2024-01-14
 tags: 
 - "termux"
-- "postgres"
+- "postgresql"
 - "android"
 description: Guia sencilla para instalar PostgreSQL en Termux (Terminal de comando para Android)
-topic: termux,postgres,android
 ---
 
 ## Instalación

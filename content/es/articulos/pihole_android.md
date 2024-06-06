@@ -3,11 +3,10 @@ title: "Pi-hole para Android - [ROOT]"
 date: 2023-05-06
 type: page
 tags: 
-- "Pi-Hole"
-- "Linux"
-- "Android"
+- "pihole"
+- "linux"
+- "android"
 description: Instala Pi-Hole para monitorear tu red en tu dispositivo android (rooteado).
-topic: pi-hole,android,linux
 ---
 
 - Post original: [Aquí](https://github.com/DesktopECHO/Pi-hole-for-Android)

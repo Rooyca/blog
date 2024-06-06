@@ -3,12 +3,10 @@ title: "Build y publica tus paquetes en COPR | Fedora"
 date: 2023-08-18
 type: page
 tags: 
-- "Fedora"
-- "Linux"
-- "Build"
-- "Copr"
+- "fedora"
+- "linux"
+- "build"
 description: "Aprende a construir paquetes RPM y publicarlos en COPR"
-topic: Fedora,Linux,Build,Copr
 ---
 
 ## Empaquetando RPM

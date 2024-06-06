@@ -6,9 +6,7 @@ tags:
 - "rclone"
 - "github"
 - "backups"
-- "rooykup"
 description: Las copias de seguridad son una parte importante de la administración de sistemas. En este artículo aprenderás todo lo que necesitas saber para implementar una estrategia de respaldo completa y automatizada en Linux.
-topic: rclone,github,backups, rooykup
 ---
 
 ## Introducción

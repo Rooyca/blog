@@ -3,10 +3,9 @@ title: "Alternativa self-hosted a Google Analitycs | Ackee"
 date: 2024-06-05
 type: page
 tags: 
-- "Hugo"
-- "Blog"
-- "Analitycs"
-- "Ackee"
+- "hugo"
+- "blog"
+- "analitycs"
 description: "Obten información de tus visitantes sin depender de Google Analitycs"
 ---
 

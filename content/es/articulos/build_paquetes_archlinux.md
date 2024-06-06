@@ -3,12 +3,10 @@ title: "Build y publica tus paquetes en AUR | Archlinux"
 date: 2023-08-16
 type: page
 tags: 
-- "AUR"
-- "Arch"
-- "Linux"
-- "Build"
+- "arch"
+- "linux"
+- "build"
 description: "En este artículo aprenderás a publicar paquetes en el repositorio de usuarios (AUR) de Arch."
-topic: AUR,Arch,Linux,Build
 ---
 
 > **Nota**: Este artículo no profundizará en muchos temas y conceptos, por lo que se recomendable leer la [documentación oficial](https://wiki.archlinux.org/title/Arch_User_Repository) de Arch.

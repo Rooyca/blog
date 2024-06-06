@@ -6,7 +6,6 @@ tags:
 - "steganography"
 - "linux"
 description: ¿Te gustaría leer la obra completa de uno de los grandes de la literatura inglesa pero piensas que es demasiado extensa como para descargarla? Pues el día de hoy te tengo la solución, vamos a extraérla desde una pequeña imagen (2 Megabytes).
-topic: esteganografia
 ---
 
 # Esteganografía

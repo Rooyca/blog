@@ -3,12 +3,10 @@ title: "Agregar comentarios a tu blog usando Github Issues | Utteranc.es"
 date: 2024-03-10
 type: page
 tags: 
-- "Hugo"
-- "Blog"
-- "Github"
-- "Utterances"
+- "hugo"
+- "blog"
+- "github"
 description: "Agrega comentarios a tu Hugo blog usando Github Issues"
-topic: Hugo,Blog,Github,Comments,Utterances
 ---
 
 > [Post original](https://mscipio.github.io/post/utterances-comment-engine/)

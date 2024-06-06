@@ -6,7 +6,6 @@ tags:
 - "flask"
 - "api"
 description: El día de hoy vamos a ver cómo crear una sencilla API con Flask. Este es un proyecto que a primera vista parece complicado, pero ya cuando iniciamos nos damos cuenta de que es todo lo contrario; muy sencillo y divertido de realizar, así que te invito a alistar tu IDE y manos a la obra.
-topic: Flask,api
 ---
 
 Antes que nada, aqui te dejo el [link](https://github.com/Rooyca/API-LoRFinder) por si deseas clonar directamente el repositorio de Github.

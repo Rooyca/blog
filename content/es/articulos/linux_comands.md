@@ -5,7 +5,6 @@ type: page
 tags: 
 - "linux"
 description: ¿Cansando de tener que escribir veinte variables para ejecutar un simple comando? Pues hoy aprenderemos a mapear nuestros comandos haciendo uso de Alias. 
-topic: linux
 ---
 
 # Creando nuestros Aliases

@@ -7,7 +7,6 @@ tags:
 - "rust"
 - "short"
 description: Cómo editar el PATH en Termux
-topic: termux,rust,android,short
 ---
 
 En `$HOME`, usando nuestro editor de confianza, editamos `.bash_profile file` (si no existe, lo creamos)

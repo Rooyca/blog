@@ -2,26 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dablog.pages.dev/es/tags/ackee/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dablog.pages.dev/es/articulos/google_analitycs_alternative_ackee/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dablog.pages.dev/es/tags/analitycs/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dablog.pages.dev/es/articulos/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/blog/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+    <loc>https://dablog.pages.dev/es/tags/buku/</loc>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://dablog.pages.dev/en/tags/buku/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://dablog.pages.dev/es/tags/buku/"
+                />
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/hugo/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+    <loc>https://dablog.pages.dev/es/articulos/from_buku_to_nb/</loc>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/es/tags/nb/</loc>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://dablog.pages.dev/en/tags/nb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://dablog.pages.dev/es/tags/nb/"
+                />
+  </url><url>
+    <loc>https://dablog.pages.dev/es/tags/python/</loc>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://dablog.pages.dev/en/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://dablog.pages.dev/es/tags/python/"
+                />
   </url><url>
     <loc>https://dablog.pages.dev/es/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -34,7 +61,7 @@
                 />
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/</loc>
-    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -45,6 +72,18 @@
                 hreflang="es-ES"
                 href="https://dablog.pages.dev/es/tags/"
                 />
+  </url><url>
+    <loc>https://dablog.pages.dev/es/articulos/google_analitycs_alternative_ackee/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/es/tags/analitycs/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/es/tags/blog/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/es/tags/hugo/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/articulos/remove_html_extention/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
@@ -95,10 +134,7 @@
     <loc>https://dablog.pages.dev/es/tags/github/</loc>
     <lastmod>2024-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/utterances/</loc>
-    <lastmod>2024-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dablog.pages.dev/es/tags/cisco-packet-tracer/</loc>
+    <loc>https://dablog.pages.dev/es/tags/cisco/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/cloud/</loc>
@@ -110,7 +146,7 @@
     <loc>https://dablog.pages.dev/es/tags/lan/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/redes/</loc>
+    <loc>https://dablog.pages.dev/es/tags/red/</loc>
     <lastmod>2024-03-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/access/</loc>
@@ -129,9 +165,6 @@
                 href="https://dablog.pages.dev/es/tags/db/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/digitalpersona/</loc>
-    <lastmod>2024-03-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dablog.pages.dev/es/tags/fingerprint/</loc>
     <lastmod>2024-03-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -141,16 +174,13 @@
     <loc>https://dablog.pages.dev/es/articulos/postgres_on_termux/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/postgres/</loc>
+    <loc>https://dablog.pages.dev/es/tags/postgresql/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/build/</loc>
     <lastmod>2023-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/articulos/build_package_fedora/</loc>
-    <lastmod>2023-08-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dablog.pages.dev/es/tags/copr/</loc>
     <lastmod>2023-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/fedora/</loc>
@@ -162,12 +192,6 @@
     <loc>https://dablog.pages.dev/es/tags/pypi/</loc>
     <lastmod>2023-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/python/</loc>
-    <lastmod>2023-08-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dablog.pages.dev/es/tags/aur/</loc>
-    <lastmod>2023-08-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dablog.pages.dev/es/articulos/build_paquetes_archlinux/</loc>
     <lastmod>2023-08-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -178,9 +202,6 @@
     <lastmod>2023-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/rclone/</loc>
-    <lastmod>2023-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dablog.pages.dev/es/tags/rooykup/</loc>
     <lastmod>2023-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/cli/</loc>
@@ -211,9 +232,6 @@
     <loc>https://dablog.pages.dev/es/articulos/hugo_cloudflare_pages/</loc>
     <lastmod>2023-07-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/pages/</loc>
-    <lastmod>2023-07-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dablog.pages.dev/es/proyectos/markup/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -223,10 +241,10 @@
     <loc>https://dablog.pages.dev/es/proyectos/rooykup/</loc>
     <lastmod>2023-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/pi-hole/</loc>
+    <loc>https://dablog.pages.dev/es/articulos/pihole_android/</loc>
     <lastmod>2023-05-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/articulos/pihole_android/</loc>
+    <loc>https://dablog.pages.dev/es/tags/pihole/</loc>
     <lastmod>2023-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/proyectos/api_request_obsidian_plugin_n/</loc>
@@ -241,10 +259,10 @@
     <loc>https://dablog.pages.dev/es/articulos/cloudflare_url_shortener/</loc>
     <lastmod>2023-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/url-shortener/</loc>
+    <loc>https://dablog.pages.dev/es/tags/workers/</loc>
     <lastmod>2023-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/ensamblador/</loc>
+    <loc>https://dablog.pages.dev/es/tags/asm2/</loc>
     <lastmod>2022-08-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/picoctf/</loc>
@@ -256,8 +274,18 @@
     <loc>https://dablog.pages.dev/es/tags/writeup/</loc>
     <lastmod>2022-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/dominio/</loc>
+    <loc>https://dablog.pages.dev/es/tags/domain/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://dablog.pages.dev/en/tags/domain/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://dablog.pages.dev/es/tags/domain/"
+                />
   </url><url>
     <loc>https://dablog.pages.dev/es/articulos/correos_desde_gmail_con_dominio_propio/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>
@@ -278,23 +306,10 @@
     <loc>https://dablog.pages.dev/es/articulos/wordpress_cloud/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/base-de-datos/</loc>
+    <loc>https://dablog.pages.dev/es/tags/gcloud/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/google-cloud/</loc>
-    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/google-cloud/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/google-cloud/"
-                />
-  </url><url>
-    <loc>https://dablog.pages.dev/es/tags/migraci%C3%B3n/</loc>
+    <loc>https://dablog.pages.dev/es/tags/migracion/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/php/</loc>
@@ -395,8 +410,6 @@
     <loc>https://dablog.pages.dev/es/contacto/</loc>
   </url><url>
     <loc>https://dablog.pages.dev/es/articulos/radio_project_primera_parte/</loc>
-  </url><url>
-    <loc>https://dablog.pages.dev/es/tags/gratis/</loc>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/homelab/</loc>
   </url><url>

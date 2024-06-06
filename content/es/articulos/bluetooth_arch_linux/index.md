@@ -3,11 +3,10 @@ title: "Conecta tus dispositivos Bluetooth en Arch Linux"
 date: 2024-05-18
 type: page
 tags: 
-- "Arch"
-- "Linux"
-- "Bluetooth"
+- "arch"
+- "linux"
+- "bluetooth"
 description: "Linux es todo diversion hasta que tienes que conectar un dispositivo bluetooth."
-topic: Arch,Linux,Bluetooth
 ---
 
 > En el presente artículo se presume que has seguido la guía: [Bluetooth - ArchWiki](https://wiki.archlinux.org/title/bluetooth).

@@ -3,13 +3,12 @@ title: "Subir archivos a Nextcloud desde la línea de comandos"
 date: 2023-07-29
 type: page
 tags: 
-- "Nextcloud"
-- "CLI"
-- "Python"
-- "Windows"
-- "Linux"
+- "nextcloud"
+- "cli"
+- "python"
+- "windows"
+- "linux"
 description: Sube archivos a Nextcloud desde la línea de comandos de manera rápida y sencilla.
-topic: Nextcloud, CLI, Python, Windows, Linux
 ---
 
 > Puedes encontrar todos los archivos necesarios para este tutorial en el siguiente repo: [https://github.com/Rooyca/upload-nextcloud-cli](https://github.com/Rooyca/upload-nextcloud-cli)

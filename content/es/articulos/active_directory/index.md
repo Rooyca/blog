@@ -5,9 +5,8 @@ type: page
 tags: 
 - "active directory"
 - "homelab"
-- "Windows"
+- "windows"
 description: Generalidades sobre active directory, cómo configurarlo, cómo usarlo, etc.
-topic: Active directory, homelab, Windows
 ---
 
 ## Requisitos Homelab

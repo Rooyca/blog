@@ -3,10 +3,9 @@ title: "Creando un acortador de enlaces en 12 lineas de código usando Cloudflar
 date: 2023-03-19
 type: page
 tags: 
-- "Cloudflare"
-- "URL Shortener"
+- "cloudflare"
+- "workers"
 description: Crear un acortador de enlaces con esta herramienta es muy fácil, aquí un pequeño tutorial de cómo hacerlo.
-topic: Cloudflare
 ---
 
 *Post original [aquí](https://thomaslevesque.com/2022/11/01/building-a-url-shortener-in-12-lines-of-code-using-cloudflare-workers/)*

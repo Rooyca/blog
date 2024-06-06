@@ -5,9 +5,8 @@ type: page
 tags: 
 - "gmail"
 - "cloudflare"
-- "dominio"
+- "domain"
 description: ¿Cansado de pagarle a tu proveedor mes a mes para poder usar tu(s) correo(s)? Pues ya no más porque hoy aprenderemos a configurar nuestras cuentas de correo con Gmail en cuatro sencillos pasos.
-topic: gmail,Cloudflare,dominio
 ---
 
 # Primero - Redireccionar el trafico

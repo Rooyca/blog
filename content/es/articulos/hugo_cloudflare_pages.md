@@ -3,12 +3,10 @@ title: "Crea tu blog con HUGO y publicalo en Cloudflare Pages"
 date: 2023-07-27
 type: page
 tags: 
-- "Cloudflare"
-- "Blog"
-- "Pages"
-- "Hugo"
+- "cloudflare"
+- "blog"
+- "hugo"
 description: Crear un blog con HUGO (un generador de sitios estáticos) y públicalo en Cloudflare Pages usando GitHub.
-topic: Cloudflare, blog, Hugo
 ---
 
 > POST Original: [https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/)

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Buku on rooyca</title>
+    <link>https://dablog.pages.dev/en/tags/buku/</link>
+    <description>Recent content in Buku on rooyca</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>© 2024</copyright>
+    <lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dablog.pages.dev/en/tags/buku/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrating from buku to nb with Python</title>
+      <link>https://dablog.pages.dev/en/articles/from_buku_to_nb/</link>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/en/articles/from_buku_to_nb/</guid>
+      <description>What is buku buku is, according to its developers, &amp;ldquo;a powerful bookmark manager and a personal textual mini-web&amp;rdquo;. One of its main strengths is that its records are stored in an SQL database, making searches extremely fast.&#xA;What is nb nb is, according to its GitHub description, a &amp;ldquo;CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning &amp;amp; syncing, Pandoc conversion, + more, in a single portable script&amp;rdquo;.</description>
+    </item>
+  </channel>
+</rss>

@@ -3,13 +3,12 @@ title: "Alojar Wordpress en la nube (Google Cloud)"
 date: 2022-07-01
 type: page
 tags: 
-- "Wordpress"
-- "Google Cloud"
-- "Migración"
+- "wordpress"
+- "gcloud"
+- "migracion"
 - "php"
-- "Base de Datos"
+- "db"
 description: ¿Has pensado en alojar tu sitio con WordPress en la nube, pero no sabes cómo? Hoy aprenderemos juntos el proceso para correr nuestro sitio en Google Cloud, pero un proceso similar podría utilizarse para correrlo en cualquier otra plataforma como AWS o Azure.
-topic: cloud,wordpress
 ---
 
 ![Wordpress](https://upload.wikimedia.org/wikipedia/commons/2/20/WordPress_logo.svg)

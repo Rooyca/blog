@@ -3,9 +3,8 @@ title: "Eliminar la extensión .html de una URL"
 date: 2024-06-03
 type: page
 tags: 
-- "HTML"
+- "html"
 description: "Cómo eliminar la extensión .html de una URL en un sitio web estático."
-topic: HTML
 ---
 
 Si no sabes de lo que estoy hablando, es cuando visitas un sitio web y la URL se ve algo así https://example.com/about.html. Específicamente, la ultima parte `.html`. La mayoría de las personas les gustaría ver algo como https://example.com/about. ¿Es más bonito, no te parece?

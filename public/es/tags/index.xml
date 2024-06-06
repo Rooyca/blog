@@ -7,13 +7,27 @@
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
-    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dablog.pages.dev/es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ackee</title>
-      <link>https://dablog.pages.dev/es/tags/ackee/</link>
+      <title>Buku</title>
+      <link>https://dablog.pages.dev/es/tags/buku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/ackee/</guid>
+      <guid>https://dablog.pages.dev/es/tags/buku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nb</title>
+      <link>https://dablog.pages.dev/es/tags/nb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/tags/nb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://dablog.pages.dev/es/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/tags/python/</guid>
       <description></description>
     </item>
     <item>
@@ -38,7 +52,7 @@
       <description></description>
     </item>
     <item>
-      <title>HTML</title>
+      <title>Html</title>
       <link>https://dablog.pages.dev/es/tags/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/tags/html/</guid>
@@ -101,38 +115,31 @@
       <description></description>
     </item>
     <item>
-      <title>Utterances</title>
-      <link>https://dablog.pages.dev/es/tags/utterances/</link>
+      <title>Cisco</title>
+      <link>https://dablog.pages.dev/es/tags/cisco/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/utterances/</guid>
+      <guid>https://dablog.pages.dev/es/tags/cisco/</guid>
       <description></description>
     </item>
     <item>
-      <title>Cisco Packet Tracer</title>
-      <link>https://dablog.pages.dev/es/tags/cisco-packet-tracer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/cisco-packet-tracer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CLOUD</title>
+      <title>Cloud</title>
       <link>https://dablog.pages.dev/es/tags/cloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
-      <title>LAN</title>
+      <title>Lan</title>
       <link>https://dablog.pages.dev/es/tags/lan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/tags/lan/</guid>
       <description></description>
     </item>
     <item>
-      <title>Redes</title>
-      <link>https://dablog.pages.dev/es/tags/redes/</link>
+      <title>Red</title>
+      <link>https://dablog.pages.dev/es/tags/red/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/redes/</guid>
+      <guid>https://dablog.pages.dev/es/tags/red/</guid>
       <description></description>
     </item>
     <item>
@@ -143,17 +150,10 @@
       <description></description>
     </item>
     <item>
-      <title>DB</title>
+      <title>Db</title>
       <link>https://dablog.pages.dev/es/tags/db/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/tags/db/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>DigitalPersona</title>
-      <link>https://dablog.pages.dev/es/tags/digitalpersona/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/digitalpersona/</guid>
       <description></description>
     </item>
     <item>
@@ -164,10 +164,10 @@
       <description></description>
     </item>
     <item>
-      <title>Postgres</title>
-      <link>https://dablog.pages.dev/es/tags/postgres/</link>
+      <title>Postgresql</title>
+      <link>https://dablog.pages.dev/es/tags/postgresql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/postgres/</guid>
+      <guid>https://dablog.pages.dev/es/tags/postgresql/</guid>
       <description></description>
     </item>
     <item>
@@ -178,13 +178,6 @@
       <description></description>
     </item>
     <item>
-      <title>Copr</title>
-      <link>https://dablog.pages.dev/es/tags/copr/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/copr/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Fedora</title>
       <link>https://dablog.pages.dev/es/tags/fedora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -192,24 +185,10 @@
       <description></description>
     </item>
     <item>
-      <title>PyPI</title>
+      <title>Pypi</title>
       <link>https://dablog.pages.dev/es/tags/pypi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/tags/pypi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://dablog.pages.dev/es/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AUR</title>
-      <link>https://dablog.pages.dev/es/tags/aur/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/aur/</guid>
       <description></description>
     </item>
     <item>
@@ -227,14 +206,7 @@
       <description></description>
     </item>
     <item>
-      <title>Rooykup</title>
-      <link>https://dablog.pages.dev/es/tags/rooykup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/rooykup/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CLI</title>
+      <title>Cli</title>
       <link>https://dablog.pages.dev/es/tags/cli/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/tags/cli/</guid>
@@ -262,31 +234,24 @@
       <description></description>
     </item>
     <item>
-      <title>Pages</title>
-      <link>https://dablog.pages.dev/es/tags/pages/</link>
+      <title>Pihole</title>
+      <link>https://dablog.pages.dev/es/tags/pihole/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/pages/</guid>
+      <guid>https://dablog.pages.dev/es/tags/pihole/</guid>
       <description></description>
     </item>
     <item>
-      <title>Pi-Hole</title>
-      <link>https://dablog.pages.dev/es/tags/pi-hole/</link>
+      <title>Workers</title>
+      <link>https://dablog.pages.dev/es/tags/workers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/pi-hole/</guid>
+      <guid>https://dablog.pages.dev/es/tags/workers/</guid>
       <description></description>
     </item>
     <item>
-      <title>URL Shortener</title>
-      <link>https://dablog.pages.dev/es/tags/url-shortener/</link>
+      <title>Asm2</title>
+      <link>https://dablog.pages.dev/es/tags/asm2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/url-shortener/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ensamblador</title>
-      <link>https://dablog.pages.dev/es/tags/ensamblador/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/ensamblador/</guid>
+      <guid>https://dablog.pages.dev/es/tags/asm2/</guid>
       <description></description>
     </item>
     <item>
@@ -304,10 +269,10 @@
       <description></description>
     </item>
     <item>
-      <title>Dominio</title>
-      <link>https://dablog.pages.dev/es/tags/dominio/</link>
+      <title>Domain</title>
+      <link>https://dablog.pages.dev/es/tags/domain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/dominio/</guid>
+      <guid>https://dablog.pages.dev/es/tags/domain/</guid>
       <description></description>
     </item>
     <item>
@@ -318,24 +283,17 @@
       <description></description>
     </item>
     <item>
-      <title>Base De Datos</title>
-      <link>https://dablog.pages.dev/es/tags/base-de-datos/</link>
+      <title>Gcloud</title>
+      <link>https://dablog.pages.dev/es/tags/gcloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/base-de-datos/</guid>
+      <guid>https://dablog.pages.dev/es/tags/gcloud/</guid>
       <description></description>
     </item>
     <item>
-      <title>Google Cloud</title>
-      <link>https://dablog.pages.dev/es/tags/google-cloud/</link>
+      <title>Migracion</title>
+      <link>https://dablog.pages.dev/es/tags/migracion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/google-cloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Migración</title>
-      <link>https://dablog.pages.dev/es/tags/migraci%C3%B3n/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/migraci%C3%B3n/</guid>
+      <guid>https://dablog.pages.dev/es/tags/migracion/</guid>
       <description></description>
     </item>
     <item>
@@ -360,7 +318,7 @@
       <description></description>
     </item>
     <item>
-      <title>IPFS</title>
+      <title>Ipfs</title>
       <link>https://dablog.pages.dev/es/tags/ipfs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/tags/ipfs/</guid>
@@ -392,13 +350,6 @@
       <link>https://dablog.pages.dev/es/tags/active-directory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/tags/active-directory/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gratis</title>
-      <link>https://dablog.pages.dev/es/tags/gratis/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/gratis/</guid>
       <description></description>
     </item>
     <item>

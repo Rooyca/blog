@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
-    <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dablog.pages.dev/es/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Migrar de buku a nb con Python</title>
+      <link>https://dablog.pages.dev/es/articulos/from_buku_to_nb/</link>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/articulos/from_buku_to_nb/</guid>
+      <description>Qué es buku buku es, según los mismos desarrolladores, &amp;ldquo;un potente gestor de marcadores y una miniweb personal&amp;rdquo;. Uno de sus principales fuertes es que sus registros se guardan en una base de datos SQL por lo que la búsqueda es extremadamente rápida.&#xA;Qué es nb nb es, según su descripción en GitHub, &amp;ldquo;una CLI para tomar notas, guardar marcadores, etiquetar archivos, filtrar, buscar, versionar y sincronizar con Git. También incluye conversión de archivos usando Pandoc, y mucho más, todo esto en un solo script&amp;rdquo;.</description>
+    </item>
     <item>
       <title>Build y publica tus paquetes en PyPI</title>
       <link>https://dablog.pages.dev/es/articulos/build_package_python/</link>

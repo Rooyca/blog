@@ -4,10 +4,9 @@ date: 2022-08-31
 type: page
 tags: 
 - "picoctf"
-- "ensamblador"
+- "asm2"
 - "writeup"
 description: Este es un Writeup a uno de los retos de la página PicoCTF llamado asm2.
-topic: asm2,picoctf,writeup
 ---
 
 # Información:

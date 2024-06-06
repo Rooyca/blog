@@ -5,9 +5,7 @@ type: page
 tags: 
 - "radio"
 - "musica"
-- "gratis"
 description: Aunque para muchos la radio es cosa del pasado, para otros es un medio de entretenimiento al cual le tienen mucho cariño, yo soy uno de esos otros por lo que en este post aprenderemos a crear una estación de radio online.
-topic: radio,gratis
 ---
 
 # Bienvenidx a Radio Project

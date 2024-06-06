@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DB on rooyca</title>
+    <title>Db on rooyca</title>
     <link>https://dablog.pages.dev/es/tags/db/</link>
-    <description>Recent content in DB on rooyca</description>
+    <description>Recent content in Db on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
@@ -15,6 +15,13 @@
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/lector_huella_access/</guid>
       <description>Introducción En este artículo se muestra de manera muy sencilla cómo integrar un lector de huella digital (U.are.U 4500) con una base de datos en Access. Para ello, se hace uso de las librerias que proporciona el RTE de DigitalPersona. Para más información, se puede consultar la documentación oficial.&#xA;Requisitos Descargar SDK Fingerprint Enrollment Workflow Fingerprint Verification Workflow Fingerprint Data Object Serialization/Deserialization Serialización Deserialización Evento Capture_OnComplete en el enrolamiento Private Sub Capture_OnComplete(ByVal ReaderSerNum As String, ByVal Sample As Object) Dim Feedback As DPFPCaptureFeedbackEnum Dim blob() As Byte Feedback = CreateFtrs.</description>
+    </item>
+    <item>
+      <title>Alojar Wordpress en la nube (Google Cloud)</title>
+      <link>https://dablog.pages.dev/es/articulos/wordpress_cloud/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/articulos/wordpress_cloud/</guid>
+      <description>Creando la Máquina Virtual &amp;ldquo;WordPress es un sistema de gestión de contenidos lanzado el 27 de mayo de 2003, enfocado a la creación de cualquier tipo de página web&amp;rdquo;. Según estas veinte estadísticas sobre WordPress para el 2022 encontramos que WordPress es usado por el 43.2% de todas las páginas en Internet.&#xA;Para poder correr WordPress en Google Cloud (GCloud de ahora en adelante), primeramente debemos crear una máquina virtual con una de las imágenes con las que cuenta GCloud.</description>
     </item>
   </channel>
 </rss>
