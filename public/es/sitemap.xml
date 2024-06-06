@@ -2,17 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dablog.pages.dev/es/tags/ackee/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/es/articulos/google_analitycs_alternative_ackee/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/es/tags/analitycs/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dablog.pages.dev/es/articulos/</loc>
-    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/articulos/remove_html_extention/</loc>
-    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+    <loc>https://dablog.pages.dev/es/tags/blog/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/html/</loc>
-    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+    <loc>https://dablog.pages.dev/es/tags/hugo/</loc>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/</loc>
-    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -25,7 +34,7 @@
                 />
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/</loc>
-    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-05T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
@@ -36,6 +45,12 @@
                 hreflang="es-ES"
                 href="https://dablog.pages.dev/es/tags/"
                 />
+  </url><url>
+    <loc>https://dablog.pages.dev/es/articulos/remove_html_extention/</loc>
+    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/es/tags/html/</loc>
+    <lastmod>2024-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/android/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
@@ -77,13 +92,7 @@
     <loc>https://dablog.pages.dev/es/articulos/agregar_comentarios_blog_hugo/</loc>
     <lastmod>2024-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/blog/</loc>
-    <lastmod>2024-03-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dablog.pages.dev/es/tags/github/</loc>
-    <lastmod>2024-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dablog.pages.dev/es/tags/hugo/</loc>
     <lastmod>2024-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/utterances/</loc>

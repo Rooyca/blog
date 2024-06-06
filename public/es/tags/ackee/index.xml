@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ackee on rooyca</title>
+    <link>https://dablog.pages.dev/es/tags/ackee/</link>
+    <description>Recent content in Ackee on rooyca</description>
+    <generator>Hugo</generator>
+    <language>es-ES</language>
+    <copyright>© 2024</copyright>
+    <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dablog.pages.dev/es/tags/ackee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alternativa self-hosted a Google Analitycs | Ackee</title>
+      <link>https://dablog.pages.dev/es/articulos/google_analitycs_alternative_ackee/</link>
+      <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/articulos/google_analitycs_alternative_ackee/</guid>
+      <description>Ackee es una alternativa a Google Analitycs, es de código abierto y self-hosted. Es una herramienta que te permite obtener información de tus visitantes sin depender de Google Analitycs.&#xA;Ventajas de Ackee Privacidad: No compartes información con terceros. Open Source: Puedes ver el código fuente y modificarlo a tu gusto. Self-hosted: Tienes el control total de tus datos. Fácil de instalar: Puedes instalarlo en tu servidor en minutos. Instalación de Ackee Para instalar Ackee necesitas tener un servidor con Node.</description>
+    </item>
+  </channel>
+</rss>
