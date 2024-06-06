@@ -4,7 +4,7 @@
 
 <div class="container-tags">
 <ul class="terms-tags">
-    {{ range sort .Site.Taxonomies.tags }}
+    {{ range sort .Site.Taxonomies.tags "Count" "desc" }}
         <li>
             <a href="{{ .Page.Permalink }}"><i class="fas fa-tags"></i> {{ .Page.Title }} <sup><strong><sup>{{ .Count }}</sup></strong></sup> </a>
         </li>
