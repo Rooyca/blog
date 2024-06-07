@@ -7,6 +7,10 @@ tags:
 description: "Cómo eliminar la extensión .html de una URL en un sitio web estático."
 ---
 
+{{< box info >}}
+[**Post original (en Inglés)**](https://kevquirk.com/how-to-remove-the-html-extension-from-a-url)
+{{< /box >}}
+
 Si no sabes de lo que estoy hablando, es cuando visitas un sitio web y la URL se ve algo así https://example.com/about.html. Específicamente, la ultima parte `.html`. La mayoría de las personas les gustaría ver algo como https://example.com/about. ¿Es más bonito, no te parece?
 
 Afortunadamente, es bastante fácil de hacer en un sitio web estático. Aquí te muestro dos formas de hacerlo.
@@ -55,7 +59,3 @@ Lo que este fragmento de código hace es eliminar `.html` de la URL. También re
 ## Conclusión
 
 Eso sería todo. Con cualquiera de estas soluciones, deberías poder eliminar la extensión HTML de todas tus URL. Si tienes alguna pregunta, no dudes en dejarme un comentario.
-
----
-
-**Post original (en Inglés)**: https://kevquirk.com/how-to-remove-the-html-extension-from-a-url

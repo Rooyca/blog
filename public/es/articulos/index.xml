@@ -28,7 +28,7 @@
       <link>https://dablog.pages.dev/es/articulos/remove_html_extention/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/remove_html_extention/</guid>
-      <description>Si no sabes de lo que estoy hablando, es cuando visitas un sitio web y la URL se ve algo así https://example.com/about.html. Específicamente, la ultima parte .html. La mayoría de las personas les gustaría ver algo como https://example.com/about. ¿Es más bonito, no te parece?&#xA;Afortunadamente, es bastante fácil de hacer en un sitio web estático. Aquí te muestro dos formas de hacerlo.&#xA;Método 1: Poner las páginas en carpetas Por ejemplo, si tenemos una estructura de páginas como esta:</description>
+      <description>Post original (en Inglés)&#xA;Si no sabes de lo que estoy hablando, es cuando visitas un sitio web y la URL se ve algo así https://example.com/about.html. Específicamente, la ultima parte .html. La mayoría de las personas les gustaría ver algo como https://example.com/about. ¿Es más bonito, no te parece?&#xA;Afortunadamente, es bastante fácil de hacer en un sitio web estático. Aquí te muestro dos formas de hacerlo.&#xA;Método 1: Poner las páginas en carpetas Por ejemplo, si tenemos una estructura de páginas como esta:</description>
     </item>
     <item>
       <title>Editar PATH en Termux</title>
@@ -70,14 +70,21 @@
       <link>https://dablog.pages.dev/es/articulos/postgres_on_termux/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/postgres_on_termux/</guid>
-      <description>Instalación Instalamos el paquete postgresql:&#xA;pkg install postgresql Luego creamos el skeleton de la base de datos:&#xA;mkdir -p $PREFIX/var/lib/postgresql initdb -D $PREFIX/var/lib/postgresql Ahora iniciamos nuestra DB:&#xA;pg_ctl -D $PREFIX/var/lib/postgresql start Cuando queramos detenerla podemos usar:&#xA;pg_ctl -D $PREFIX/var/lib/postgresql stop Para conectarnos necesitamos un usuario. Podemos crear uno usando:&#xA;createuser --superuser --pwprompt NOMBRE_DE_USUARIO Para crear una base de datos usamos:&#xA;createdb NOMBRE_DE_BASE_DE_DATOS Nos conectamos usando:&#xA;psql NOMBRE_DE_BASE_DE_DATOS Acceder a la DB en Local Para acceder a la base de datos desde otra terminal o cliente debemos configurar los archivos pg_hba.</description>
+      <description>Post Original&#xA;Instalación Instalamos el paquete postgresql:&#xA;pkg install postgresql Luego creamos el skeleton de la base de datos:&#xA;mkdir -p $PREFIX/var/lib/postgresql initdb -D $PREFIX/var/lib/postgresql Ahora iniciamos nuestra DB:&#xA;pg_ctl -D $PREFIX/var/lib/postgresql start Cuando queramos detenerla podemos usar:&#xA;pg_ctl -D $PREFIX/var/lib/postgresql stop Para conectarnos necesitamos un usuario. Podemos crear uno usando:&#xA;createuser --superuser --pwprompt NOMBRE_DE_USUARIO Para crear una base de datos usamos:&#xA;createdb NOMBRE_DE_BASE_DE_DATOS Nos conectamos usando:&#xA;psql NOMBRE_DE_BASE_DE_DATOS Acceder a la DB en Local Para acceder a la base de datos desde otra terminal o cliente debemos configurar los archivos pg_hba.</description>
+    </item>
+    <item>
+      <title>Active Directory (Homelab)</title>
+      <link>https://dablog.pages.dev/es/articulos/active_directory/</link>
+      <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/articulos/active_directory/</guid>
+      <description>Requisitos Homelab Virtualización: VMWare ISO: Windows Server 2022 &amp;amp; Windows 10 Pro Configuración VMWare En este caso usaré VMWare Workstation PRO 17. Es importante ingresar una licencia válida para poder usar todas las funcionalidades, podemos usar una de las que se encuentran en este gist.&#xA;Windows Server 2022 Instalación Descargar la ISO de Windows Server 2022 desde aquí Crear una nueva máquina virtual en VMWare (Usar BIOS en caso de encontrar algún problema a la hora de bootear) Instalar Windows Server 2022 Cambiar nombre del equipo Configurar la red (IP estática y/o 127.</description>
     </item>
     <item>
       <title>Build y publica tus paquetes en COPR | Fedora</title>
       <link>https://dablog.pages.dev/es/articulos/build_package_fedora/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/build_package_fedora/</guid>
-      <description>Empaquetando RPM Link original: RPM Packaging&#xA;Ejecuta:&#xA;sudo dnf install fedora-packager rpmdevtools gcc rpmdev-setuptree cd ~/rpmbuild/SOURCES wget http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz cd ~/rpmbuild/SPECS rpmdev-newspec --macros hello.spec Ahora puedes abrir el archivo hello.spec y modificarlo. Coloca el siguiente contenido:&#xA;Name: hello Version: 2.10 Release: 1%{?dist} Summary: El programa &amp;#34;Hola Mundo&amp;#34; de GNU License: GPLv3+ URL: http://ftp.gnu.org/gnu/hello Source0: https://ftp.gnu.org/gnu/hello/hello-%{version}.tar.gz BuildRequires: gettext Requires(post): info Requires(preun): info %description El programa &amp;#34;Hola Mundo&amp;#34;, realizado con todas las características de un proyecto FOSS adecuado, incluyendo configuración, construcción, internacionalización, archivos de ayuda, etc.</description>
+      <description>Link original: RPM Packaging&#xA;Empaquetando RPM Ejecuta:&#xA;sudo dnf install fedora-packager rpmdevtools gcc rpmdev-setuptree cd ~/rpmbuild/SOURCES wget http://ftp.gnu.org/gnu/hello/hello-2.10.tar.gz cd ~/rpmbuild/SPECS rpmdev-newspec --macros hello.spec Ahora puedes abrir el archivo hello.spec y modificarlo. Coloca el siguiente contenido:&#xA;Name: hello Version: 2.10 Release: 1%{?dist} Summary: El programa &amp;#34;Hola Mundo&amp;#34; de GNU License: GPLv3+ URL: http://ftp.gnu.org/gnu/hello Source0: https://ftp.gnu.org/gnu/hello/hello-%{version}.tar.gz BuildRequires: gettext Requires(post): info Requires(preun): info %description El programa &amp;#34;Hola Mundo&amp;#34;, realizado con todas las características de un proyecto FOSS adecuado, incluyendo configuración, construcción, internacionalización, archivos de ayuda, etc.</description>
     </item>
     <item>
       <title>Build y publica tus paquetes en PyPI</title>
@@ -91,7 +98,7 @@
       <link>https://dablog.pages.dev/es/articulos/build_paquetes_archlinux/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/build_paquetes_archlinux/</guid>
-      <description>Nota: Este artículo no profundizará en muchos temas y conceptos, por lo que se recomendable leer la documentación oficial de Arch.&#xA;Nota: El contenido de este artículo se basa en mi experiencia personal, por lo que puede que no sea la mejor forma de hacerlo.&#xA;Resultado final: hmta&#xA;Introducción El repositorio de usuarios de Arch (AUR) es un repositorio impulsado por la comunidad y para la comunidad. Contiene descripciones de paquetes (PKGBUILD) que te permiten compilar un paquete desde el código fuente con makepkg y luego instalarlo a través de pacman.</description>
+      <description>El contenido de este artículo se basa en mi experiencia personal, por lo que pueden haber errores.&#xA;Este artículo no profundiza en muchos temas, por lo que es recomendable leer la documentación oficial de Arch.&#xA;Resultado final: hmta&#xA;Introducción El repositorio de usuarios de Arch (AUR) es un repositorio impulsado por la comunidad y para la comunidad. Contiene descripciones de paquetes (PKGBUILD) que te permiten compilar un paquete desde el código fuente con makepkg y luego instalarlo a través de pacman.</description>
     </item>
     <item>
       <title>Guía completa sobre Backups usando rooykup, rclone y github</title>
@@ -105,28 +112,35 @@
       <link>https://dablog.pages.dev/es/articulos/upload_files_nextcloud_cli/</link>
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/upload_files_nextcloud_cli/</guid>
-      <description>Puedes encontrar todos los archivos necesarios para este tutorial en el siguiente repo: https://github.com/Rooyca/upload-nextcloud-cli&#xA;Te recomiendo clonar el repositorio en tu equipo. Para ello ejecuta el siguiente comando en la terminal:&#xA;git clone https://github.com/Rooyca/upload-nextcloud-cli Configuración Crear un link compartido para una carpeta de Nextcloud. Recordar seleccionar la opción &amp;ldquo;File Drop (upload only)&amp;rdquo;, o &amp;ldquo;Allow upload and editing&amp;rdquo; al crear el link compartido. Imagen tomada de https://cylab.be&#xA;Copiar el link compartido.</description>
+      <description>Github repo: https://github.com/Rooyca/upload-nextcloud-cli&#xA;Configuración Crear un link compartido para una carpeta de Nextcloud. Recordar seleccionar la opción &amp;ldquo;File Drop (upload only)&amp;rdquo;, o &amp;ldquo;Allow upload and editing&amp;rdquo; al crear el link compartido. Imagen tomada de https://cylab.be&#xA;Copiar el link compartido. El link debe tener el siguiente formato: https://nextcloud.example.com/index.php/s/xXxXxXxXx Ejecución En el repositorio podemos encontrar tres formas de ejecutar el script, dependiendo del sistema operativo que estemos utilizando o de si tenemos instalado Python en nuestro sistema.</description>
     </item>
     <item>
       <title>Crea tu blog con HUGO y publicalo en Cloudflare Pages</title>
       <link>https://dablog.pages.dev/es/articulos/hugo_cloudflare_pages/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/hugo_cloudflare_pages/</guid>
-      <description>POST Original: https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/&#xA;Instalar Hugo Instala el CLI de Hugo, con las instrucciones adecuadas para tu sistema operativo:&#xA;Linux Hugo puede venir incluido en el package manager de tu distro. Si ese es el caso, puedes instalarlo directamente usando el package manager. - por ejemplo, en Ubuntu, usa el siguiente comando:&#xA;sudo apt-get install hugo Si, por el contrario, tu package manager no incluye Hugo o deseas descargarlo directamente, dirigete a la parte de Instalación Manual.</description>
+      <description>POST Original&#xA;Instalar Hugo Instala el CLI de Hugo, con las instrucciones adecuadas para tu sistema operativo:&#xA;Linux Hugo puede venir incluido en el package manager de tu distro. Si ese es el caso, puedes instalarlo directamente usando el package manager. - por ejemplo, en Ubuntu, usa el siguiente comando:&#xA;sudo apt-get install hugo Si, por el contrario, tu package manager no incluye Hugo o deseas descargarlo directamente, dirigete a la parte de Instalación Manual.</description>
     </item>
     <item>
       <title>Pi-hole para Android - [ROOT]</title>
       <link>https://dablog.pages.dev/es/articulos/pihole_android/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/pihole_android/</guid>
-      <description>Post original: Aquí Nota: No hay ningún respaldo o asociación entre esta página y Pi-hole© LLC. Si encuentras esto útil, ellos merecen tu apoyo.&#xA;Pi-hole es una aplicación para el bloqueo de anuncios y rastreadores para Linux que actúa como un &amp;ldquo;agujero negro&amp;rdquo; de DNS destinado mayoritariamente para el uso en redes privadas. Está diseñado para dispositivos integrados de baja potencia con capacidad de red, enfocándose en la Raspberry Pi como su plataforma de hardware de referencia.</description>
+      <description>Post original&#xA;Pi-hole es una aplicación para el bloqueo de anuncios y rastreadores para Linux que actúa como un &amp;ldquo;agujero negro&amp;rdquo; de DNS destinado mayoritariamente para el uso en redes privadas. Está diseñado para dispositivos integrados de baja potencia con capacidad de red, enfocándose en la Raspberry Pi como su plataforma de hardware de referencia.&#xA;Pi-hole para Android es una imagen de disco de Raspbian ajustada para funcionar con el instalador de Pi-hole en Pi Deploy (un fork de Linux Deploy).</description>
+    </item>
+    <item>
+      <title>Crear una estacion de radio online - Parte 1</title>
+      <link>https://dablog.pages.dev/es/articulos/radio_project_primera_parte/</link>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/articulos/radio_project_primera_parte/</guid>
+      <description>Radio Project Hoy quiero comenzar una serie de publicaciones en las que iremos aprendiendo juntos los pasos que hay que seguir a la hora de crear una estación de radio online. En un primer momento, cuando comencé con este proyecto me encontré con varias plataformas que ofrecían este servicio de forma gratuita, pero la gran mayoría de páginas eran de pago y otras habían envejecido bastante mal, es decir, su interfaz no era la más moderna, precisamente; Pero un día encontré ZenoRadio (NO ES PUBLICIDAD, en verdad es buena la plataforma), una alternativa moderna y con un plan gratuito bastante generoso.</description>
     </item>
     <item>
       <title>Creando un acortador de enlaces en 12 lineas de código usando Cloudflare Workers &#43; Bonus</title>
       <link>https://dablog.pages.dev/es/articulos/cloudflare_url_shortener/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/cloudflare_url_shortener/</guid>
-      <description>Post original aquí&#xA;Cloudflare Workers Cloudflare Workers, de forma muy resumida, es un entorno serverless que corre Javascript. Básicamente, escribes código que se ocupa de peticiones HTTP, similar a Node.js. El código es desplegado globalmente en toda la red de Cloudflare, lo que significa que siempre está corriendo lo más cerca posible del usuario final.&#xA;Para este proyecto, al ser algo pequeño, con el plan gratis será más que suficiente. Si te interesa hacer algo más grande te vendría bien revisar los planes de pago.</description>
+      <description>Post original&#xA;Cloudflare Workers Cloudflare Workers, de forma muy resumida, es un entorno serverless que corre Javascript. Básicamente, escribes código que se ocupa de peticiones HTTP, similar a Node.js. El código es desplegado globalmente en toda la red de Cloudflare, lo que significa que siempre está corriendo lo más cerca posible del usuario final.&#xA;Para este proyecto, al ser algo pequeño, con el plan gratis será más que suficiente. Si te interesa hacer algo más grande te vendría bien revisar los planes de pago.</description>
     </item>
     <item>
       <title>PicoCTF Writeup – Reverse Engineering (asm2)</title>
@@ -154,7 +168,7 @@
       <link>https://dablog.pages.dev/es/articulos/compartir_archivos_ipfs/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/compartir_archivos_ipfs/</guid>
-      <description>IPFS, o Interplanetary File System, creado por Protocol Labs, es un protocolo peer-to-peer donde cada nodo almacena una colección de archivos hasheados. Un usuario que desee alguno de esos archivos se conecta a una capa de este protocolo y por medio del Hash, IPFS se encarga &amp;ldquo;recolectar&amp;rdquo; el archivo que está distribuido a través de los nodos y finalmente envía el archivo al usuario que lo solicitó.&#xA;¿Recuerdan BitTorrent? Pues es parecido, solo que con IPFS tienes más control de tus archivos y se hace referencia a tus archivos por medio de hashes.</description>
+      <description>Post original&#xA;IPFS, o Interplanetary File System, creado por Protocol Labs, es un protocolo peer-to-peer donde cada nodo almacena una colección de archivos hasheados. Un usuario que desee alguno de esos archivos se conecta a una capa de este protocolo y por medio del Hash, IPFS se encarga &amp;ldquo;recolectar&amp;rdquo; el archivo que está distribuido a través de los nodos y finalmente envía el archivo al usuario que lo solicitó.</description>
     </item>
     <item>
       <title>Como extraer la obra completa de Shakespeare de una Imagen</title>
@@ -176,20 +190,6 @@
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/linux_comands/</guid>
       <description>Creando nuestros Aliases Alias es una forma sencilla de mapper, bindear, unir(?) comandos. Esta es la mejor manera de ahorrarnos tiempo a la hora de escribir cadenas larguísimas de comandos. Si nosotros escribimos &amp;ldquo;alias&amp;rdquo; en nuestra terminal debería aparecernos los aliases predeterminados de nuestro sistema, algo así: Como podran notar, en mi caso tengo dos alias customizados: price y subl; el primero es un script en python que uso para ver el comportamiento del mercado crypto y el segundo es simplemtente para abrir SublimeText.</description>
-    </item>
-    <item>
-      <title>Active Directory (Homelab)</title>
-      <link>https://dablog.pages.dev/es/articulos/active_directory/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/articulos/active_directory/</guid>
-      <description>Requisitos Homelab Virtualización: VMWare ISO: Windows Server 2022 &amp;amp; Windows 10 Pro Configuración VMWare En este caso usaré VMWare Workstation PRO 17. Es importante ingresar una licencia válida para poder usar todas las funcionalidades, podemos usar una de las que se encuentran en este gist.&#xA;Windows Server 2022 Instalación Descargar la ISO de Windows Server 2022 desde aquí Crear una nueva máquina virtual en VMWare (Usar BIOS en caso de encontrar algún problema a la hora de bootear) Instalar Windows Server 2022 Cambiar nombre del equipo Configurar la red (IP estática y/o 127.</description>
-    </item>
-    <item>
-      <title>Crear una estacion de radio online 100% Gratis - Radio Project (Parte 1)</title>
-      <link>https://dablog.pages.dev/es/articulos/radio_project_primera_parte/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/articulos/radio_project_primera_parte/</guid>
-      <description>Bienvenidx a Radio Project Hoy quiero comenzar una serie de publicaciones en las que iremos aprendiendo juntos los pasos que hay que seguir a la hora de crear una estación de radio online. En un primer momento, cuando comencé con este proyecto me encontré con varias plataformas que ofrecían este servicio de forma gratuita, pero la gran mayoría de páginas eran de pago y otras habían envejecido bastante mal, es decir, su interfaz no era la más moderna, precisamente; Pero un día encontré ZenoRadio (NO ES PUBLICIDAD, en verdad es buena la plataforma), una alternativa moderna y con un plan gratuito bastante generoso.</description>
     </item>
   </channel>
 </rss>

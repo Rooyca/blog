@@ -36,7 +36,7 @@ All right, that's it, we have our virtual machine configured. The final result s
 ![Four](https://res.cloudinary.com/rooyca/image/upload/v1656711028/Blog/Imgs/hosting%20wordpress/6_tcnjcy.png)
 
 
-# Logging into our VM
+## Logging into our VM
 
 In order to complete the installation of WordPress and other plugins in our virtual machine, it is necessary to complete a series of steps.
 
@@ -78,7 +78,7 @@ To install WordPress.
 ![Six](https://res.cloudinary.com/rooyca/image/upload/v1656712691/Blog/Imgs/hosting%20wordpress/8_dmaxmo.png)
 
 
-# "Increasing" the RAM memory
+## "Increasing" the RAM memory
 
 It is very little RAM memory that we configure for our virtual machine, so it is highly recommended to Swap. "Swap is the space that the hard disk has to exchange physical memory with virtual memory". To do this we are going to run the following commands, in order:
 

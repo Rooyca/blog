@@ -14,14 +14,14 @@
       <link>https://dablog.pages.dev/es/articulos/hugo_cloudflare_pages/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/hugo_cloudflare_pages/</guid>
-      <description>POST Original: https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/&#xA;Instalar Hugo Instala el CLI de Hugo, con las instrucciones adecuadas para tu sistema operativo:&#xA;Linux Hugo puede venir incluido en el package manager de tu distro. Si ese es el caso, puedes instalarlo directamente usando el package manager. - por ejemplo, en Ubuntu, usa el siguiente comando:&#xA;sudo apt-get install hugo Si, por el contrario, tu package manager no incluye Hugo o deseas descargarlo directamente, dirigete a la parte de Instalación Manual.</description>
+      <description>POST Original&#xA;Instalar Hugo Instala el CLI de Hugo, con las instrucciones adecuadas para tu sistema operativo:&#xA;Linux Hugo puede venir incluido en el package manager de tu distro. Si ese es el caso, puedes instalarlo directamente usando el package manager. - por ejemplo, en Ubuntu, usa el siguiente comando:&#xA;sudo apt-get install hugo Si, por el contrario, tu package manager no incluye Hugo o deseas descargarlo directamente, dirigete a la parte de Instalación Manual.</description>
     </item>
     <item>
       <title>Creando un acortador de enlaces en 12 lineas de código usando Cloudflare Workers &#43; Bonus</title>
       <link>https://dablog.pages.dev/es/articulos/cloudflare_url_shortener/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/cloudflare_url_shortener/</guid>
-      <description>Post original aquí&#xA;Cloudflare Workers Cloudflare Workers, de forma muy resumida, es un entorno serverless que corre Javascript. Básicamente, escribes código que se ocupa de peticiones HTTP, similar a Node.js. El código es desplegado globalmente en toda la red de Cloudflare, lo que significa que siempre está corriendo lo más cerca posible del usuario final.&#xA;Para este proyecto, al ser algo pequeño, con el plan gratis será más que suficiente. Si te interesa hacer algo más grande te vendría bien revisar los planes de pago.</description>
+      <description>Post original&#xA;Cloudflare Workers Cloudflare Workers, de forma muy resumida, es un entorno serverless que corre Javascript. Básicamente, escribes código que se ocupa de peticiones HTTP, similar a Node.js. El código es desplegado globalmente en toda la red de Cloudflare, lo que significa que siempre está corriendo lo más cerca posible del usuario final.&#xA;Para este proyecto, al ser algo pequeño, con el plan gratis será más que suficiente. Si te interesa hacer algo más grande te vendría bien revisar los planes de pago.</description>
     </item>
     <item>
       <title>Enviar correos desde Gmail usando tu propio dominio</title>

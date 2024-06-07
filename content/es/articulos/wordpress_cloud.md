@@ -40,7 +40,7 @@ Y listo, eso sería todo, ya tenemos configurada nuestra máquina virtual. El re
 
 
 
-# Iniciando sesión en nuestra MV
+## Iniciando sesión en nuestra MV
 
 Para poder completar la instalación de WordPress y demás complemento en nuestra máquina virtual, es necesario completar una serie de pasos.
 
@@ -82,7 +82,7 @@ Para instalar WordPress.
 ![Seis](https://res.cloudinary.com/rooyca/image/upload/v1656712691/Blog/Imgs/hosting%20wordpress/8_dmaxmo.png)
 
 
-# "Aumentando" la memoria RAM
+## "Aumentando" la memoria RAM
 
 Es muy poca la memoria RAM que configuramos para nuestra máquina virtual, por lo que es altamente recomendable hacer Swap. "El Swap es el espacio que el disco duro tiene para intercambiar la memoria física con la memoria virtual". Para ello vamos a ejecutar los siguientes comandos, en orden:
 

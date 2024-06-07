@@ -8,6 +8,10 @@ tags:
 description: Guia sencilla para instalar PostgreSQL en Termux (Terminal de comando para Android)
 ---
 
+{{< box info >}}
+[**Post Original**](https://wiki.termux.com/wiki/Postgresql)
+{{< /box >}}
+
 ## Instalación
 
 Instalamos el paquete `postgresql`:
@@ -85,5 +89,3 @@ Guardamos los cambios y salimos del archivo. Ahora reiniciamos la base de datos:
 ```bash
 pg_ctl -D $PREFIX/var/lib/postgresql restart
 ```
-
->> **POST ORIGINAL**: [https://wiki.termux.com/wiki/Postgresql](https://wiki.termux.com/wiki/Postgresql)

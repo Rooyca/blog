@@ -11,13 +11,9 @@ tags:
 description: Sube archivos a Nextcloud desde la línea de comandos de manera rápida y sencilla.
 ---
 
-> Puedes encontrar todos los archivos necesarios para este tutorial en el siguiente repo: [https://github.com/Rooyca/upload-nextcloud-cli](https://github.com/Rooyca/upload-nextcloud-cli)
-
-> Te recomiendo clonar el repositorio en tu equipo. Para ello ejecuta el siguiente comando en la terminal:
-
-> ```bash
-> git clone https://github.com/Rooyca/upload-nextcloud-cli
-> ```
+{{< box info >}}
+Github repo: https://github.com/Rooyca/upload-nextcloud-cli
+{{< /box >}}
 
 ## Configuración
 
@@ -72,11 +68,15 @@ El script nos pedirá los siguientes datos:
 
 Una vez hayamos introducido todos los datos podremos ingresar la opción `5` para subir el archivo, una vez subido podremos regresar al menu y subir otro archivo o salir del script.
 
->> El script automaticamente guarda la `IP` y el `Nombre usuario` en archivos txt para que no tengamos que volver a introducirlos.
+{{< box info >}}
+El script automaticamente guarda la `IP` y el `Nombre usuario` en un **txt** para que no tengamos que volver a introducirlos.
+{{< /box >}}
 
 ### Linux
 
-> Este script NO es mío. El original lo puedes encontrar en este repositorio: [https://github.com/tavinus/cloudsend.sh](https://github.com/tavinus/cloudsend.sh)
+{{< box important >}}
+Este script NO es de mi autoría. El original lo puedes encontrar aquí: https://github.com/tavinus/cloudsend.sh
+{{< /box >}}
 
 Para usarlo solo tenemos que ejecutar el siguiente comando:
 
@@ -98,7 +98,9 @@ Si tenemos en cuenta la url del ejemplo anterior, el comando sería el siguiente
 
 ### Python
 
-> **ADVERTENCIA**: Si tu sistema operativo es Linux te recomiendo usar el script de Linux, ya que este es muchísimo más completo y tiene más opciones. Esta version en Python fue escrita por mí, por lo que puede contener errores o no funcionar correctamente.
+{{< box warning >}}
+Si tu sistema operativo es **Linux** te recomiendo usar el script de Linux, ya que es muchísimo más completo y tiene más opciones. Esta version en **Python** fue escrita por mí, por lo que puede contener ERRORES o no funcionar correctamente.
+{{< /box >}}
 
 Para usarlo solo tenemos que ejecutar el siguiente comando:
 
@@ -111,3 +113,9 @@ Si tenemos en cuenta la url del ejemplo anterior, el comando sería el siguiente
 ```bash
 python upload_file.py https://nextcloud.example.com/index.php/s/xXxXxXxXx test.txt
 ```
+
+## Conclusión
+
+Existen diversas formas de enviar archivos a nuestro NextCloud desde la terminal, depende de ti escoger la opción que más se acomode a tus necesidades.
+
+Eso sería todo, ¡Gracias por leer!

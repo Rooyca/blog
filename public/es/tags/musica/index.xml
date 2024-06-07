@@ -7,13 +7,14 @@
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
+    <lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dablog.pages.dev/es/tags/musica/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Crear una estacion de radio online 100% Gratis - Radio Project (Parte 1)</title>
+      <title>Crear una estacion de radio online - Parte 1</title>
       <link>https://dablog.pages.dev/es/articulos/radio_project_primera_parte/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/radio_project_primera_parte/</guid>
-      <description>Bienvenidx a Radio Project Hoy quiero comenzar una serie de publicaciones en las que iremos aprendiendo juntos los pasos que hay que seguir a la hora de crear una estación de radio online. En un primer momento, cuando comencé con este proyecto me encontré con varias plataformas que ofrecían este servicio de forma gratuita, pero la gran mayoría de páginas eran de pago y otras habían envejecido bastante mal, es decir, su interfaz no era la más moderna, precisamente; Pero un día encontré ZenoRadio (NO ES PUBLICIDAD, en verdad es buena la plataforma), una alternativa moderna y con un plan gratuito bastante generoso.</description>
+      <description>Radio Project Hoy quiero comenzar una serie de publicaciones en las que iremos aprendiendo juntos los pasos que hay que seguir a la hora de crear una estación de radio online. En un primer momento, cuando comencé con este proyecto me encontré con varias plataformas que ofrecían este servicio de forma gratuita, pero la gran mayoría de páginas eran de pago y otras habían envejecido bastante mal, es decir, su interfaz no era la más moderna, precisamente; Pero un día encontré ZenoRadio (NO ES PUBLICIDAD, en verdad es buena la plataforma), una alternativa moderna y con un plan gratuito bastante generoso.</description>
     </item>
   </channel>
 </rss>

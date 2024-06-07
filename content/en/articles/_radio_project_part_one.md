@@ -1,6 +1,6 @@
 ---
 title: "Create a 100% free online radio station - Radio Project (Part 1)"
-date: -2023-04-03
+date: 2023-04-03
 type: page
 tags: 
 - "radio"
@@ -16,7 +16,7 @@ Today I want to start a series of posts in which we will learn together the step
 
 ![free_plan.png](https://res.cloudinary.com/rooyca/image/upload/v1680509639/Blog/Imgs/Radio%20Project/free_plan_kd5cwc.png)
 
-# Why create an online radio station?
+## Why create an online radio station?
 
 There are several reasons why someone might want to create an online radio station, some of them would be:
 
@@ -31,7 +31,7 @@ There are several reasons why someone might want to create an online radio stati
 5.  **Innovation**: An online radio station can be more innovative than a traditional radio station. You can use tools such as artificial intelligence and machine learning to enhance the user experience and customize programming for each listener.
     
 
-# Creating our first station on ZenoRadio
+## Creating our first station on ZenoRadio
 
 Clearly the first step is to enter [ZenoRadio](https://zeno.fm) and create an account, either with Gmail or another email, it is super simple so I will assume that you already have an account. Once we have verified our account and entered our personal information, we will find, on the left side, the **Stations** option, where we can create our stations.
 

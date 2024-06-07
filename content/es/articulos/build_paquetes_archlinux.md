@@ -9,10 +9,17 @@ tags:
 description: "En este artículo aprenderás a publicar paquetes en el repositorio de usuarios (AUR) de Arch."
 ---
 
-> **Nota**: Este artículo no profundizará en muchos temas y conceptos, por lo que se recomendable leer la [documentación oficial](https://wiki.archlinux.org/title/Arch_User_Repository) de Arch.
+{{< box warning >}}
+El contenido de este artículo se basa en mi experiencia personal, por lo que pueden haber errores.
+{{< /box >}}
 
-> **Nota**: El contenido de este artículo se basa en mi experiencia personal, por lo que puede que no sea la mejor forma de hacerlo.
->> Resultado final: [hmta](https://aur.archlinux.org/packages/hmta/)
+{{< box important >}}
+Este artículo no profundiza en muchos temas, por lo que es recomendable leer la [documentación](https://wiki.archlinux.org/title/Arch_User_Repository) oficial de Arch.
+{{< /box >}}
+
+{{< box tip >}}
+Resultado final: [hmta](https://aur.archlinux.org/packages/hmta/)
+{{< /box >}}
 
 
 ## Introducción
@@ -45,7 +52,9 @@ Para poder subir el paquete a AUR, necesitamos configurar una llave SSH. Aunque 
 ssh-keygen -f ~/.ssh/aur
 ```
 
-> **Tip**: Puedes añadir multiples llaves públicas a tu perfil separandolas con un salto de linea.
+{{< box tip >}}
+Puedes añadir multiples llaves públicas a tu perfil separandolas con un salto de linea.
+{{< /box >}}
 
 ### Creando un repositorio para el paquete
 
@@ -88,7 +97,9 @@ package() {
 }
 ```
 
-> **Nota**: Puedes encontrar más información sobre el archivo **PKGBUILD** en la [documentación oficial](https://wiki.archlinux.org/title/PKGBUILD).
+{{< box info >}}
+Puedes encontrar más información sobre el archivo **PKGBUILD** en la [documentación oficial](https://wiki.archlinux.org/title/PKGBUILD).
+{{< /box >}}
 
 Podemos testear que el paquete se construye correctamente con el comando **makepkg**.
 

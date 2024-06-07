@@ -8,7 +8,9 @@ tags:
 description: Crear un acortador de enlaces con esta herramienta es muy fácil, aquí un pequeño tutorial de cómo hacerlo.
 ---
 
-*Post original [aquí](https://thomaslevesque.com/2022/11/01/building-a-url-shortener-in-12-lines-of-code-using-cloudflare-workers/)*
+{{< box info >}}
+[**Post original**](https://thomaslevesque.com/2022/11/01/building-a-url-shortener-in-12-lines-of-code-using-cloudflare-workers/)
+{{< /box >}}
 
 ## Cloudflare Workers
 

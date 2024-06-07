@@ -1,6 +1,6 @@
 ---
-title: "Crear una estacion de radio online 100% Gratis - Radio Project (Parte 1)"
-date: -2023-04-03
+title: "Crear una estacion de radio online - Parte 1"
+date: 2023-04-03
 type: page
 tags: 
 - "radio"
@@ -8,13 +8,13 @@ tags:
 description: Aunque para muchos la radio es cosa del pasado, para otros es un medio de entretenimiento al cual le tienen mucho cariño, yo soy uno de esos otros por lo que en este post aprenderemos a crear una estación de radio online.
 ---
 
-# Bienvenidx a Radio Project
+# Radio Project
 
 Hoy quiero comenzar una serie de publicaciones en las que iremos aprendiendo juntos los pasos que hay que seguir a la hora de crear una estación de radio online. En un primer momento, cuando comencé con este proyecto me encontré con varias plataformas que ofrecían este servicio de forma gratuita, pero la gran mayoría de páginas eran de pago y otras habían envejecido bastante mal, es decir, su interfaz no era la más moderna, precisamente; Pero un día encontré [**ZenoRadio**](https://zeno.fm) (NO ES PUBLICIDAD, en verdad es buena la plataforma), una alternativa moderna y con un plan gratuito bastante generoso.
 
 ![free_plan.png](https://res.cloudinary.com/rooyca/image/upload/v1680509639/Blog/Imgs/Radio%20Project/free_plan_kd5cwc.png)
 
-# ¿Por qué crear una radio online?
+## ¿Por qué crear una radio online?
 
 Hay varias razones por las que alguien podría querer crear una estación de radio en línea, algunas de ellas serían:
 
@@ -30,7 +30,7 @@ Hay varias razones por las que alguien podría querer crear una estación de rad
     
 
 
-# Creando nuestra primera estación en ZenoRadio
+## Creando nuestra primera estación en ZenoRadio
 
 Claramente el primer paso es ingresar a [ZenoRadio](https://zeno.fm) y crear una cuenta, ya sea con Gmail o con otro correo, es super sencillo por lo que voy a dar por sentado que ya tienes una cuenta. Una vez verificada nuestra cuenta e ingresado nuestra información personal, vamos a encontrar, en la parte izquierda, la opción de **Stations**, donde podremos crear nuestras estaciones.
 
@@ -50,7 +50,7 @@ En una próxima publicación veremos, como conectarnos a nuestra radio, para tra
 
 ---
 
-- Puedes sintonizar mi emisora desde 
+> Puedes sintonizar mi emisora desde 
 
-	- La página oficial de [**ZenoRadio**](https://zeno.fm/radio/villa-de-la-cancion/)
-	- Desde el enlace [**.m3u**](https://stream.zeno.fm/jjempnshdlotv.m3u)
+- La página oficial de [**ZenoRadio**](https://zeno.fm/radio/villa-de-la-cancion/)
+- Desde el enlace [**.m3u**](https://stream.zeno.fm/jjempnshdlotv.m3u)

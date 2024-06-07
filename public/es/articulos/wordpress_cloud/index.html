@@ -29,74 +29,16 @@
         }
 
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --hljs-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
 </noscript>
 </head>
 
-<body class="" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
+<body class=" dark" id="top">
 
 <header class="header">
     <nav class="nav">
         <div class="logo">
             <a href="https://dablog.pages.dev/es/" accesskey="h" title="rooyca (Alt + H)">rooyca</a>
             <span class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
                 <ul class="lang-switch"><li>|</li>
                     <li>
                         <a href="https://dablog.pages.dev/en/" title="English"
@@ -144,12 +86,15 @@
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#creando-la-m%c3%a1quina-virtual" aria-label="Creando la Máquina Virtual">Creando la Máquina Virtual</a></li>
+                    <a href="#creando-la-m%c3%a1quina-virtual" aria-label="Creando la Máquina Virtual">Creando la Máquina Virtual</a><ul>
+                        
                 <li>
                     <a href="#iniciando-sesi%c3%b3n-en-nuestra-mv" aria-label="Iniciando sesión en nuestra MV">Iniciando sesión en nuestra MV</a></li>
                 <li>
                     <a href="#aumentando-la-memoria-ram" aria-label="&amp;ldquo;Aumentando&amp;rdquo; la memoria RAM">&ldquo;Aumentando&rdquo; la memoria RAM</a>
                 </li>
+            </ul>
+            </li>
             </ul>
         </div>
     </details>
@@ -172,7 +117,7 @@
 <p>Y listo, eso sería todo, ya tenemos configurada nuestra máquina virtual. El resultado final debería ser algo como lo siguiente:</p>
 <p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1656711028/Blog/Imgs/hosting%20wordpress/6_tcnjcy.png" alt="Cuatro"  />
 </p>
-<h1 id="iniciando-sesión-en-nuestra-mv">Iniciando sesión en nuestra MV</h1>
+<h2 id="iniciando-sesión-en-nuestra-mv">Iniciando sesión en nuestra MV</h2>
 <p>Para poder completar la instalación de WordPress y demás complemento en nuestra máquina virtual, es necesario completar una serie de pasos.</p>
 <p>Primeramente, debemos instalar Google Cloud CLI, en el siguiente <a href="https://cloud.google.com/sdk/docs/install">link</a> encontrarás una guía completa con todo el proceso, pero si lo que deseas es únicamente instalarlo puedes abrir una Power Shell como Administrador y ejecutar el siguiente comando:</p>
 <pre tabindex="0"><code>(New-Object Net.WebClient).DownloadFile(&#34;https://dl.google.com/dl/cloudsdk/channels/rapid/GoogleCloudSDKInstaller.exe&#34;, &#34;$env:Temp\GoogleCloudSDKInstaller.exe&#34;)
@@ -192,7 +137,7 @@
 <p>Para instalar WordPress.</p>
 <p><img loading="lazy" src="https://res.cloudinary.com/rooyca/image/upload/v1656712691/Blog/Imgs/hosting%20wordpress/8_dmaxmo.png" alt="Seis"  />
 </p>
-<h1 id="aumentando-la-memoria-ram">&ldquo;Aumentando&rdquo; la memoria RAM</h1>
+<h2 id="aumentando-la-memoria-ram">&ldquo;Aumentando&rdquo; la memoria RAM</h2>
 <p>Es muy poca la memoria RAM que configuramos para nuestra máquina virtual, por lo que es altamente recomendable hacer Swap. &ldquo;El Swap es el espacio que el disco duro tiene para intercambiar la memoria física con la memoria virtual&rdquo;. Para ello vamos a ejecutar los siguientes comandos, en orden:</p>
 <pre tabindex="0"><code>sudo fallocate -l 1GB /swapfile
 sudo chmod 600 /swapfile
@@ -342,18 +287,6 @@ echo &#39;/swapfile none swap sw 00&#39; | sudo tee -a /etc/fstab
             mybutton.style.opacity = "0";
         }
     };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
 
 </script>
 <script>

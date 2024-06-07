@@ -9,8 +9,9 @@ tags:
 description: "Linux es todo diversion hasta que tienes que conectar un dispositivo bluetooth."
 ---
 
-> En el presente artículo se presume que has seguido la guía: [Bluetooth - ArchWiki](https://wiki.archlinux.org/title/bluetooth).
-
+{{< box info >}}
+En el presente artículo se presume que has seguido la guía: [Bluetooth - ArchWiki](https://wiki.archlinux.org/title/bluetooth).
+{{< /box >}}
 
 ### Error
 

@@ -14,7 +14,7 @@
       <link>https://dablog.pages.dev/es/articulos/upload_files_nextcloud_cli/</link>
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/upload_files_nextcloud_cli/</guid>
-      <description>Puedes encontrar todos los archivos necesarios para este tutorial en el siguiente repo: https://github.com/Rooyca/upload-nextcloud-cli&#xA;Te recomiendo clonar el repositorio en tu equipo. Para ello ejecuta el siguiente comando en la terminal:&#xA;git clone https://github.com/Rooyca/upload-nextcloud-cli Configuración Crear un link compartido para una carpeta de Nextcloud. Recordar seleccionar la opción &amp;ldquo;File Drop (upload only)&amp;rdquo;, o &amp;ldquo;Allow upload and editing&amp;rdquo; al crear el link compartido. Imagen tomada de https://cylab.be&#xA;Copiar el link compartido.</description>
+      <description>Github repo: https://github.com/Rooyca/upload-nextcloud-cli&#xA;Configuración Crear un link compartido para una carpeta de Nextcloud. Recordar seleccionar la opción &amp;ldquo;File Drop (upload only)&amp;rdquo;, o &amp;ldquo;Allow upload and editing&amp;rdquo; al crear el link compartido. Imagen tomada de https://cylab.be&#xA;Copiar el link compartido. El link debe tener el siguiente formato: https://nextcloud.example.com/index.php/s/xXxXxXxXx Ejecución En el repositorio podemos encontrar tres formas de ejecutar el script, dependiendo del sistema operativo que estemos utilizando o de si tenemos instalado Python en nuestro sistema.</description>
     </item>
   </channel>
 </rss>

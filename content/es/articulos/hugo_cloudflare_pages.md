@@ -9,7 +9,9 @@ tags:
 description: Crear un blog con HUGO (un generador de sitios estáticos) y públicalo en Cloudflare Pages usando GitHub.
 ---
 
-> POST Original: [https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/)
+{{< box info >}}
+[**POST Original**](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/)
+{{< /box >}}
 
 ## Instalar Hugo
 

@@ -33,10 +33,21 @@ En este artículo vamos a usar `Netlify`. Para ello debemos seguir los siguiente
 ### 2. Configurar Ackee
 
 - Necesitas una instancia de MongoDB (ej. [MongoDB Atlas](https://www.mongodb.com/cloud/atlas))
-> **MongoDB**: `mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER>/<DATABASE>`
+
+{{< box tip >}}
+**Estructura de url**
+
+`mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER>/<DATABASE>`
+{{< /box >}}
+
 - Configuramos un nombre de usuario y una contraseña.
 - Nos aseguramos de usar los headers CORS correctos. Ver: [`ACKEE_ALLOW_ORIGIN`](https://github.com/electerious/Ackee/blob/master/docs/CORS%20headers.md#platforms-as-a-service-configuration).
-> **CORS**: `https://<YOUR-SITE>,https://<YOUR-SITE>...`
+
+{{< box tip >}}
+**Ejemplo de cors**
+
+`https://<YOUR-SITE>,https://<YOUR-SITE>...`
+{{< /box >}}
 
 ### 3. Actualizar Ackee
 
@@ -68,7 +79,9 @@ params:
 	ackeeDomainID: "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
 ```
 
-> Puedes desactivarlo en cualquier momento añadiendo la variable `disableAckee` en el archivo `config.toml`.
+{{< box info >}}
+Para desactivar agregue `disableAckee` y elimine las variables anteriores.
+{{< /box >}}
 
 ## Conclusiones
 

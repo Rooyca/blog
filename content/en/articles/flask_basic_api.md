@@ -92,4 +92,4 @@ And... now, that would be all, if we have followed correctly all the steps up to
 
 Excellent! It does work. 
 
-Well, that's all for today. If you want to try this API [HERE](https://lor-finder.herokuapp.com/) I leave you a link where you can do it. And remember, if you have any doubt, complaint, suggestion or claim don't hesitate to let me know.
+Well, that's all for today. If you want to try this API [~HERE~](https://example.com/) I leave you a link where you can do it. And remember, if you have any doubt, complaint, suggestion or claim don't hesitate to let me know.

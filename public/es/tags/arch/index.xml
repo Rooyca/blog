@@ -21,7 +21,7 @@
       <link>https://dablog.pages.dev/es/articulos/build_paquetes_archlinux/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/build_paquetes_archlinux/</guid>
-      <description>Nota: Este artículo no profundizará en muchos temas y conceptos, por lo que se recomendable leer la documentación oficial de Arch.&#xA;Nota: El contenido de este artículo se basa en mi experiencia personal, por lo que puede que no sea la mejor forma de hacerlo.&#xA;Resultado final: hmta&#xA;Introducción El repositorio de usuarios de Arch (AUR) es un repositorio impulsado por la comunidad y para la comunidad. Contiene descripciones de paquetes (PKGBUILD) que te permiten compilar un paquete desde el código fuente con makepkg y luego instalarlo a través de pacman.</description>
+      <description>El contenido de este artículo se basa en mi experiencia personal, por lo que pueden haber errores.&#xA;Este artículo no profundiza en muchos temas, por lo que es recomendable leer la documentación oficial de Arch.&#xA;Resultado final: hmta&#xA;Introducción El repositorio de usuarios de Arch (AUR) es un repositorio impulsado por la comunidad y para la comunidad. Contiene descripciones de paquetes (PKGBUILD) que te permiten compilar un paquete desde el código fuente con makepkg y luego instalarlo a través de pacman.</description>
     </item>
   </channel>
 </rss>

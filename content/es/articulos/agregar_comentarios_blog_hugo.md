@@ -8,8 +8,9 @@ tags:
 - "github"
 description: "Agrega comentarios a tu Hugo blog usando Github Issues"
 ---
-
-> [Post original](https://mscipio.github.io/post/utterances-comment-engine/)
+{{< box info >}}
+[Post original](https://mscipio.github.io/post/utterances-comment-engine/)
+{{< /box >}}
 
 [Utteranc.es](https://utteranc.es/) es un widget liviano el cual nos permite usar los `Github Issues` como los comentarios de nuestro blog. Es de código abierto, se ve estético, los comentarios se guardan en Github y lo mejor, viene con temas oscuros. SÍ, tienes que iniciar sección con Github, pero está bien porque la gran mayoría tiene una cuenta.
 
@@ -22,9 +23,9 @@ description: "Agrega comentarios a tu Hugo blog usando Github Issues"
 
 3. Ingresa a la [página oficial de Utterances](https://utteranc.es/) y llena el formulario. Se generará un HTML que deberás pegar en tu sitio web. La información que te pedirá el formulario es:
 
-> - **nombre del repositorio**: generalmente es algo como <usuario>/<repo>
-> - **issue-term**: el término que se usará para identificar los comentarios. (ejemplo: `title`)
-> - **etiqueta**: como los comentarios se manejarán vía GitHub Issues, necesitas una etiqueta para diferenciar cuales son comentarios y cuales no. (ejemplo: `Comentario`)
+> - **NOMBRE DEL REPOSITORIO**: generalmente es algo como **usuario**/**repo**
+> - **ISSUE-TERM**: el término que se usará para identificar los comentarios
+> - **ETIQUETA**: como se manejarán los comentarios vía GitHub Issues, necesitas una etiqueta para diferenciar cuales son comentarios y cuales no
 
 4. Copia el HTML.
 5. Ve a la carpeta donde tienes tu blog y dirígete hasta `themes/TU-TEMA/layouts/partials` 

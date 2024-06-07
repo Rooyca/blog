@@ -206,4 +206,6 @@ Espero les haya sido de tanta utilidad como a mí, cualquier duda no _duden_ en 
 
 ---
 
-##### Post original: [https://mregraoncyber.com/picoctf-writeup-asm2/](https://mregraoncyber.com/picoctf-writeup-asm2/)
+{{< box info >}}
+[**Post original**](https://mregraoncyber.com/picoctf-writeup-asm2/)
+{{< /box >}}

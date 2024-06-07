@@ -9,9 +9,11 @@ tags:
 description: "Aprende a construir paquetes RPM y publicarlos en COPR"
 ---
 
-## Empaquetando RPM
+{{< box info >}}
+Link original: [RPM Packaging](https://developer.fedoraproject.org/deployment/rpm/about.html)
+{{< /box >}}
 
-> Link original: [RPM Packaging](https://developer.fedoraproject.org/deployment/rpm/about.html)
+## Empaquetando RPM
 
 Ejecuta:
 
@@ -119,9 +121,13 @@ Puedes crear un RPM directamente desde git (u cualquier otro SCM) usando el comp
 mock -r fedora-22-x86_64 --scm-enable --scm-option method=git --scm-option package=PKG --scm-option git_get=set --scm-option spec=YOUR.SPEC --scm-option branch=master --scm-option write_tar=True --scm-option git_get='git clone git@git_ip_address:SCM_PKG.git SCM_PKG'
 ```
 
-> - Más detalles en la [documentación de mock-scm](https://fedoraproject.org/wiki/Projects/Mock/Plugin/Scm).
->
-> - Si estás construyendo un paquete de código abierto, puedes usar el servicio **Copr**, que automatiza la parte de `mock` y `createrepo_c` y proporciona una agradable interfaz web.
+{{< box info >}}
+Para más información dirígete a la [documentación de mock-scm](https://fedoraproject.org/wiki/Projects/Mock/Plugin/Scm).
+{{< /box >}}
+
+{{< box tip >}}
+Si estás construyendo un paquete de código abierto, puedes usar el servicio **Copr**, que automatiza la parte de `mock` y `createrepo_c` y proporciona una agradable interfaz web.
+{{< /box >}}
 
 ## Usando Copr
 

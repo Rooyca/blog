@@ -9,6 +9,10 @@ description: IPFS es un protocolo hypermedia peer-to-peer diseñado para preserv
 
 ![IPFS-IMG](https://cdn-images-1.medium.com/v2/resize:fit:1200/1*lGh_L0ldPWz1kFMcKvj4Qw.png)
 
+{{< box info >}}
+[**Post original**](https://blockgeni.com/a-guide-to-securely-share-files-on-the-blockchain-with-ipfs/)
+{{< /box >}}
+
 IPFS, o Interplanetary File System, creado por Protocol Labs, es un protocolo peer-to-peer donde cada nodo almacena una colección de archivos *hasheados*. Un usuario que desee alguno de esos archivos se conecta a una capa de este protocolo y por medio del Hash, IPFS se encarga "recolectar" el archivo que está distribuido a través de los nodos y finalmente envía el archivo al usuario que lo solicitó.
 
 ¿Recuerdan BitTorrent? Pues es parecido, solo que con IPFS tienes más control de tus archivos y se hace referencia a tus archivos por medio de hashes.
@@ -112,8 +116,3 @@ gpg --decrypt QmazcLvRjPMLY5UAGEDVLrJCKX3ySqb8TZxLmvt7pfbxgf > archivodes.pdf
 Y listo, si ahora lo volvemos a abrir podremos acceder de manera normal a nuestro pdf. Así de sencillo es mandar archivos confidenciales o sensibles a través de una excelente plataforma como es IPFS. 
 
 Bueno, eso es todo por hoy, espero que esta pequeña guía los haya animado a mantener su propio nodo y ha hacer uso de este grandioso protocolo. Como siempre, si tienen alguna duda o simplemente desean decirme algo no duden en contactarme.
-
-
-##### Publicación original
-
-[*Blockgeni.com*](https://blockgeni.com/a-guide-to-securely-share-files-on-the-blockchain-with-ipfs/)

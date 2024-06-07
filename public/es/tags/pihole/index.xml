@@ -14,7 +14,7 @@
       <link>https://dablog.pages.dev/es/articulos/pihole_android/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/pihole_android/</guid>
-      <description>Post original: Aquí Nota: No hay ningún respaldo o asociación entre esta página y Pi-hole© LLC. Si encuentras esto útil, ellos merecen tu apoyo.&#xA;Pi-hole es una aplicación para el bloqueo de anuncios y rastreadores para Linux que actúa como un &amp;ldquo;agujero negro&amp;rdquo; de DNS destinado mayoritariamente para el uso en redes privadas. Está diseñado para dispositivos integrados de baja potencia con capacidad de red, enfocándose en la Raspberry Pi como su plataforma de hardware de referencia.</description>
+      <description>Post original&#xA;Pi-hole es una aplicación para el bloqueo de anuncios y rastreadores para Linux que actúa como un &amp;ldquo;agujero negro&amp;rdquo; de DNS destinado mayoritariamente para el uso en redes privadas. Está diseñado para dispositivos integrados de baja potencia con capacidad de red, enfocándose en la Raspberry Pi como su plataforma de hardware de referencia.&#xA;Pi-hole para Android es una imagen de disco de Raspbian ajustada para funcionar con el instalador de Pi-hole en Pi Deploy (un fork de Linux Deploy).</description>
     </item>
   </channel>
 </rss>

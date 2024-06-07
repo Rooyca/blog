@@ -9,9 +9,9 @@ tags:
 description: Instala Pi-Hole para monitorear tu red en tu dispositivo android (rooteado).
 ---
 
-- Post original: [Aquí](https://github.com/DesktopECHO/Pi-hole-for-Android)
-
-**Nota**: No hay ningún respaldo o asociación entre esta página y [Pi-hole© LLC](https://pi-hole.net/). Si encuentras esto útil, ellos [merecen tu apoyo](https://pi-hole.net/donate/).
+{{< box info >}}
+[**Post original**](https://github.com/DesktopECHO/Pi-hole-for-Android)
+{{< /box >}}
 
 Pi-hole es una aplicación para el bloqueo de anuncios y rastreadores para Linux que actúa como un "agujero negro" de DNS destinado mayoritariamente para el uso en redes privadas. Está diseñado para dispositivos integrados de baja potencia con capacidad de red, enfocándose en la Raspberry Pi como su plataforma de hardware de referencia.
 

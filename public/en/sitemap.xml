@@ -100,6 +100,28 @@
     <loc>https://dablog.pages.dev/en/projects/milibre_personal_library_n/</loc>
     <lastmod>2023-04-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://dablog.pages.dev/en/articles/_radio_project_part_one/</loc>
+    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/en/tags/free/</loc>
+    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/en/tags/music/</loc>
+    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/en/tags/radio/</loc>
+    <lastmod>2023-04-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://dablog.pages.dev/es/tags/radio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://dablog.pages.dev/en/tags/radio/"
+                />
+  </url><url>
     <loc>https://dablog.pages.dev/en/projects/highlighter_obsidian_n/</loc>
     <lastmod>2023-04-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -257,23 +279,5 @@
                 />
   </url><url>
     <loc>https://dablog.pages.dev/en/contact/</loc>
-  </url><url>
-    <loc>https://dablog.pages.dev/en/articles/_radio_project_part_one/</loc>
-  </url><url>
-    <loc>https://dablog.pages.dev/en/tags/free/</loc>
-  </url><url>
-    <loc>https://dablog.pages.dev/en/tags/music/</loc>
-  </url><url>
-    <loc>https://dablog.pages.dev/en/tags/radio/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/radio/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/radio/"
-                />
   </url>
 </urlset>
