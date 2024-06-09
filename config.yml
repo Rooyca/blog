@@ -1,5 +1,5 @@
 baseURL: https://dablog.pages.dev/
-paginate: 5
+paginate: 10
 theme: charlolamode
 
 defaultContentLanguage: en

@@ -85,10 +85,20 @@
 <footer class="page-footer">
   <nav class="pagination">
     {{- if $paginator.HasPrev }}
-    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 40" height="40" width="20">
+        <path d="M16 37L4 20 16 3" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"
+          stroke-linejoin="round" opacity="0.8" />
+      </svg> {{ i18n "prev_page" }}
+    </a>
     {{- end }}
     {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }}
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 40" height="40" width="20">
+        <path d="M4 37l12-17L4 3" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"
+          stroke-linejoin="round" opacity="0.8" />
+      </svg>
+    </a>
     {{- end }}
   </nav>
 </footer>
