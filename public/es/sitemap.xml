@@ -2,8 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dablog.pages.dev/es/tags/android/</loc>
+    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dablog.pages.dev/es/articulos/</loc>
-    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/es/articulos/run_termux_android_six/</loc>
+    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dablog.pages.dev/es/</loc>
+    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://dablog.pages.dev/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://dablog.pages.dev/es/"
+                />
+  </url><url>
+    <loc>https://dablog.pages.dev/es/tags/</loc>
+    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://dablog.pages.dev/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://dablog.pages.dev/es/tags/"
+                />
+  </url><url>
+    <loc>https://dablog.pages.dev/es/tags/termux/</loc>
+    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/buku/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
@@ -47,32 +82,6 @@
                 href="https://dablog.pages.dev/es/tags/python/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/es/</loc>
-    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://dablog.pages.dev/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://dablog.pages.dev/es/"
-                />
-  </url><url>
-    <loc>https://dablog.pages.dev/es/tags/</loc>
-    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/"
-                />
-  </url><url>
     <loc>https://dablog.pages.dev/es/articulos/google_analitycs_alternative_ackee/</loc>
     <lastmod>2024-06-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -91,9 +100,6 @@
     <loc>https://dablog.pages.dev/es/tags/html/</loc>
     <lastmod>2024-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/es/tags/android/</loc>
-    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dablog.pages.dev/es/articulos/edit_path_termux/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -101,9 +107,6 @@
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/short/</loc>
-    <lastmod>2024-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dablog.pages.dev/es/tags/termux/</loc>
     <lastmod>2024-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/arch/</loc>

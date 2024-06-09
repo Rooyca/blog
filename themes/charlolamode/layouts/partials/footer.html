@@ -58,6 +58,7 @@
 {{- if (not .Site.Params.disableAckee ) }}
 <script async 
     src="{{ .Site.Params.ackeeScriptURL }}"
+    data-ackee-opts='{ "detailed": true }'
     data-ackee-server="{{ .Site.Params.ackeeServerURL }}" 
     data-ackee-domain-id="{{ .Site.Params.ackeeDomainID }}"> 
 </script>
