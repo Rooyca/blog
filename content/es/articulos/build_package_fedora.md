@@ -172,6 +172,8 @@ sudo dnf install NombreDelPaquete
 - Python package: [hmta.spec](https://github.com/Rooyca/hmta/blob/master/hmta.spec)
 - Python package: [requests.spec](https://src.fedoraproject.org/rpms/python-requests//blob/rawhide/f/python-requests.spec)
 
+---
 
+{{< signature standard >}}
 
 

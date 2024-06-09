@@ -64,7 +64,7 @@ if __name__ == "__main__":
 
 Y listo, ya estoy a un paso más de tener todos mis archivos en un solo lugar.
 
-Eso es todo por hoy, si te fue de utilidad, si tienes alguna inquietud o problema no dudes en dejarme un comentario. Hasta la próxima, ¡Gracias por leer!
+{{< signature standard >}}
 
 
 

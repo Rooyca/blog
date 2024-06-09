@@ -34,5 +34,5 @@ En donde "price" es el comando que le quiero asignar a la cadena: "python3 ~/Des
 
 ![GET-PRICE](https://res.cloudinary.com/rooyca/image/upload/v1632191334/Blog/Imgs/Commands-Linux/get-price_mntpwd.png)
 
-Eso sería todo, si tienen alguna duda no duden en hacermelo saber. 
+{{< signature standard >}}
 

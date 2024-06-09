@@ -53,5 +53,7 @@ image: "https://joshcollinsworth.com/images/post_images/utterances.png"
 ```
 
 8. Guarda los cambios y listo. Ahora deberías tener comentarios en tu blog.
-9. Puedes ver un ejemplo aquí! 👇 
+9. Puedes ver un ejemplo en este post! 👇 
+
+{{< signature standard >}}
 

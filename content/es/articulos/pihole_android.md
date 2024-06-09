@@ -85,7 +85,4 @@ La dirección IP del dispositivo Android se muestra en la parte superior de la v
 
 ---
 
-
-Y eso sería todo, así de fácil es instalar Pi-hole en Android. Recuerda que si tienes alguna duda, queja, sugerencia o reclamo puedes hacérmela saber.
-
----
+{{< signature standard >}}

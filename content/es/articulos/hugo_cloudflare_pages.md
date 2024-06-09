@@ -209,3 +209,6 @@ Para usar una [versión específica de Hugo](https://github.com/gohugoio/hugo/re
 
 Por ejemplo, `HUGO_VERSION: 0.110.0`
 
+---
+
+{{< signature standard >}}

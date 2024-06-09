@@ -90,3 +90,5 @@ Guardamos los cambios y salimos del archivo. Ahora reiniciamos la base de datos:
 ```bash
 pg_ctl -D $PREFIX/var/lib/postgresql restart
 ```
+
+{{< signature standard >}}

@@ -119,3 +119,5 @@ Y listo, al ingresar a nuestro subdominio con un token valido, nos redireccionar
 
 Acabamos de crear un acortador de enlaces en 12 lineas de código (claro, sin contar los espacios en blanco ni los corchetes) Nada mal. Es bastante minimalista, pero es un buen comienzo. Recordemos que siempre podemos añadir más URL desde el *KV editor*.
 
+{{< signature standard >}}
+

@@ -59,4 +59,6 @@ Lo que este fragmento de código hace es eliminar `.html` de la URL. También re
 
 ## Conclusión
 
-Eso sería todo. Con cualquiera de estas soluciones, deberías poder eliminar la extensión HTML de todas tus URL. Si tienes alguna pregunta, no dudes en dejarme un comentario.
+Con cualquiera de estas soluciones, deberías poder eliminar la extensión HTML de todas tus URL. 
+
+{{< signature standard >}}

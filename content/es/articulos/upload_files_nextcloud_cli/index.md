@@ -118,4 +118,4 @@ python upload_file.py https://nextcloud.example.com/index.php/s/xXxXxXxXx test.t
 
 Existen diversas formas de enviar archivos a nuestro NextCloud desde la terminal, depende de ti escoger la opción que más se acomode a tus necesidades.
 
-Eso sería todo, ¡Gracias por leer!
+{{< signature standard >}}

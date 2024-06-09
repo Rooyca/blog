@@ -10,11 +10,11 @@
     <lastBuildDate>Mon, 04 Sep 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dablog.pages.dev/es/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Active Directory (Homelab)</title>
+      <title>Active Directory (Homelab) | En Proceso</title>
       <link>https://dablog.pages.dev/es/articulos/active_directory/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/active_directory/</guid>
-      <description>Requisitos Homelab Virtualización: VMWare ISO: Windows Server 2022 &amp;amp; Windows 10 Pro Configuración VMWare En este caso usaré VMWare Workstation PRO 17. Es importante ingresar una licencia válida para poder usar todas las funcionalidades, podemos usar una de las que se encuentran en este gist.&#xA;Windows Server 2022 Instalación Descargar la ISO de Windows Server 2022 desde aquí Crear una nueva máquina virtual en VMWare (Usar BIOS en caso de encontrar algún problema a la hora de bootear) Instalar Windows Server 2022 Cambiar nombre del equipo Configurar la red (IP estática y/o 127.</description>
+      <description>🚧 Este guía está en construcción 🚧&#xA;Requisitos Homelab Virtualización: VMWare ISO: Windows Server 2022 &amp;amp; Windows 10 Pro Configuración VMWare En este caso usaré VMWare Workstation PRO 17. Es importante ingresar una licencia válida para poder usar todas las funcionalidades, podemos usar una de las que se encuentran en este gist.&#xA;Windows Server 2022 Instalación Descargar la ISO de Windows Server 2022 desde aquí Crear una nueva máquina virtual en VMWare (Usar BIOS en caso de encontrar algún problema a la hora de bootear) Instalar Windows Server 2022 Cambiar nombre del equipo Configurar la red (IP estática y/o 127.</description>
     </item>
   </channel>
 </rss>

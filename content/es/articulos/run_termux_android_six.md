@@ -61,9 +61,9 @@ apt upgrade -y
 
 ## Conclusión
 
-¡Eso sería todo! Con estos sencillos pasos, ya tendremos Termux instalado en nuestro celular. 
+Con estos sencillos pasos, ya tendremos Termux instalado en nuestro celular. 
 
-Si tienes algún problema, no dudes en comentar.
+{{< signature standard >}}
 
 
 

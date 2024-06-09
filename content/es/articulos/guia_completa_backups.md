@@ -161,6 +161,4 @@ chmod +x rokup.sh
 ./rokup.sh
 ```
 
----
-
-ULTIMA ACTUALIZACIÓN: 2023-08-10
+{{< signature standard >}}

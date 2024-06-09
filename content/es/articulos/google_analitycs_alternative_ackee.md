@@ -88,4 +88,4 @@ Para desactivar agregue `disableAckee` y elimine las variables anteriores.
 
 Así de sencillo es instalar Ackee en Netlify y comenzar a obtener información de tus visitantes. Si te preocupa la privacidad de tus usuarios, esta es una excelente alternativa a Google Analitycs. 
 
-Si tienes alguna duda o sugerencia, déjame un comentario. ¡Gracias por leer!
+{{< signature standard >}}

@@ -128,3 +128,6 @@ yay -S hmta
 ```
 
 Otra cosa que podemos hacer después de publicar el paquete es añadirle *palabras claves*, para ello nos dirigimos a la página del paquete y en la parte inferior derecha encontraremos el apartado **Keywords**.
+
+
+{{< signature standard >}}

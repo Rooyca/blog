@@ -114,6 +114,6 @@ Para ello vamos a ingresar el siguiente comando, en el que le pasamos el nombre 
 ```bash
 gpg --decrypt QmazcLvRjPMLY5UAGEDVLrJCKX3ySqb8TZxLmvt7pfbxgf > archivodes.pdf
 ```
-Y listo, si ahora lo volvemos a abrir podremos acceder de manera normal a nuestro pdf. Así de sencillo es mandar archivos confidenciales o sensibles a través de una excelente plataforma como es IPFS. 
+Y listo, si ahora lo volvemos a abrir podremos acceder de manera normal a nuestro pdf. Así de sencillo es mandar archivos confidenciales o sensibles a través de una excelente plataforma como es IPFS. Espero que esta pequeña guía los haya animado a mantener su propio nodo y/o a hacer uso de este grandioso protocolo. 
 
-Bueno, eso es todo por hoy, espero que esta pequeña guía los haya animado a mantener su propio nodo y ha hacer uso de este grandioso protocolo. Como siempre, si tienen alguna duda o simplemente desean decirme algo no duden en contactarme.
+{{< signature standard >}}

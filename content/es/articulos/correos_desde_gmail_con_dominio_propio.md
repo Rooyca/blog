@@ -90,5 +90,5 @@ Si nos dirigimos a la parte de *Redactar* podremos observar que ya podemos envia
 ![Prueba](https://res.cloudinary.com/rooyca/image/upload/v1657979533/Blog/Imgs/domain-gmail/20_hqp1wp.png)
 
 
-Y eso sería todo, así de fácil es configurar una dirección de correo con nuestro dominio. Recuerda, si tienes alguna duda, queja, sugerencia o reclamo no dudes en hacérmela saber.
+{{< signature standard >}}
 

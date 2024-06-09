@@ -170,3 +170,7 @@ python3 -m pip install example_package_YOUR_USERNAME_HERE
 {{< box info >}}
 [Post original, en inglés](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 {{< /box >}}
+
+---
+
+{{< signature standard >}}

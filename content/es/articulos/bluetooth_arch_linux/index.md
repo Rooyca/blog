@@ -54,6 +54,4 @@ connect MAC
 
 De esta manera, se logró establecer la conexión con éxito de mi altavoz Bluetooth en el entorno de Arch Linux. 
 
-En caso de alguna inquietud o problema, no dudes en dejar tu comentario. 
-
-¡Hasta la próxima!
+{{< signature standard >}}

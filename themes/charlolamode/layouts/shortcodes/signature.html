@@ -1,0 +1,15 @@
+{{ $signatureType := .Get 0 }}
+{{ $signatureText := .Get 1 }}
+
+{{ if eq $signatureType "standard" }}
+<p class="signature">
+    Eso es todo por hoy. Si tienes alguna inquietud no dudes en dejármela en los comentario.
+</p>
+<p>¡Gracias por leer!</p>
+{{ else if eq $signatureType "custom" }}
+<p class="signature">
+    {{ with $signatureText}}
+    {{ . | safeHTML }}
+    {{ end }}
+</p>
+{{ end }}

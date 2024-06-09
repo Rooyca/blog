@@ -98,8 +98,4 @@ free -m
 echo '/swapfile none swap sw 00' | sudo tee -a /etc/fstab
 ```
 
-Y eso sería todo, así de sencillo es correr WordPress en Google Cloud.
-
-Recuerden que si tienen alguna duda pueden escribirme por: 
-
-Hasta la próxima. Que tengan un excelente día.
+{{< signature standard >}}

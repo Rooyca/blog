@@ -1,13 +1,17 @@
 ---
-title: "Active Directory (Homelab)"
+title: "Active Directory (Homelab) | En Proceso"
 date: 2023-09-04
 type: page
 tags: 
 - "active directory"
 - "homelab"
 - "windows"
-description: Generalidades sobre active directory, cómo configurarlo, cómo usarlo, etc.
+description: "Generalidades sobre active directory, cómo configurarlo, cómo usarlo, etc."
 ---
+
+{{< box warning >}}
+🚧 **Este guía está en construcción** 🚧
+{{< /box >}}
 
 ## Requisitos Homelab
 
@@ -44,3 +48,7 @@ En este caso usaré VMWare Workstation PRO 17. Es importante ingresar una licenc
 
 - Crear una snapshot
 - Unirse al dominio
+
+---
+
+{{< signature standard >}}

@@ -123,7 +123,9 @@ Private Sub Capture_OnComplete(ByVal ReaderSerNum As String, ByVal Sample As Obj
 
 ## ¿Y ahora qué?
 
-Con lo anterior, tienes los fundamentos que te permitirán integrar un lector de huellas con Access, por supuesto aún queda mucho trabajo para tener una aplicación completa y funcional, pero con esto ya tienes una base sólida para comenzar. Si deseas la base de datos completa puedes escribirme al correo que aparece en la seccion de [Contacto](/es/contacto).
+Con lo anterior, tienes los fundamentos que te permitirán integrar un lector de huellas con Access, por supuesto aún queda mucho trabajo para tener una aplicación completa y funcional, pero con esto ya tienes una base sólida para comenzar. Si deseas la base de datos completa puedes escribirme al correo que aparece en la seccion de [Contacto](/es/contacto) o a cualquiera de las redes que aparecen en en el [inicio](/es/). 
+
+{{< signature standard >}}
 
 
 
