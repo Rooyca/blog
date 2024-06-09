@@ -6,7 +6,8 @@ tags:
 - "gmail"
 - "cloudflare"
 - "domain"
-description: Tired of paying your provider every month just to use your email(s)? Well, no more, because today we will learn how to configure our email accounts with Gmail in four simple steps
+description: "Tired of paying your provider every month just to use your email(s)? Well, no more, because today we will learn how to configure our email accounts with Gmail in four simple steps"
+image: "https://kinsta.com/es/wp-content/uploads/sites/8/2017/11/email-marketing-software-1.png"
 ---
 
 # 1 - Redirecting Traffic

@@ -7,6 +7,7 @@ tags:
 - "linux"
 - "build"
 description: "En este artículo aprenderás a publicar paquetes en el repositorio de usuarios (AUR) de Arch."
+image: "https://i0.wp.com/discovery.endeavouros.com/wp-content/uploads/2021/03/AUR.png"
 ---
 
 {{< box warning >}}

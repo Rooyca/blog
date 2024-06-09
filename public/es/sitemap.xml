@@ -339,6 +339,16 @@
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/gcloud/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://dablog.pages.dev/en/tags/gcloud/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://dablog.pages.dev/es/tags/gcloud/"
+                />
   </url><url>
     <loc>https://dablog.pages.dev/es/tags/migracion/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>

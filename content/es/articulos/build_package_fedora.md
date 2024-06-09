@@ -7,6 +7,7 @@ tags:
 - "linux"
 - "build"
 description: "Aprende a construir paquetes RPM y publicarlos en COPR"
+image: "https://logowik.com/content/uploads/images/fedora8487.logowik.com.webp"
 ---
 
 {{< box info >}}

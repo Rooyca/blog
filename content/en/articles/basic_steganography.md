@@ -6,7 +6,6 @@ tags:
 - "steganography"
 - "linux"
 description: Would you like to read the complete work of one of the greats of English literature but think it's too long to download? Well, today I have the solution for you. We're going to extract it from a small image (2 MB).
-topic: steganography
 ---
 
 # Steganography

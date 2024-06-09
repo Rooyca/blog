@@ -25,6 +25,22 @@
     -webkit-line-clamp: 3;
 }
 
+.img-article {
+    max-width: 100%;
+    height: 270px;
+    min-width: 100%;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 768px) {
+    .img-article {
+        height: 120px;
+    }
+}
+
 .first-entry .entry-content-project {
     margin: 14px 0;
     font-size: 16px;

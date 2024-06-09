@@ -7,6 +7,7 @@ tags:
 - "linux"
 - "bluetooth"
 description: "Linux es todo diversion hasta que tienes que conectar un dispositivo bluetooth."
+image: "https://thehackernews.com/images/-4cJPA2xc3uQ/X4lJatASkPI/AAAAAAAAA48/Hy5WY63rAWcvPjJi91C12tl81_EfKlsGACLcBGAsYHQ/s0/linux-bluetooth.jpg"
 ---
 
 {{< box info >}}

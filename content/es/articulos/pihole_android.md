@@ -6,7 +6,8 @@ tags:
 - "pihole"
 - "linux"
 - "android"
-description: Instala Pi-Hole para monitorear tu red en tu dispositivo android (rooteado).
+description: "Instala Pi-Hole para monitorear tu red en tu dispositivo android (rooteado)."
+image: "https://www.chrisrmiller.com/content/images/2020/11/pi-hole.png"
 ---
 
 {{< box info >}}

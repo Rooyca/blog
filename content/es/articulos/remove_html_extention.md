@@ -5,6 +5,7 @@ type: page
 tags: 
 - "html"
 description: "Cómo eliminar la extensión .html de una URL en un sitio web estático."
+image: "https://permalinkmanager.pro/wp-content/uploads/2019/03/Permalink-Manager-new-20.png"
 ---
 
 {{< box info >}}

@@ -7,6 +7,7 @@ tags:
 - "python"
 - "build"
 description: "En la siguiente guía aprenderemos, de manera sencilla, a crear y publicar paquetes en PyPI."
+image: "https://datascientest.com/en/wp-content/uploads/sites/9/2024/03/pypi-datascientest-1024x512-1.png"
 ---
 
 ## Introducción

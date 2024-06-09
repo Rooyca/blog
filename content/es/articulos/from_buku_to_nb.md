@@ -7,6 +7,7 @@ tags:
 - "nb"
 - "python"
 description: "Transfiere todos tus marcadores de buku a nb usando Python."
+image: "https://www.datanami.com/wp-content/uploads/2020/11/database_migration_shutterstock_hanss.jpg"
 ---
 
 ![img_migration](https://www.datanami.com/wp-content/uploads/2020/11/database_migration_shutterstock_hanss.jpg)

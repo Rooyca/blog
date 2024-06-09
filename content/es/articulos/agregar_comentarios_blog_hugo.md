@@ -7,6 +7,7 @@ tags:
 - "blog"
 - "github"
 description: "Agrega comentarios a tu Hugo blog usando Github Issues"
+image: "https://joshcollinsworth.com/images/post_images/utterances.png"
 ---
 {{< box info >}}
 [Post original](https://mscipio.github.io/post/utterances-comment-engine/)

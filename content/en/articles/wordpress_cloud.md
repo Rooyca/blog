@@ -3,11 +3,11 @@ title: "Hosting WordPress in the cloud (Google Cloud)"
 date: 2022-07-01
 type: page
 tags: 
-- "Wordpress"
-- "Google Cloud"
-- "DB"
-description: Have you thought about hosting your WordPress site in the cloud but don't know how? Today we will learn together the process to run our site on Google Cloud, but a similar process could be used to run it on any other platform such as AWS or Azure.
-topic: cloud,wordpress
+- "wordpress"
+- "gcloud"
+- "db"
+description: "Have you thought about hosting your WordPress site in the cloud but don't know how? Today we will learn together the process to run our site on Google Cloud, but a similar process could be used to run it on any other platform such as AWS or Azure."
+image: "https://www.elegantthemes.com/blog/wp-content/uploads/2022/04/Install-WordPress-on-Google-Cloud-Hosting.png"
 ---
 
 ![Wordpress](https://upload.wikimedia.org/wikipedia/commons/2/20/WordPress_logo.svg)

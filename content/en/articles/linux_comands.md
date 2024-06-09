@@ -5,7 +5,6 @@ type: page
 tags: 
 - "linux"
 description: Tired of having to type twenty variables to execute a simple command? Today, we will learn to map our commands using Alias.
-topic: linux
 ---
 
 # Creating our Aliases

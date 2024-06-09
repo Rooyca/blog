@@ -5,7 +5,8 @@ tags:
 - "termux"
 - "postgresql"
 - "android"
-description: Guia sencilla para instalar PostgreSQL en Termux (Terminal de comando para Android)
+description: "Guia sencilla para instalar PostgreSQL en Termux (Terminal de comando para Android)"
+image: "https://kinsta.com/wp-content/uploads/2022/02/postgres-logo.png"
 ---
 
 {{< box info >}}

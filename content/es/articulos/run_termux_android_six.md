@@ -6,6 +6,7 @@ tags:
 - "termux"
 - "android"
 description: "Guía paso a paso para instalar Termux en Samsung J2 Prime... o cualquier otro celular con Android 5 o 6."
+image: "https://miro.medium.com/v2/resize:fit:1400/1*5R38Aa6bT9pLLYwL3fwDBA.png"
 ---
 
 {{< box info >}}

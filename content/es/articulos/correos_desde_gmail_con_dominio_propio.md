@@ -6,7 +6,8 @@ tags:
 - "gmail"
 - "cloudflare"
 - "domain"
-description: ¿Cansado de pagarle a tu proveedor mes a mes para poder usar tu(s) correo(s)? Pues ya no más porque hoy aprenderemos a configurar nuestras cuentas de correo con Gmail en cuatro sencillos pasos.
+description: "¿Cansado de pagarle a tu proveedor mes a mes para poder usar tu(s) correo(s)? Pues ya no más porque hoy aprenderemos a configurar nuestras cuentas de correo con Gmail en cuatro sencillos pasos."
+image: "https://kinsta.com/es/wp-content/uploads/sites/8/2017/11/email-marketing-software-1.png"
 ---
 
 # Primero - Redireccionar el trafico

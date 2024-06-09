@@ -4,7 +4,8 @@ date: 2021-10-05
 tags: 
 - "ipfs"
 - "blockchain"
-description: IPFS es un protocolo hypermedia peer-to-peer diseñado para preservar y hacer crecer el conocimiento de la humanidad haciendo la web más abierta, más resiliente y mejor.
+description: "IPFS es un protocolo hypermedia peer-to-peer diseñado para preservar y hacer crecer el conocimiento de la humanidad haciendo la web más abierta, más resiliente y mejor."
+image: "https://miro.medium.com/v2/resize:fit:638/0*o30AAwcHRvsA840O.jpg"
 ---
 
 ![IPFS-IMG](https://cdn-images-1.medium.com/v2/resize:fit:1200/1*lGh_L0ldPWz1kFMcKvj4Qw.png)

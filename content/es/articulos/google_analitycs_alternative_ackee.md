@@ -7,6 +7,7 @@ tags:
 - "blog"
 - "analitycs"
 description: "Obten información de tus visitantes sin depender de Google Analitycs"
+image: "https://repository-images.githubusercontent.com/18831920/db1a3580-c5f8-11e9-9405-d570093475aa"
 ---
 
 ![img_head](https://images.unsplash.com/photo-1599658880436-c61792e70672?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGdvb2dsZSUyMGFuYWx5dGljc3xlbnwwfHx8fDE2ODIzMDM0NTA&ixlib=rb-4.0.3&q=80&w=2000)

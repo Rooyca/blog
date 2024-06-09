@@ -8,7 +8,8 @@ tags:
 - "migracion"
 - "php"
 - "db"
-description: ¿Has pensado en alojar tu sitio con WordPress en la nube, pero no sabes cómo? Hoy aprenderemos juntos el proceso para correr nuestro sitio en Google Cloud, pero un proceso similar podría utilizarse para correrlo en cualquier otra plataforma como AWS o Azure.
+description: "¿Has pensado en alojar tu sitio con WordPress en la nube, pero no sabes cómo? Hoy aprenderemos juntos el proceso para correr nuestro sitio en Google Cloud, pero un proceso similar podría utilizarse para correrlo en cualquier otra plataforma como AWS o Azure."
+image: "https://www.elegantthemes.com/blog/wp-content/uploads/2022/04/Install-WordPress-on-Google-Cloud-Hosting.png"
 ---
 
 ![Wordpress](https://upload.wikimedia.org/wikipedia/commons/2/20/WordPress_logo.svg)

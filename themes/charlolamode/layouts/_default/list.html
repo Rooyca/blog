@@ -65,7 +65,11 @@
     {{- end }}
     {{- if .Params.image }}
     <section class="entry-content">
-      <img src="{{ .Params.image }}">
+      {{ $imgClass := "" }}
+      {{ if ne .Params.topic "project" }}
+        {{ $imgClass = "img-article" }}
+      {{ end }}
+      <img src="{{ .Params.image }}" class="{{ $imgClass }}">
     </section>
     {{- end }}
     {{- if not (.Param "hideMeta") }}
