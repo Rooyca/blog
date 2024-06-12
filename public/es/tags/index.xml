@@ -7,8 +7,36 @@
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© 2024</copyright>
-    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://dablog.pages.dev/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cli</title>
+      <link>https://dablog.pages.dev/es/tags/cli/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/tags/cli/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nb</title>
+      <link>https://dablog.pages.dev/es/tags/nb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/tags/nb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>https://dablog.pages.dev/es/tags/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/tags/notes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notetaking</title>
+      <link>https://dablog.pages.dev/es/tags/notetaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dablog.pages.dev/es/tags/notetaking/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Android</title>
       <link>https://dablog.pages.dev/es/tags/android/</link>
@@ -28,13 +56,6 @@
       <link>https://dablog.pages.dev/es/tags/buku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/tags/buku/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nb</title>
-      <link>https://dablog.pages.dev/es/tags/nb/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/nb/</guid>
       <description></description>
     </item>
     <item>
@@ -224,13 +245,6 @@
       <link>https://dablog.pages.dev/es/tags/rclone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/tags/rclone/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cli</title>
-      <link>https://dablog.pages.dev/es/tags/cli/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/cli/</guid>
       <description></description>
     </item>
     <item>
