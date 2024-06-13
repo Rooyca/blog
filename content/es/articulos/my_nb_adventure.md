@@ -163,14 +163,6 @@ nb import ~/PATH/TO/NOTES/*.md
 
 Aquí ya la cosa se complica un poco, no mucho. Primero exportamos los marcadores de buku, luego, con un sencillo *script*, iteramos sobre los marcadores y los importamos a `nb`. Puedes ver la guía completa y el código en mi publicación [Migrar de buku a nb con Python](from_buku_to_nb).
 
-#### Desde Musicboard
-
-La aplicación que uso para llevar registro de mis álbumes se llama [musicboard](https://musicboard.app/) y para importar dicha información seguí un proceso un tanto enredado que explicaré más adelante.
-
-{{< box important >}}
-Esta parte se actualizará próximamente
-{{< /box >}}
-
 #### Desde Google Keeps
 
 Más que importar las notas desde `Keeps` lo que necesitaba era una forma de tomar dichas notas desde mi celular (o cualquier otro dispositivo) aunque la computadora estuviera apagado. Para esto utilicé [nb-mobile](https://github.com/Rooyca/nb-mobile); una sencilla aplicación web que desarrollé. Nada del otro mundo, utiliza [flask](https://github.com/pallets/flask) tanto para la api como para el frontend. 

@@ -81,7 +81,7 @@
     <div class="post-description">
       Maneja todas tus notas, tareas, marcadores y demás con una sola aplicación
     </div>
-    <div class="post-meta"><span title='2024-06-10 00:00:00 +0000 UTC'>10 jun. 2024</span>&nbsp;·&nbsp;1394 words&nbsp;·&nbsp;7 min</div>
+    <div class="post-meta"><span title='2024-06-10 00:00:00 +0000 UTC'>10 jun. 2024</span>&nbsp;·&nbsp;1359 words&nbsp;·&nbsp;7 min</div>
   </header> <div class="toc">
     <details >
         <summary accesskey="c" title="(Alt + C)">
@@ -123,8 +123,6 @@
                     <a href="#desde-neovim" aria-label="Desde Neovim">Desde Neovim</a></li>
                 <li>
                     <a href="#desde-buku" aria-label="Desde buku">Desde buku</a></li>
-                <li>
-                    <a href="#desde-musicboard" aria-label="Desde Musicboard">Desde Musicboard</a></li>
                 <li>
                     <a href="#desde-google-keeps" aria-label="Desde Google Keeps">Desde Google Keeps</a></li></ul>
                 </li></ul>
@@ -343,17 +341,6 @@
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nb import ~/PATH/TO/NOTES/*.md
 </span></span></code></pre></div><h4 id="desde-buku">Desde buku</h4>
 <p>Aquí ya la cosa se complica un poco, no mucho. Primero exportamos los marcadores de buku, luego, con un sencillo <em>script</em>, iteramos sobre los marcadores y los importamos a <code>nb</code>. Puedes ver la guía completa y el código en mi publicación <a href="/es/articulos/from_buku_to_nb/">Migrar de buku a nb con Python</a>.</p>
-<h4 id="desde-musicboard">Desde Musicboard</h4>
-<p>La aplicación que uso para llevar registro de mis álbumes se llama <a href="https://musicboard.app/">musicboard</a> y para importar dicha información seguí un proceso un tanto enredado que explicaré más adelante.</p>
-
-
-<div class="box box-shortcode important" >
-    <span class="icon-box baseline">
-      <svg><use href="#important-box"></use></svg>
-    </span>
-    <p>Esta parte se actualizará próximamente</p>
-  </div>
-
 <h4 id="desde-google-keeps">Desde Google Keeps</h4>
 <p>Más que importar las notas desde <code>Keeps</code> lo que necesitaba era una forma de tomar dichas notas desde mi celular (o cualquier otro dispositivo) aunque la computadora estuviera apagado. Para esto utilicé <a href="https://github.com/Rooyca/nb-mobile">nb-mobile</a>; una sencilla aplicación web que desarrollé. Nada del otro mundo, utiliza <a href="https://github.com/pallets/flask">flask</a> tanto para la api como para el frontend.</p>
 
