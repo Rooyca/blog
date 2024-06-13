@@ -14,7 +14,7 @@ image: "https://raw.githubusercontent.com/xwmx/nb/master/docs/assets/images/nb.p
 ![nb](https://raw.githubusercontent.com/xwmx/nb/master/docs/assets/images/nb.png)
 
 {{< box info >}}
-**Ultima actualización:** *Junio 6, 2024*
+**Ultima actualización:** *Junio 12, 2024*
 {{< /box >}}
 
 Siempre he sentido la necesidad de escribir (más que nada para recordar. *Este blog es un claro ejemplo*), pero siempre estaba la pregunta "¿Dónde debería escribir esto?".
@@ -176,16 +176,8 @@ Esta parte se actualizará próximamente
 Más que importar las notas desde `Keeps` lo que necesitaba era una forma de tomar dichas notas desde mi celular (o cualquier otro dispositivo) aunque la computadora estuviera apagado. Para esto utilicé [nb-mobile](https://github.com/Rooyca/nb-mobile); una sencilla aplicación web que desarrollé. Nada del otro mundo, utiliza [flask](https://github.com/pallets/flask) tanto para la api como para el frontend. 
 
 {{< box warning >}}
-Antes de usar [nb-mobile](https://github.com/Rooyca/nb-mobile) necesitas poner tu ip local en los siguientes archivos:
-
-1. `save_notes_to_nb.py`
-2. `webpage/main.py`
-3. `webpage/tamplates/index.html`
-4. `webpage/templates/view.html`
-
-### [!] **Esta parte se actualizará próximamente**
+Antes de usar [nb-mobile](https://github.com/Rooyca/nb-mobile) necesitas exportar la variable `IP` con tu ip local. (Ver [.env.example](https://raw.githubusercontent.com/Rooyca/nb-mobile/master/webpage/.env.example))
 {{< /box >}}
-
 
 Aproveché un celular antiguo que nadie estaba utilizando (ver [Instalar Termux en Android 5 o 6 | Samsung J2 Prime](run_termux_android_six) y le instalé [termux](https://termux.com/). 
 
