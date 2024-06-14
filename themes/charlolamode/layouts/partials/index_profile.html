@@ -7,8 +7,10 @@
         {{- end }}
         <h1>{{ .title | default $.Site.Title | markdownify }}</h1>
         <div class="profile-description">{{ .description | markdownify }}</div>
+        {{- if .nowPlaying }}
+         <img src="{{ .nowPlaying }}" alt="now-playing" style="border-radius: 0;" />
+        {{- end }}
         {{- partial "social_icons.html" $.Site.Params.socialIcons -}}
-
         {{- with .buttons }}
         <div class="buttons">
             {{- range . }}
