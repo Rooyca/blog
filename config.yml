@@ -11,7 +11,7 @@ languages:
     disabled: false
     languageCode: es-ES
     languageDirection: ltr
-    languageName: Spanish
+    languageName: 🇪🇸
     params:
       subtitle: ideas, tutoriales y cosas sin sentido
     title: rooyca
@@ -19,29 +19,29 @@ languages:
 
     menu:
         main:
-            - name: Contacto
-              url: /contacto/
-              weight: 30
             - name: Artículos
               url: /articulos/
-              weight: 20
+              weight: 10
             - name: Proyectos
               url: /proyectos/
-              weight: 15
+              weight: 20
     params:
       profileMode:
           enabled: true
           title: rooyca
-          description: |
+          description: "
+            🧔🏻 / 🇨🇴
 
-            Hola, soy Ronald (rooyca pa' los compas)
 
-            Bienvenidos a mi interpretación del mundo.
+            « Aprendiz de todo, maestro de nada »
+
+
+            [ 📚 Dilettante ] • [ 🎶 Melómano ]"
           imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
           imageTitle: profile
           
           buttons:
-              - name: Portfolio
+              - name: Portafolio
                 url: https://rooyca.github.io/
 
   en:
@@ -49,7 +49,7 @@ languages:
     disabled: false
     languageCode: en-US
     languageDirection: ltr
-    languageName: English
+    languageName: 🇺🇸
     params:
       subtitle: ideas, tutorials and nonsense
     title: rooyca
@@ -57,26 +57,26 @@ languages:
 
     menu:
         main:
-            - name: Contact
-              url: /contact/
-              weight: 30
             - name: Articles
               url: /articles/
-              weight: 20
+              weight: 10
             - name: Projects
               url: /projects/
-              weight: 15
+              weight: 20
 
     params:
       profileMode:
         # Disable to populate home page with 'mainSections' content
         enabled: true
         title: rooyca
-        description: |
+        description: "
+          🧔🏻 / 🇨🇴
 
-          Hello there, I’m Ronald a.k.a rooyca
 
-          Welcome to my interpretation of the world.
+          « Jack of all trades, master of none »
+
+
+          [ 📚 Dilettante ] • [ 🎶 Melomaniac ] "
         imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
         imageTitle: profile
 
@@ -102,8 +102,8 @@ params:
     hideAuthor: true
     #comments: true
     disableAckee: true
+    ShowRssButtonInSectionTermList: true
     description: "This blog's purpose is to share things I've learned, projects I've done and, in general, things that I find interesting."
-
 
     keywords: 
       - "ideas"
@@ -127,14 +127,16 @@ params:
           url: "https://t.me/yarocc"
         - name: mastodon
           url: "https://mas.to/@rooyca"
-        - name: keybase
-          url: "https://keybase.io/rooyca"
+        #- name: keybase
+        #  url: "https://keybase.io/rooyca"
         - name: hackerrank
           url: "https://www.hackerrank.com/rooyca"
-        - name: kofi
-          url: "https://ko-fi.com/rooyca"
+        #- name: kofi
+        #  url: "https://ko-fi.com/rooyca"
         - name: pgpkey
           url: "https://pgp.rooyca.workers.dev/?fp=0CCBAE3240C1522155278DE4CB666DEC17F3A6D5"
+        - name: email
+          url: "mailto:blog.png8n@slmail.me"
 
     # change favicon in images folder (icon for web tab)
     assets:
@@ -143,8 +145,6 @@ params:
           favicon32x32: "/images/favicon-32x32.png"
           apple_touch_icon: "/images/apple-touch-icon.png"
           safari_pinned_tab: "/images/apple-touch-icon.png"
-
-
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
