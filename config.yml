@@ -37,7 +37,7 @@ languages:
 
 
             [ 📚 Dilettante ] • [ 🎶 Melómano ]"
-          nowPlaying: "https://img.shields.io/endpoint?url=https://lastfm-last-played.biancarosa.com.br/rooyca/latest-song?format=shields.io&style=flat-square&logo=spotify&label=Now Playing&labelColor=black&color=grey"
+          nowPlaying: "https://img.shields.io/endpoint?url=https%3A%2F%2Flistening.rooyca.workers.dev%2Fv1%2Flast%2Frooyca&style=for-the-badge&logo=spotify"
           imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
           imageTitle: profile
           
@@ -78,7 +78,7 @@ languages:
 
 
           [ 📚 Dilettante ] • [ 🎶 Melomaniac ] "
-        nowPlaying: "https://img.shields.io/endpoint?url=https://lastfm-last-played.biancarosa.com.br/rooyca/latest-song?format=shields.io&style=flat-square&logo=spotify&label=Now Playing&labelColor=black&color=grey"
+        nowPlaying: "https://img.shields.io/endpoint?url=https%3A%2F%2Flistening.rooyca.workers.dev%2Fv1%2Flast%2Frooyca&style=for-the-badge&logo=spotify"
         imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
         imageTitle: profile
 
