@@ -33,11 +33,8 @@ languages:
             🧔🏻 / 🇨🇴
 
 
-            « Aprendiz de todo, maestro de nada »
-
-
             [ 📚 Dilettante ] • [ 🎶 Melómano ]"
-          nowPlaying: "https://img.shields.io/endpoint?url=https%3A%2F%2Flistening.rooyca.workers.dev%2Fv1%2Flast%2Frooyca&style=for-the-badge&logo=spotify"
+          nowPlaying: "https://img.shields.io/endpoint?url=https%3A%2F%2Flistening.rooyca.workers.dev%2Fv1%2Flast%2Frooyca&style=flat&logo=spotify&label=Playing&color=black&labelColor=darkslategray"
           imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
           imageTitle: profile
           
@@ -74,11 +71,8 @@ languages:
           🧔🏻 / 🇨🇴
 
 
-          « Jack of all trades, master of none »
-
-
           [ 📚 Dilettante ] • [ 🎶 Melomaniac ] "
-        nowPlaying: "https://img.shields.io/endpoint?url=https%3A%2F%2Flistening.rooyca.workers.dev%2Fv1%2Flast%2Frooyca&style=for-the-badge&logo=spotify"
+        nowPlaying: "https://img.shields.io/endpoint?url=https%3A%2F%2Flistening.rooyca.workers.dev%2Fv1%2Flast%2Frooyca&style=flat&logo=spotify&label=Playing&color=black&labelColor=darkslategray"
         imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
         imageTitle: profile
 
@@ -156,4 +150,4 @@ pygmentsUseClasses: true
 minify:
     disableXML: true
 
-copyright: © 2024
+copyright: © [rooyca](https://github.com/rooyca)
