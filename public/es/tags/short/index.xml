@@ -14,7 +14,7 @@
       <link>https://dablog.pages.dev/es/articulos/edit_path_termux/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/edit_path_termux/</guid>
-      <description>En $HOME, usando nuestro editor de confianza, editamos .bash_profile file (si no existe, lo creamos)&#xA;Por ejemplo, si queremos añadir cargo a nuestro PATH, nuestro archivo final debería quedar algo así:&#xA;PATH=&amp;#34;$PATH:/data/data/com.termux/files/home/.cargo/bin&amp;#34; </description>
+      <description>&lt;p&gt;En &lt;code&gt;$HOME&lt;/code&gt;, usando nuestro editor de confianza, editamos &lt;code&gt;.bash_profile file&lt;/code&gt; (si no existe, lo creamos)&lt;/p&gt;&#xA;&lt;p&gt;Por ejemplo, si queremos añadir &lt;a href=&#34;https://doc.rust-lang.org/cargo/&#34;&gt;cargo&lt;/a&gt; a nuestro PATH, nuestro archivo final debería quedar algo así:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PATH=&amp;#34;$PATH:/data/data/com.termux/files/home/.cargo/bin&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>

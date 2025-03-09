@@ -62,6 +62,11 @@
                     <span>Proyectos</span>
                 </a>
             </li>
+            <li>
+                <a href="https://dablog.pages.dev/es/contacto/" title="Contacto">
+                    <span>Contacto</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -221,7 +226,7 @@
 <h3 id="linux">Linux</h3>
 <p>Hugo puede venir incluido en el <code>package manager</code> de tu distro. Si ese es el caso, puedes instalarlo directamente usando el <code>package manager</code>. - por ejemplo, en Ubuntu, usa el siguiente comando:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt-get install hugo
-</span></span></code></pre></div><p>Si, por el contrario, tu <code>package manager</code> no incluye Hugo o deseas descargarlo directamente, dirigete a la parte de <a href="/es/articulos/hugo_cloudflare_pages/#instalación-manual">Instalación Manual</a>.</p>
+</span></span></code></pre></div><p>Si, por el contrario, tu <code>package manager</code> no incluye Hugo o deseas descargarlo directamente, dirigete a la parte de <a href="/es/articulos/hugo_cloudflare_pages/#instalaci%c3%b3n-manual">Instalación Manual</a>.</p>
 <h3 id="homebrew-macos">Homebrew (macOS)</h3>
 <p>Si usas el <code>package manager</code> <a href="https://brew.sh/">Homebrew</a>, puedes correr el comando <code>brew install</code> para instalar Hugo:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">brew install hugo
@@ -332,30 +337,30 @@
 <li>Después selecciona el repositorio que creaste y en la parte de <strong>Set up builds and deployments</strong>, proporciona la siguiente información:</li>
 </ol>
 <table>
-<thead>
-<tr>
-<th>Opción de configuración</th>
-<th>Valor</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Production branch</td>
-<td><code>main</code></td>
-</tr>
-<tr>
-<td>Build command</td>
-<td><code>hugo</code></td>
-</tr>
-<tr>
-<td>Build directory</td>
-<td><code>public</code></td>
-</tr>
-<tr>
-<td>Base URL configuration</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Opción de configuración</th>
+          <th>Valor</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Production branch</td>
+          <td><code>main</code></td>
+      </tr>
+      <tr>
+          <td>Build command</td>
+          <td><code>hugo</code></td>
+      </tr>
+      <tr>
+          <td>Build directory</td>
+          <td><code>public</code></td>
+      </tr>
+      <tr>
+          <td>Base URL configuration</td>
+          <td></td>
+      </tr>
+  </tbody>
 </table>
 <p>Hugo te permite configurar la <code>baseURL</code> de tu aplicación. Esto te permite utilizar <code>absURL</code> para construir <code>canonical URLs</code>. Para hacer esto con <code>Pages</code>, debes pasar los parametros <code>-b </code> o <code>--baseURL</code> con la variable de entorno <code>CF_PAGES_URL</code>.</p>
 <p>El comando debería lucir algo así:</p>

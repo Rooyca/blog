@@ -62,6 +62,11 @@
                     <span>Proyectos</span>
                 </a>
             </li>
+            <li>
+                <a href="https://dablog.pages.dev/es/contacto/" title="Contacto">
+                    <span>Contacto</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -99,8 +104,7 @@
   <div class="post-content">
   <p>Tenemos el siguiente ejercicio:</p>
 <blockquote>
-<p>Ejercicio 3. Configurar un router para que los equipos tenga salida a Internet. Elabore tres redes locales cada una con dos host y segmentalas a través de su ip.</p>
-</blockquote>
+<p>Ejercicio 3. Configurar un router para que los equipos tenga salida a Internet. Elabore tres redes locales cada una con dos host y segmentalas a través de su ip.</p></blockquote>
 <p><img loading="lazy" src="red.jpg" alt="red.jpg"  />
 </p>
 <p>Lo primero será configurar las redes de la izquierda, para ello vamos a usar el rango de IP <code>192.168.10.0</code>, la mascara de red <code>255.255.255.0</code> y el Dafault Gateway <code>192.168.10.1</code>. Es decir, como tenemos seis nodos podriamos asignarles las siguientes IP&rsquo;s:</p>
@@ -116,8 +120,7 @@
 <h2 id="precaución">PRECAUCIÓN:</h2>
 <h2 id="cuando-configuremos-la-ip-debemos-asegurarnos-que-la-mascara-de-red-mask-sea">Cuando configuremos la IP debemos asegurarnos que la mascara de red (Mask) sea:</h2>
 <blockquote>
-<p>255.255.255.0</p>
-</blockquote>
+<p>255.255.255.0</p></blockquote>
 <h2 id="de-lo-contrario-podremos-tener-errores-más-adelante">De lo contrario podremos tener errores más adelante</h2>
 <p>Ahora necesitamos configurar el router de la izquierda (el <code>1841</code>), para ello vamos a la pestaña <code>Config</code> y configuramos las interfaces <code>FastEthernet0/0</code> y <code>FastEthernet0/1</code> con las siguientes IP&rsquo;s:</p>
 <ul>

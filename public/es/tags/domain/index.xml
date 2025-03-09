@@ -14,7 +14,7 @@
       <link>https://dablog.pages.dev/es/articulos/correos_desde_gmail_con_dominio_propio/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/correos_desde_gmail_con_dominio_propio/</guid>
-      <description>Primero - Redireccionar el trafico Lo primero que debemos hacer es redireccionar el trafico de nuestro cuenta de correo electrónico (en este caso me@rooyca.xyz) hacia Gmail. Para ello vamos a nuestro proveedor de dominio o nuestro CDN de preferencia, en mi caso CloudFlare. Ahora nos dirigimos a la parte de Email &amp;gt; Routes &amp;gt; Create address.&#xA;Creamos nuestra dirección apuntando al Gmail con el que vamos a configurar nuestra cuenta.</description>
+      <description>&lt;h1 id=&#34;primero---redireccionar-el-trafico&#34;&gt;Primero - Redireccionar el trafico&lt;/h1&gt;&#xA;&lt;p&gt;Lo primero que debemos hacer es redireccionar el trafico de nuestro cuenta de correo electrónico (en este caso &lt;a href=&#34;mailto:me@rooyca.xyz&#34;&gt;me@rooyca.xyz&lt;/a&gt;) hacia Gmail. Para ello vamos a nuestro proveedor de dominio o nuestro CDN de preferencia, en mi caso CloudFlare. Ahora nos dirigimos a la parte de &lt;em&gt;Email&lt;/em&gt; &amp;gt; &lt;em&gt;Routes&lt;/em&gt; &amp;gt; &lt;em&gt;Create address&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://res.cloudinary.com/rooyca/image/upload/c_scale,w_972/v1657979535/Blog/Imgs/domain-gmail/13_fmzgzs.png&#34; alt=&#34;Create Cuenta&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Creamos nuestra dirección apuntando al Gmail con el que vamos a configurar nuestra cuenta.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

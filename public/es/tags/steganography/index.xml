@@ -14,7 +14,7 @@
       <link>https://dablog.pages.dev/es/articulos/esteganografia_basica/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/esteganografia_basica/</guid>
-      <description>Esteganografía ¿Qué es? A diferencia de la criptografía, donde es obvio que se está ocultando algo, la esteganografía oculta la información de tal forma que no se levante sospechas de que hay algo oculto. Esto se consigue por medio de diferentes técnicas que nos permiten ocultar archivos, imágenes, textos o incluso vídeos dentro de otros archivos.&#xA;¿Cómo funciona? Hay diferentes técnicas para ocultar información dentro de archivos. Una de las más usadas y quizás la más sencilla de entender es la comúnmente conocido como &amp;ldquo;Técnica del Bit menos significante&amp;rdquo; o LSB (por sus siglas en inglés).</description>
+      <description>&lt;h1 id=&#34;esteganografía&#34;&gt;Esteganografía&lt;/h1&gt;&#xA;&lt;h2 id=&#34;qué-es&#34;&gt;¿Qué es?&lt;/h2&gt;&#xA;&lt;p&gt;A diferencia de la criptografía, donde es obvio que se está ocultando algo, la esteganografía oculta la información de tal forma que no se levante sospechas de que hay algo oculto. Esto se consigue por medio de diferentes técnicas que nos permiten ocultar archivos, imágenes, textos o incluso vídeos dentro de otros archivos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cómo-funciona&#34;&gt;¿Cómo funciona?&lt;/h2&gt;&#xA;&lt;p&gt;Hay diferentes técnicas para ocultar información dentro de archivos. Una de las más usadas y quizás la más sencilla de entender es la comúnmente conocido como &amp;ldquo;Técnica del Bit menos significante&amp;rdquo; o LSB (por sus siglas en inglés).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

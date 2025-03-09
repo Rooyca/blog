@@ -62,6 +62,11 @@
                     <span>Proyectos</span>
                 </a>
             </li>
+            <li>
+                <a href="https://dablog.pages.dev/es/contacto/" title="Contacto">
+                    <span>Contacto</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -133,89 +138,89 @@
 </code></pre><p>Como ya sabemos <strong>asm2(0xb, 0x2e)</strong> está siendo puesto en el <em>stack</em>. Esto pasa en las primeras dos líneas. La primera hace <em>push</em> de <strong>asm2</strong> hacia <strong>ebp</strong> y después se mueve dicho valor hacia <strong>esp</strong>.</p>
 <p>Después de estas dos instrucciones, el estado del <em>stack</em> es el siguiente:</p>
 <table>
-<thead>
-<tr>
-<th>Direccion</th>
-<th>Valor</th>
-<th>Instrucción</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0xc</td>
-<td>0x2e</td>
-<td>ebp+0xc</td>
-</tr>
-<tr>
-<td>0x8</td>
-<td>0xb</td>
-<td>ebp+0x8</td>
-</tr>
-<tr>
-<td>0x4</td>
-<td>ret</td>
-<td>ebp+0x4</td>
-</tr>
-<tr>
-<td>0x0</td>
-<td>ebp</td>
-<td></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Direccion</th>
+          <th>Valor</th>
+          <th>Instrucción</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0xc</td>
+          <td>0x2e</td>
+          <td>ebp+0xc</td>
+      </tr>
+      <tr>
+          <td>0x8</td>
+          <td>0xb</td>
+          <td>ebp+0x8</td>
+      </tr>
+      <tr>
+          <td>0x4</td>
+          <td>ret</td>
+          <td>ebp+0x4</td>
+      </tr>
+      <tr>
+          <td>0x0</td>
+          <td>ebp</td>
+          <td></td>
+      </tr>
+  </tbody>
 </table>
 <p>Saber esto nos ayuda bastante. Ahora vamos a ver la siguiente instrucción:</p>
 <pre tabindex="0"><code>&lt;+3&gt;:	sub    esp,0x10
 </code></pre><p>En esta instrucción, simplemente estamos a asignando espacio para algunas variables locales, por lo que el stack quedaría así:</p>
 <table>
-<thead>
-<tr>
-<th>Direccion</th>
-<th>Valor</th>
-<th>Instrucción</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0xc</td>
-<td>0x2e</td>
-<td>ebp+0xc</td>
-</tr>
-<tr>
-<td>0x8</td>
-<td>0xb</td>
-<td>ebp+0x8</td>
-</tr>
-<tr>
-<td>0x4</td>
-<td>ret</td>
-<td>ebp+0x4</td>
-</tr>
-<tr>
-<td>0x0</td>
-<td>ebp</td>
-<td></td>
-</tr>
-<tr>
-<td>-0x4</td>
-<td>local1</td>
-<td>ebp-0x4</td>
-</tr>
-<tr>
-<td>-0x8</td>
-<td>local2</td>
-<td>ebp-0x8</td>
-</tr>
-<tr>
-<td>-0xc</td>
-<td>local3</td>
-<td>ebp-0xc</td>
-</tr>
-<tr>
-<td>-0x10</td>
-<td>local4</td>
-<td>ebp-0x10</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Direccion</th>
+          <th>Valor</th>
+          <th>Instrucción</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0xc</td>
+          <td>0x2e</td>
+          <td>ebp+0xc</td>
+      </tr>
+      <tr>
+          <td>0x8</td>
+          <td>0xb</td>
+          <td>ebp+0x8</td>
+      </tr>
+      <tr>
+          <td>0x4</td>
+          <td>ret</td>
+          <td>ebp+0x4</td>
+      </tr>
+      <tr>
+          <td>0x0</td>
+          <td>ebp</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>-0x4</td>
+          <td>local1</td>
+          <td>ebp-0x4</td>
+      </tr>
+      <tr>
+          <td>-0x8</td>
+          <td>local2</td>
+          <td>ebp-0x8</td>
+      </tr>
+      <tr>
+          <td>-0xc</td>
+          <td>local3</td>
+          <td>ebp-0xc</td>
+      </tr>
+      <tr>
+          <td>-0x10</td>
+          <td>local4</td>
+          <td>ebp-0x10</td>
+      </tr>
+  </tbody>
 </table>
 <p>Continuamos con:</p>
 <pre tabindex="0"><code>	&lt;+6&gt;:	mov    eax,DWORD PTR [ebp+0xc]
@@ -233,55 +238,55 @@
 </ol>
 <p>El estado actual del <em>stack</em> es:</p>
 <table>
-<thead>
-<tr>
-<th>Direccion</th>
-<th>Valor</th>
-<th>Instrucción</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0xc</td>
-<td>0x2e</td>
-<td>ebp+0xc</td>
-</tr>
-<tr>
-<td>0x8</td>
-<td>0xb</td>
-<td>ebp+0x8</td>
-</tr>
-<tr>
-<td>0x4</td>
-<td>ret</td>
-<td>ebp+0x4</td>
-</tr>
-<tr>
-<td>0x0</td>
-<td>ebp</td>
-<td></td>
-</tr>
-<tr>
-<td>-0x4</td>
-<td>0x2e</td>
-<td>ebp-0x4</td>
-</tr>
-<tr>
-<td>-0x8</td>
-<td>0xb</td>
-<td>ebp-0x8</td>
-</tr>
-<tr>
-<td>-0xc</td>
-<td>local3</td>
-<td>ebp-0xc</td>
-</tr>
-<tr>
-<td>-0x10</td>
-<td>local4</td>
-<td>ebp-0x10</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Direccion</th>
+          <th>Valor</th>
+          <th>Instrucción</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0xc</td>
+          <td>0x2e</td>
+          <td>ebp+0xc</td>
+      </tr>
+      <tr>
+          <td>0x8</td>
+          <td>0xb</td>
+          <td>ebp+0x8</td>
+      </tr>
+      <tr>
+          <td>0x4</td>
+          <td>ret</td>
+          <td>ebp+0x4</td>
+      </tr>
+      <tr>
+          <td>0x0</td>
+          <td>ebp</td>
+          <td></td>
+      </tr>
+      <tr>
+          <td>-0x4</td>
+          <td>0x2e</td>
+          <td>ebp-0x4</td>
+      </tr>
+      <tr>
+          <td>-0x8</td>
+          <td>0xb</td>
+          <td>ebp-0x8</td>
+      </tr>
+      <tr>
+          <td>-0xc</td>
+          <td>local3</td>
+          <td>ebp-0xc</td>
+      </tr>
+      <tr>
+          <td>-0x10</td>
+          <td>local4</td>
+          <td>ebp-0x10</td>
+      </tr>
+  </tbody>
 </table>
 <p>Pasemos a la siguiente instrucción:</p>
 <pre tabindex="0"><code>	&lt;+28&gt;:	cmp    DWORD PTR [ebp-0x8],0x63f3

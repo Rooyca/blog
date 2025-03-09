@@ -14,14 +14,14 @@
       <link>https://dablog.pages.dev/en/articles/basic_steganography/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/en/articles/basic_steganography/</guid>
-      <description>Steganography What is it? Unlike cryptography, where it is obvious that something is being hidden, steganography hides information in such a way that no suspicions are raised that something is hidden. This is achieved by means of different techniques that allow us to hide files, images, texts or even videos inside other files.&#xA;How does it work? There are different techniques to hide information inside files. One of the most commonly used and perhaps the easiest to understand is commonly known as the &amp;ldquo;Least Significant Bit Technique&amp;rdquo; or LSB.</description>
+      <description>&lt;h1 id=&#34;steganography&#34;&gt;Steganography&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;&#xA;&lt;p&gt;Unlike cryptography, where it is obvious that something is being hidden, steganography hides information in such a way that no suspicions are raised that something is hidden. This is achieved by means of different techniques that allow us to hide files, images, texts or even videos inside other files.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-does-it-work&#34;&gt;How does it work?&lt;/h2&gt;&#xA;&lt;p&gt;There are different techniques to hide information inside files. One of the most commonly used and perhaps the easiest to understand is commonly known as the &amp;ldquo;Least Significant Bit Technique&amp;rdquo; or LSB.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Creating our own commands in Linux | Alias</title>
       <link>https://dablog.pages.dev/en/articles/linux_comands/</link>
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/en/articles/linux_comands/</guid>
-      <description>Creating our Aliases Alias is a simple way to map, bin, join(?) commands. This is the best way to save time when typing long strings of commands. If we type &amp;ldquo;aliases&amp;rdquo; in our terminal we should get the default aliases of our system, something like this: As you may notice, in my case I have two custom aliases: price and subl; the first one is a python script I use to see the crypto market behavior and the second one is simply to open SublimeText.</description>
+      <description>&lt;h1 id=&#34;creating-our-aliases&#34;&gt;Creating our Aliases&lt;/h1&gt;&#xA;&lt;p&gt;Alias is a simple way to map, bin, join(?) commands. This is the best way to save time when typing long strings of commands. If we type &amp;ldquo;aliases&amp;rdquo; in our terminal we should get the default aliases of our system, something like this:&#xA;&lt;img loading=&#34;lazy&#34; src=&#34;https://res.cloudinary.com/rooyca/image/upload/v1632189896/Blog/Imgs/Commands-Linux/alias-predeterminados_lhjdfr.png&#34; alt=&#34;ALIASES-DEFAULT&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;As you may notice, in my case I have two custom aliases: &lt;strong&gt;price&lt;/strong&gt; and &lt;strong&gt;subl&lt;/strong&gt;; the first one is a python script I use to see the crypto market behavior and the second one is simply to open SublimeText.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

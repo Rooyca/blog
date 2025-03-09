@@ -14,7 +14,7 @@
       <link>https://dablog.pages.dev/en/articles/basic_steganography/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/en/articles/basic_steganography/</guid>
-      <description>Steganography What is it? Unlike cryptography, where it is obvious that something is being hidden, steganography hides information in such a way that no suspicions are raised that something is hidden. This is achieved by means of different techniques that allow us to hide files, images, texts or even videos inside other files.&#xA;How does it work? There are different techniques to hide information inside files. One of the most commonly used and perhaps the easiest to understand is commonly known as the &amp;ldquo;Least Significant Bit Technique&amp;rdquo; or LSB.</description>
+      <description>&lt;h1 id=&#34;steganography&#34;&gt;Steganography&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-it&#34;&gt;What is it?&lt;/h2&gt;&#xA;&lt;p&gt;Unlike cryptography, where it is obvious that something is being hidden, steganography hides information in such a way that no suspicions are raised that something is hidden. This is achieved by means of different techniques that allow us to hide files, images, texts or even videos inside other files.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-does-it-work&#34;&gt;How does it work?&lt;/h2&gt;&#xA;&lt;p&gt;There are different techniques to hide information inside files. One of the most commonly used and perhaps the easiest to understand is commonly known as the &amp;ldquo;Least Significant Bit Technique&amp;rdquo; or LSB.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

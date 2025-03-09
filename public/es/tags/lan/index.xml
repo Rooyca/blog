@@ -14,7 +14,7 @@
       <link>https://dablog.pages.dev/es/articulos/conexion_cloud_con_redes_lan/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://dablog.pages.dev/es/articulos/conexion_cloud_con_redes_lan/</guid>
-      <description>Tenemos el siguiente ejercicio:&#xA;Ejercicio 3. Configurar un router para que los equipos tenga salida a Internet. Elabore tres redes locales cada una con dos host y segmentalas a través de su ip.&#xA;Lo primero será configurar las redes de la izquierda, para ello vamos a usar el rango de IP 192.168.10.0, la mascara de red 255.255.255.0 y el Dafault Gateway 192.168.10.1. Es decir, como tenemos seis nodos podriamos asignarles las siguientes IP&amp;rsquo;s:</description>
+      <description>&lt;p&gt;Tenemos el siguiente ejercicio:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Ejercicio 3. Configurar un router para que los equipos tenga salida a Internet. Elabore tres redes locales cada una con dos host y segmentalas a través de su ip.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;red.jpg&#34; alt=&#34;red.jpg&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Lo primero será configurar las redes de la izquierda, para ello vamos a usar el rango de IP &lt;code&gt;192.168.10.0&lt;/code&gt;, la mascara de red &lt;code&gt;255.255.255.0&lt;/code&gt; y el Dafault Gateway &lt;code&gt;192.168.10.1&lt;/code&gt;. Es decir, como tenemos seis nodos podriamos asignarles las siguientes IP&amp;rsquo;s:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
