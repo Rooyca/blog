@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Api on rooyca</title>
-    <link>https://dablog.pages.dev/en/tags/api/</link>
+    <link>http://localhost:1313/en/tags/api/</link>
     <description>Recent content in Api on rooyca</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Tue, 21 Sep 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/en/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Create your first API with Flask</title>
-      <link>https://dablog.pages.dev/en/articles/flask_basic_api/</link>
+      <link>http://localhost:1313/en/articles/flask_basic_api/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/en/articles/flask_basic_api/</guid>
+      <guid>http://localhost:1313/en/articles/flask_basic_api/</guid>
       <description>&lt;p&gt;First of all, here is the &lt;a href=&#34;https://github.com/Rooyca/API-LoRFinder&#34;&gt;link&lt;/a&gt; in case you want to clone directly the Github repository.&lt;/p&gt;&#xA;&lt;h1 id=&#34;developing-our-api&#34;&gt;Developing our API&lt;/h1&gt;&#xA;&lt;p&gt;For this tutorial we are going to use mainly the &amp;ldquo;Mini&amp;rdquo;-Framework Flask and some extensions of it. For the installation of all the packages I would like to leave you with two options:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Install the following packages with the &lt;code&gt;pip install x-package&lt;/code&gt; command.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;flask&lt;/li&gt;&#xA;&lt;li&gt;flask_restful&lt;/li&gt;&#xA;&lt;li&gt;flask_sqlalchemy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Download the file &lt;a href=&#34;https://github.com/Rooyca/API-LoRFinder/blob/main/requirements.txt&#34;&gt;&lt;code&gt;requirements.txt&lt;/code&gt;&lt;/a&gt; and install everything at once with the command &lt;code&gt;pip install -r requirements.txt&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The first option allows us to familiarize ourselves little by little with the tools that we are going to use throughout this tutorial and the second one speeds up the work.&lt;/p&gt;</description>
     </item>
   </channel>

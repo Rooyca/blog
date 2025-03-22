@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fingerprint on rooyca</title>
-    <link>https://dablog.pages.dev/es/tags/fingerprint/</link>
+    <link>http://localhost:1313/es/tags/fingerprint/</link>
     <description>Recent content in Fingerprint on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/es/tags/fingerprint/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/tags/fingerprint/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Integrar lector de huella (U.are.U 4500) con Access</title>
-      <link>https://dablog.pages.dev/es/articulos/lector_huella_access/</link>
+      <link>http://localhost:1313/es/articulos/lector_huella_access/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/articulos/lector_huella_access/</guid>
+      <guid>http://localhost:1313/es/articulos/lector_huella_access/</guid>
       <description>&lt;h2 id=&#34;introducción&#34;&gt;Introducción&lt;/h2&gt;&#xA;&lt;p&gt;En este artículo se muestra de manera muy sencilla cómo integrar un lector de huella digital (U.are.U 4500) con una base de datos en Access. Para ello, se hace uso de las librerias que proporciona el RTE de DigitalPersona. Para más información, se puede consultar la &lt;a href=&#34;https://github.com/Rooyca/Digital-Persona-SDK/blob/master/Docs/One%20Touch%20for%20Windows%20SDK%20.NET%20Developer%20Guide.pdf&#34;&gt;documentación oficial&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;requisitos&#34;&gt;Requisitos&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Rooyca/Digital-Persona-SDK/&#34;&gt;Descargar SDK&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;fingerprint-enrollment-workflow&#34;&gt;Fingerprint Enrollment Workflow&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;enroll_workflow.jpg&#34; alt=&#34;enroll_workflow&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;fingerprint-verification-workflow&#34;&gt;Fingerprint Verification Workflow&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;verification_workflow.jpg&#34; alt=&#34;verification_workflow&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;fingerprint-data-object-serializationdeserialization&#34;&gt;Fingerprint Data Object Serialization/Deserialization&lt;/h2&gt;&#xA;&lt;h3 id=&#34;serialización&#34;&gt;Serialización&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;ser_workflow.jpg&#34; alt=&#34;ser_workflow&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;h3 id=&#34;deserialización&#34;&gt;Deserialización&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;des_workflow.jpg&#34; alt=&#34;des_workflow&#34;  /&gt;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>

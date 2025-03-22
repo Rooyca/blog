@@ -7,7 +7,7 @@ tags:
 - "blog"
 - "hugo"
 description: "Crear un blog con HUGO (un generador de sitios estáticos) y públicalo en Cloudflare Pages usando GitHub."
-image: "https://ultramookie.com/images/2021/cloudflare-pages.png"
+image: "https://res.cloudinary.com/rooyca/image/upload/v1742669870/Blog/Imgs/d4zszlhoudoqauhtxj4t.png"
 ---
 
 {{< box info >}}

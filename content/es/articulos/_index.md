@@ -2,4 +2,4 @@
 title: Artículos
 ---
 
-`>>>` [**🔍 Etiquetas**](/tags/)
+[**🔍 Etiquetas**](/tags/)

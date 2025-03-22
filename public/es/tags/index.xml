@@ -2,389 +2,389 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on rooyca</title>
-    <link>https://dablog.pages.dev/es/tags/</link>
+    <link>http://localhost:1313/es/tags/</link>
     <description>Recent content in Tags on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Mon, 10 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cli</title>
-      <link>https://dablog.pages.dev/es/tags/cli/</link>
+      <link>http://localhost:1313/es/tags/cli/</link>
       <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/cli/</guid>
+      <guid>http://localhost:1313/es/tags/cli/</guid>
       <description></description>
     </item>
     <item>
       <title>Nb</title>
-      <link>https://dablog.pages.dev/es/tags/nb/</link>
+      <link>http://localhost:1313/es/tags/nb/</link>
       <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/nb/</guid>
+      <guid>http://localhost:1313/es/tags/nb/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes</title>
-      <link>https://dablog.pages.dev/es/tags/notes/</link>
+      <link>http://localhost:1313/es/tags/notes/</link>
       <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/notes/</guid>
+      <guid>http://localhost:1313/es/tags/notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Notetaking</title>
-      <link>https://dablog.pages.dev/es/tags/notetaking/</link>
+      <link>http://localhost:1313/es/tags/notetaking/</link>
       <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/notetaking/</guid>
+      <guid>http://localhost:1313/es/tags/notetaking/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>https://dablog.pages.dev/es/tags/android/</link>
+      <link>http://localhost:1313/es/tags/android/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/android/</guid>
+      <guid>http://localhost:1313/es/tags/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Termux</title>
-      <link>https://dablog.pages.dev/es/tags/termux/</link>
+      <link>http://localhost:1313/es/tags/termux/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/termux/</guid>
+      <guid>http://localhost:1313/es/tags/termux/</guid>
       <description></description>
     </item>
     <item>
       <title>Buku</title>
-      <link>https://dablog.pages.dev/es/tags/buku/</link>
+      <link>http://localhost:1313/es/tags/buku/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/buku/</guid>
+      <guid>http://localhost:1313/es/tags/buku/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://dablog.pages.dev/es/tags/python/</link>
+      <link>http://localhost:1313/es/tags/python/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/python/</guid>
+      <guid>http://localhost:1313/es/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Analitycs</title>
-      <link>https://dablog.pages.dev/es/tags/analitycs/</link>
+      <link>http://localhost:1313/es/tags/analitycs/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/analitycs/</guid>
+      <guid>http://localhost:1313/es/tags/analitycs/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://dablog.pages.dev/es/tags/blog/</link>
+      <link>http://localhost:1313/es/tags/blog/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/blog/</guid>
+      <guid>http://localhost:1313/es/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://dablog.pages.dev/es/tags/hugo/</link>
+      <link>http://localhost:1313/es/tags/hugo/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/hugo/</guid>
+      <guid>http://localhost:1313/es/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>https://dablog.pages.dev/es/tags/html/</link>
+      <link>http://localhost:1313/es/tags/html/</link>
       <pubDate>Mon, 03 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/html/</guid>
+      <guid>http://localhost:1313/es/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>https://dablog.pages.dev/es/tags/rust/</link>
+      <link>http://localhost:1313/es/tags/rust/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/rust/</guid>
+      <guid>http://localhost:1313/es/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>Short</title>
-      <link>https://dablog.pages.dev/es/tags/short/</link>
+      <link>http://localhost:1313/es/tags/short/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/short/</guid>
+      <guid>http://localhost:1313/es/tags/short/</guid>
       <description></description>
     </item>
     <item>
       <title>Arch</title>
-      <link>https://dablog.pages.dev/es/tags/arch/</link>
+      <link>http://localhost:1313/es/tags/arch/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/arch/</guid>
+      <guid>http://localhost:1313/es/tags/arch/</guid>
       <description></description>
     </item>
     <item>
       <title>Bluetooth</title>
-      <link>https://dablog.pages.dev/es/tags/bluetooth/</link>
+      <link>http://localhost:1313/es/tags/bluetooth/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/bluetooth/</guid>
+      <guid>http://localhost:1313/es/tags/bluetooth/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://dablog.pages.dev/es/tags/linux/</link>
+      <link>http://localhost:1313/es/tags/linux/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/linux/</guid>
+      <guid>http://localhost:1313/es/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>https://dablog.pages.dev/es/tags/github/</link>
+      <link>http://localhost:1313/es/tags/github/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/github/</guid>
+      <guid>http://localhost:1313/es/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Cisco</title>
-      <link>https://dablog.pages.dev/es/tags/cisco/</link>
+      <link>http://localhost:1313/es/tags/cisco/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/cisco/</guid>
+      <guid>http://localhost:1313/es/tags/cisco/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>https://dablog.pages.dev/es/tags/cloud/</link>
+      <link>http://localhost:1313/es/tags/cloud/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/cloud/</guid>
+      <guid>http://localhost:1313/es/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Lan</title>
-      <link>https://dablog.pages.dev/es/tags/lan/</link>
+      <link>http://localhost:1313/es/tags/lan/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/lan/</guid>
+      <guid>http://localhost:1313/es/tags/lan/</guid>
       <description></description>
     </item>
     <item>
       <title>Red</title>
-      <link>https://dablog.pages.dev/es/tags/red/</link>
+      <link>http://localhost:1313/es/tags/red/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/red/</guid>
+      <guid>http://localhost:1313/es/tags/red/</guid>
       <description></description>
     </item>
     <item>
       <title>Access</title>
-      <link>https://dablog.pages.dev/es/tags/access/</link>
+      <link>http://localhost:1313/es/tags/access/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/access/</guid>
+      <guid>http://localhost:1313/es/tags/access/</guid>
       <description></description>
     </item>
     <item>
       <title>Db</title>
-      <link>https://dablog.pages.dev/es/tags/db/</link>
+      <link>http://localhost:1313/es/tags/db/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/db/</guid>
+      <guid>http://localhost:1313/es/tags/db/</guid>
       <description></description>
     </item>
     <item>
       <title>Fingerprint</title>
-      <link>https://dablog.pages.dev/es/tags/fingerprint/</link>
+      <link>http://localhost:1313/es/tags/fingerprint/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/fingerprint/</guid>
+      <guid>http://localhost:1313/es/tags/fingerprint/</guid>
       <description></description>
     </item>
     <item>
       <title>Postgresql</title>
-      <link>https://dablog.pages.dev/es/tags/postgresql/</link>
+      <link>http://localhost:1313/es/tags/postgresql/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/postgresql/</guid>
+      <guid>http://localhost:1313/es/tags/postgresql/</guid>
       <description></description>
     </item>
     <item>
       <title>Active Directory</title>
-      <link>https://dablog.pages.dev/es/tags/active-directory/</link>
+      <link>http://localhost:1313/es/tags/active-directory/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/active-directory/</guid>
+      <guid>http://localhost:1313/es/tags/active-directory/</guid>
       <description></description>
     </item>
     <item>
       <title>Homelab</title>
-      <link>https://dablog.pages.dev/es/tags/homelab/</link>
+      <link>http://localhost:1313/es/tags/homelab/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/homelab/</guid>
+      <guid>http://localhost:1313/es/tags/homelab/</guid>
       <description></description>
     </item>
     <item>
       <title>Windows</title>
-      <link>https://dablog.pages.dev/es/tags/windows/</link>
+      <link>http://localhost:1313/es/tags/windows/</link>
       <pubDate>Mon, 04 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/windows/</guid>
+      <guid>http://localhost:1313/es/tags/windows/</guid>
       <description></description>
     </item>
     <item>
       <title>Build</title>
-      <link>https://dablog.pages.dev/es/tags/build/</link>
+      <link>http://localhost:1313/es/tags/build/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/build/</guid>
+      <guid>http://localhost:1313/es/tags/build/</guid>
       <description></description>
     </item>
     <item>
       <title>Fedora</title>
-      <link>https://dablog.pages.dev/es/tags/fedora/</link>
+      <link>http://localhost:1313/es/tags/fedora/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/fedora/</guid>
+      <guid>http://localhost:1313/es/tags/fedora/</guid>
       <description></description>
     </item>
     <item>
       <title>Pypi</title>
-      <link>https://dablog.pages.dev/es/tags/pypi/</link>
+      <link>http://localhost:1313/es/tags/pypi/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/pypi/</guid>
+      <guid>http://localhost:1313/es/tags/pypi/</guid>
       <description></description>
     </item>
     <item>
       <title>Backups</title>
-      <link>https://dablog.pages.dev/es/tags/backups/</link>
+      <link>http://localhost:1313/es/tags/backups/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/backups/</guid>
+      <guid>http://localhost:1313/es/tags/backups/</guid>
       <description></description>
     </item>
     <item>
       <title>Rclone</title>
-      <link>https://dablog.pages.dev/es/tags/rclone/</link>
+      <link>http://localhost:1313/es/tags/rclone/</link>
       <pubDate>Wed, 09 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/rclone/</guid>
+      <guid>http://localhost:1313/es/tags/rclone/</guid>
       <description></description>
     </item>
     <item>
       <title>Nextcloud</title>
-      <link>https://dablog.pages.dev/es/tags/nextcloud/</link>
+      <link>http://localhost:1313/es/tags/nextcloud/</link>
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/nextcloud/</guid>
+      <guid>http://localhost:1313/es/tags/nextcloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloudflare</title>
-      <link>https://dablog.pages.dev/es/tags/cloudflare/</link>
+      <link>http://localhost:1313/es/tags/cloudflare/</link>
       <pubDate>Thu, 27 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/cloudflare/</guid>
+      <guid>http://localhost:1313/es/tags/cloudflare/</guid>
       <description></description>
     </item>
     <item>
       <title>Pihole</title>
-      <link>https://dablog.pages.dev/es/tags/pihole/</link>
+      <link>http://localhost:1313/es/tags/pihole/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/pihole/</guid>
+      <guid>http://localhost:1313/es/tags/pihole/</guid>
       <description></description>
     </item>
     <item>
       <title>Musica</title>
-      <link>https://dablog.pages.dev/es/tags/musica/</link>
+      <link>http://localhost:1313/es/tags/musica/</link>
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/musica/</guid>
+      <guid>http://localhost:1313/es/tags/musica/</guid>
       <description></description>
     </item>
     <item>
       <title>Radio</title>
-      <link>https://dablog.pages.dev/es/tags/radio/</link>
+      <link>http://localhost:1313/es/tags/radio/</link>
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/radio/</guid>
+      <guid>http://localhost:1313/es/tags/radio/</guid>
       <description></description>
     </item>
     <item>
       <title>Workers</title>
-      <link>https://dablog.pages.dev/es/tags/workers/</link>
+      <link>http://localhost:1313/es/tags/workers/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/workers/</guid>
+      <guid>http://localhost:1313/es/tags/workers/</guid>
       <description></description>
     </item>
     <item>
       <title>Asm2</title>
-      <link>https://dablog.pages.dev/es/tags/asm2/</link>
+      <link>http://localhost:1313/es/tags/asm2/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/asm2/</guid>
+      <guid>http://localhost:1313/es/tags/asm2/</guid>
       <description></description>
     </item>
     <item>
       <title>Picoctf</title>
-      <link>https://dablog.pages.dev/es/tags/picoctf/</link>
+      <link>http://localhost:1313/es/tags/picoctf/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/picoctf/</guid>
+      <guid>http://localhost:1313/es/tags/picoctf/</guid>
       <description></description>
     </item>
     <item>
       <title>Writeup</title>
-      <link>https://dablog.pages.dev/es/tags/writeup/</link>
+      <link>http://localhost:1313/es/tags/writeup/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/writeup/</guid>
+      <guid>http://localhost:1313/es/tags/writeup/</guid>
       <description></description>
     </item>
     <item>
       <title>Domain</title>
-      <link>https://dablog.pages.dev/es/tags/domain/</link>
+      <link>http://localhost:1313/es/tags/domain/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/domain/</guid>
+      <guid>http://localhost:1313/es/tags/domain/</guid>
       <description></description>
     </item>
     <item>
       <title>Gmail</title>
-      <link>https://dablog.pages.dev/es/tags/gmail/</link>
+      <link>http://localhost:1313/es/tags/gmail/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/gmail/</guid>
+      <guid>http://localhost:1313/es/tags/gmail/</guid>
       <description></description>
     </item>
     <item>
       <title>Gcloud</title>
-      <link>https://dablog.pages.dev/es/tags/gcloud/</link>
+      <link>http://localhost:1313/es/tags/gcloud/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/gcloud/</guid>
+      <guid>http://localhost:1313/es/tags/gcloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Migracion</title>
-      <link>https://dablog.pages.dev/es/tags/migracion/</link>
+      <link>http://localhost:1313/es/tags/migracion/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/migracion/</guid>
+      <guid>http://localhost:1313/es/tags/migracion/</guid>
       <description></description>
     </item>
     <item>
       <title>Php</title>
-      <link>https://dablog.pages.dev/es/tags/php/</link>
+      <link>http://localhost:1313/es/tags/php/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/php/</guid>
+      <guid>http://localhost:1313/es/tags/php/</guid>
       <description></description>
     </item>
     <item>
       <title>Wordpress</title>
-      <link>https://dablog.pages.dev/es/tags/wordpress/</link>
+      <link>http://localhost:1313/es/tags/wordpress/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/wordpress/</guid>
+      <guid>http://localhost:1313/es/tags/wordpress/</guid>
       <description></description>
     </item>
     <item>
       <title>Blockchain</title>
-      <link>https://dablog.pages.dev/es/tags/blockchain/</link>
+      <link>http://localhost:1313/es/tags/blockchain/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/blockchain/</guid>
+      <guid>http://localhost:1313/es/tags/blockchain/</guid>
       <description></description>
     </item>
     <item>
       <title>Ipfs</title>
-      <link>https://dablog.pages.dev/es/tags/ipfs/</link>
+      <link>http://localhost:1313/es/tags/ipfs/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/ipfs/</guid>
+      <guid>http://localhost:1313/es/tags/ipfs/</guid>
       <description></description>
     </item>
     <item>
       <title>Steganography</title>
-      <link>https://dablog.pages.dev/es/tags/steganography/</link>
+      <link>http://localhost:1313/es/tags/steganography/</link>
       <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/steganography/</guid>
+      <guid>http://localhost:1313/es/tags/steganography/</guid>
       <description></description>
     </item>
     <item>
       <title>Api</title>
-      <link>https://dablog.pages.dev/es/tags/api/</link>
+      <link>http://localhost:1313/es/tags/api/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/api/</guid>
+      <guid>http://localhost:1313/es/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Flask</title>
-      <link>https://dablog.pages.dev/es/tags/flask/</link>
+      <link>http://localhost:1313/es/tags/flask/</link>
       <pubDate>Tue, 21 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/tags/flask/</guid>
+      <guid>http://localhost:1313/es/tags/flask/</guid>
       <description></description>
     </item>
   </channel>

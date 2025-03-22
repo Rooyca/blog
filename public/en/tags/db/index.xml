@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Db on rooyca</title>
-    <link>https://dablog.pages.dev/en/tags/db/</link>
+    <link>http://localhost:1313/en/tags/db/</link>
     <description>Recent content in Db on rooyca</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/en/tags/db/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/db/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hosting WordPress in the cloud (Google Cloud)</title>
-      <link>https://dablog.pages.dev/en/articles/wordpress_cloud/</link>
+      <link>http://localhost:1313/en/articles/wordpress_cloud/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/en/articles/wordpress_cloud/</guid>
+      <guid>http://localhost:1313/en/articles/wordpress_cloud/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://upload.wikimedia.org/wikipedia/commons/2/20/WordPress_logo.svg&#34; alt=&#34;Wordpress&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;h1 id=&#34;creating-the-virtual-machine&#34;&gt;Creating the Virtual Machine&lt;/h1&gt;&#xA;&lt;p&gt;&amp;ldquo;WordPress is a content management system released on May 27, 2003, focused on the creation of any type of website.&amp;rdquo; According to these twenty &lt;a href=&#34;https://blog.hubspot.com/website/wordpress-stats#:~:text=%28W3Techs%2C%20202022%29,every%20five%20websites%20use%20WordPress.&#34;&gt;statistics&lt;/a&gt; about WordPress by 2022 we find that WordPress is used by 43.2% of all sites on the Internet.&lt;/p&gt;&#xA;&lt;p&gt;In order to run WordPress on Google Cloud (GCloud from now on), we must first create a virtual machine with one of the images that GCloud has. To do this we go to the top left, click on &amp;ldquo;More Products&amp;rdquo; and look for &amp;ldquo;Marketplace&amp;rdquo;.&lt;/p&gt;</description>
     </item>
   </channel>

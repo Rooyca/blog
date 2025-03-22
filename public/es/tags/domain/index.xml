@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Domain on rooyca</title>
-    <link>https://dablog.pages.dev/es/tags/domain/</link>
+    <link>http://localhost:1313/es/tags/domain/</link>
     <description>Recent content in Domain on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/es/tags/domain/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/tags/domain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enviar correos desde Gmail usando tu propio dominio</title>
-      <link>https://dablog.pages.dev/es/articulos/correos_desde_gmail_con_dominio_propio/</link>
+      <link>http://localhost:1313/es/articulos/correos_desde_gmail_con_dominio_propio/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/articulos/correos_desde_gmail_con_dominio_propio/</guid>
+      <guid>http://localhost:1313/es/articulos/correos_desde_gmail_con_dominio_propio/</guid>
       <description>&lt;h1 id=&#34;primero---redireccionar-el-trafico&#34;&gt;Primero - Redireccionar el trafico&lt;/h1&gt;&#xA;&lt;p&gt;Lo primero que debemos hacer es redireccionar el trafico de nuestro cuenta de correo electrónico (en este caso &lt;a href=&#34;mailto:me@rooyca.xyz&#34;&gt;me@rooyca.xyz&lt;/a&gt;) hacia Gmail. Para ello vamos a nuestro proveedor de dominio o nuestro CDN de preferencia, en mi caso CloudFlare. Ahora nos dirigimos a la parte de &lt;em&gt;Email&lt;/em&gt; &amp;gt; &lt;em&gt;Routes&lt;/em&gt; &amp;gt; &lt;em&gt;Create address&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://res.cloudinary.com/rooyca/image/upload/c_scale,w_972/v1657979535/Blog/Imgs/domain-gmail/13_fmzgzs.png&#34; alt=&#34;Create Cuenta&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Creamos nuestra dirección apuntando al Gmail con el que vamos a configurar nuestra cuenta.&lt;/p&gt;</description>
     </item>
   </channel>

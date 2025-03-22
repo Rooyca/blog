@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Analitycs on rooyca</title>
-    <link>https://dablog.pages.dev/es/tags/analitycs/</link>
+    <link>http://localhost:1313/es/tags/analitycs/</link>
     <description>Recent content in Analitycs on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Wed, 05 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/es/tags/analitycs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/tags/analitycs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alternativa self-hosted a Google Analitycs | Ackee</title>
-      <link>https://dablog.pages.dev/es/articulos/google_analitycs_alternative_ackee/</link>
+      <link>http://localhost:1313/es/articulos/google_analitycs_alternative_ackee/</link>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/articulos/google_analitycs_alternative_ackee/</guid>
+      <guid>http://localhost:1313/es/articulos/google_analitycs_alternative_ackee/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://images.unsplash.com/photo-1599658880436-c61792e70672?crop=entropy&amp;amp;cs=tinysrgb&amp;amp;fit=max&amp;amp;fm=jpg&amp;amp;ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fGdvb2dsZSUyMGFuYWx5dGljc3xlbnwwfHx8fDE2ODIzMDM0NTA&amp;amp;ixlib=rb-4.0.3&amp;amp;q=80&amp;amp;w=2000&#34; alt=&#34;img_head&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ackee.electerious.com/&#34;&gt;&lt;strong&gt;Ackee&lt;/strong&gt;&lt;/a&gt; es una alternativa a Google Analitycs, es de código abierto y self-hosted. Es una herramienta que te permite obtener información de tus visitantes sin depender de Google Analitycs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ventajas-de-ackee&#34;&gt;Ventajas de Ackee&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Privacidad&lt;/strong&gt;: No compartes información con terceros.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Open Source&lt;/strong&gt;: Puedes ver el código fuente y modificarlo a tu gusto.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Self-hosted&lt;/strong&gt;: Tienes el control total de tus datos.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fácil de instalar&lt;/strong&gt;: Puedes instalarlo en tu servidor en minutos.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instalación-de-ackee&#34;&gt;Instalación de Ackee&lt;/h2&gt;&#xA;&lt;p&gt;Para instalar Ackee necesitas tener un servidor con &lt;code&gt;Node.js&lt;/code&gt; y &lt;code&gt;MongoDB&lt;/code&gt;. Puedes instalarlo en tu servidor o en un servicio como Heroku, Vercel o Netlify. En la documentación oficial puedes encontrar una &lt;a href=&#34;https://docs.ackee.electerious.com/#/docs/Get%20started&#34;&gt;lista de proveedores&lt;/a&gt; compatibles.&lt;/p&gt;</description>
     </item>
   </channel>

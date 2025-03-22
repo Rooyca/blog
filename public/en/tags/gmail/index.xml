@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gmail on rooyca</title>
-    <link>https://dablog.pages.dev/en/tags/gmail/</link>
+    <link>http://localhost:1313/en/tags/gmail/</link>
     <description>Recent content in Gmail on rooyca</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Sat, 09 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/en/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/gmail/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Send emails from Gmail using your own domain</title>
-      <link>https://dablog.pages.dev/en/articles/send_emails_from_own_domain_with_gmail/</link>
+      <link>http://localhost:1313/en/articles/send_emails_from_own_domain_with_gmail/</link>
       <pubDate>Sat, 09 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/en/articles/send_emails_from_own_domain_with_gmail/</guid>
+      <guid>http://localhost:1313/en/articles/send_emails_from_own_domain_with_gmail/</guid>
       <description>&lt;h1 id=&#34;1---redirecting-traffic&#34;&gt;1 - Redirecting Traffic&lt;/h1&gt;&#xA;&lt;p&gt;The first thing to do is to redirect the traffic from our email account (in this case &lt;a href=&#34;mailto:me@rooyca.xyz&#34;&gt;me@rooyca.xyz&lt;/a&gt;) to Gmail. To do this we go to our domain provider or our CDN of choice, in my case CloudFlare. Now we go to the &lt;em&gt;Email&lt;/em&gt; &amp;gt; &lt;em&gt;Routes&lt;/em&gt; &amp;gt; &lt;em&gt;Create address&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://res.cloudinary.com/rooyca/image/upload/c_scale,w_972/v1657979535/Blog/Imgs/domain-gmail/13_fmzgzs.png&#34; alt=&#34;Create account&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;We create our address pointing to the Gmail with which we are going to configure our account.&lt;/p&gt;</description>
     </item>
   </channel>

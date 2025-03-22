@@ -7,7 +7,7 @@ tags:
 - "github"
 - "backups"
 description: "Las copias de seguridad son una parte importante de la administración de sistemas. En este artículo aprenderás todo lo que necesitas saber para implementar una estrategia de respaldo completa y automatizada en Linux."
-image: "https://staticfiles.acronis.com/images/blog-cover/696aba821d856b6e452815b12e98d97b.png"
+image: "https://tcude.net/content/images/2022/01/MainImage-5.png"
 ---
 
 ## Introducción

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contactar on rooyca</title>
-    <link>https://dablog.pages.dev/es/contacto/</link>
+    <link>http://localhost:1313/es/contacto/</link>
     <description>Recent content in Contactar on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
-    <atom:link href="https://dablog.pages.dev/es/contacto/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/contacto/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

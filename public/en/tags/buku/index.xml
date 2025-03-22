@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Buku on rooyca</title>
-    <link>https://dablog.pages.dev/en/tags/buku/</link>
+    <link>http://localhost:1313/en/tags/buku/</link>
     <description>Recent content in Buku on rooyca</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/en/tags/buku/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/tags/buku/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Migrating from buku to nb with Python</title>
-      <link>https://dablog.pages.dev/en/articles/from_buku_to_nb/</link>
+      <link>http://localhost:1313/en/articles/from_buku_to_nb/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/en/articles/from_buku_to_nb/</guid>
+      <guid>http://localhost:1313/en/articles/from_buku_to_nb/</guid>
       <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://www.datanami.com/wp-content/uploads/2020/11/database_migration_shutterstock_hanss.jpg&#34; alt=&#34;img_migration&#34;  /&gt;&#xA;&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-buku&#34;&gt;What is buku&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.shields.io/github/stars/jarun/buku&#34; alt=&#34;Stars&#34;  /&gt;&#xA;&#xA;&lt;a href=&#34;https://github.com/jarun/buku/releases/latest&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.shields.io/github/release/jarun/buku.svg?maxAge=600&#34; alt=&#34;Latest release&#34;  /&gt;&#xA;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/jarun/buku&#34;&gt;buku&lt;/a&gt; is, according to its developers, &amp;ldquo;a powerful bookmark manager and a personal textual mini-web&amp;rdquo;. One of its main strengths is that its records are stored in an SQL database, making searches extremely fast.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-nb&#34;&gt;What is nb&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.shields.io/github/stars/xwmx/nb&#34; alt=&#34;Stars&#34;  /&gt;&#xA;&#xA;&lt;a href=&#34;https://github.com/xwmx/nb/tags&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://img.shields.io/github/v/tag/xwmx/nb&#34; alt=&#34;Latest release&#34;  /&gt;&#xA;&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/xwmx/nb&#34;&gt;nb&lt;/a&gt; is, according to its GitHub description, a &amp;ldquo;CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning &amp;amp; syncing, Pandoc conversion, + more, in a single portable script&amp;rdquo;.&lt;/p&gt;</description>
     </item>
   </channel>

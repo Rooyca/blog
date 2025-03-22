@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Short on rooyca</title>
-    <link>https://dablog.pages.dev/es/tags/short/</link>
+    <link>http://localhost:1313/es/tags/short/</link>
     <description>Recent content in Short on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/es/tags/short/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/tags/short/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Editar PATH en Termux</title>
-      <link>https://dablog.pages.dev/es/articulos/edit_path_termux/</link>
+      <link>http://localhost:1313/es/articulos/edit_path_termux/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/articulos/edit_path_termux/</guid>
+      <guid>http://localhost:1313/es/articulos/edit_path_termux/</guid>
       <description>&lt;p&gt;En &lt;code&gt;$HOME&lt;/code&gt;, usando nuestro editor de confianza, editamos &lt;code&gt;.bash_profile file&lt;/code&gt; (si no existe, lo creamos)&lt;/p&gt;&#xA;&lt;p&gt;Por ejemplo, si queremos añadir &lt;a href=&#34;https://doc.rust-lang.org/cargo/&#34;&gt;cargo&lt;/a&gt; a nuestro PATH, nuestro archivo final debería quedar algo así:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;PATH=&amp;#34;$PATH:/data/data/com.termux/files/home/.cargo/bin&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>

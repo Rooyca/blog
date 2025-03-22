@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Radio on rooyca</title>
-    <link>https://dablog.pages.dev/es/tags/radio/</link>
+    <link>http://localhost:1313/es/tags/radio/</link>
     <description>Recent content in Radio on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Mon, 03 Apr 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/es/tags/radio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/tags/radio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crear una estacion de radio online - Parte 1</title>
-      <link>https://dablog.pages.dev/es/articulos/radio_project_primera_parte/</link>
+      <link>http://localhost:1313/es/articulos/radio_project_primera_parte/</link>
       <pubDate>Mon, 03 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/articulos/radio_project_primera_parte/</guid>
+      <guid>http://localhost:1313/es/articulos/radio_project_primera_parte/</guid>
       <description>&lt;h1 id=&#34;radio-project&#34;&gt;Radio Project&lt;/h1&gt;&#xA;&lt;p&gt;Hoy quiero comenzar una serie de publicaciones en las que iremos aprendiendo juntos los pasos que hay que seguir a la hora de crear una estación de radio online. En un primer momento, cuando comencé con este proyecto me encontré con varias plataformas que ofrecían este servicio de forma gratuita, pero la gran mayoría de páginas eran de pago y otras habían envejecido bastante mal, es decir, su interfaz no era la más moderna, precisamente; Pero un día encontré &lt;a href=&#34;https://zeno.fm&#34;&gt;&lt;strong&gt;ZenoRadio&lt;/strong&gt;&lt;/a&gt; (NO ES PUBLICIDAD, en verdad es buena la plataforma), una alternativa moderna y con un plan gratuito bastante generoso.&lt;/p&gt;</description>
     </item>
   </channel>

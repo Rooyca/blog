@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proyectos on rooyca</title>
-    <link>https://dablog.pages.dev/es/proyectos/</link>
+    <link>http://localhost:1313/es/proyectos/</link>
     <description>Recent content in Proyectos on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Fri, 07 Jul 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/es/proyectos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/proyectos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MarkUP - Comparte tu Markdow</title>
-      <link>https://dablog.pages.dev/es/proyectos/markup/</link>
+      <link>http://localhost:1313/es/proyectos/markup/</link>
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/proyectos/markup/</guid>
+      <guid>http://localhost:1313/es/proyectos/markup/</guid>
       <description></description>
     </item>
     <item>
       <title>rooykup-cli - Backups comprimidos y encriptados</title>
-      <link>https://dablog.pages.dev/es/proyectos/rooykup/</link>
+      <link>http://localhost:1313/es/proyectos/rooykup/</link>
       <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/proyectos/rooykup/</guid>
+      <guid>http://localhost:1313/es/proyectos/rooykup/</guid>
       <description></description>
     </item>
     <item>
       <title>API Request - Obsidian Plugin</title>
-      <link>https://dablog.pages.dev/es/proyectos/api_request_obsidian_plugin_n/</link>
+      <link>http://localhost:1313/es/proyectos/api_request_obsidian_plugin_n/</link>
       <pubDate>Tue, 02 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/proyectos/api_request_obsidian_plugin_n/</guid>
+      <guid>http://localhost:1313/es/proyectos/api_request_obsidian_plugin_n/</guid>
       <description></description>
     </item>
     <item>
       <title>MiLibre - Libreria personal</title>
-      <link>https://dablog.pages.dev/es/proyectos/milibre_personal_library_n/</link>
+      <link>http://localhost:1313/es/proyectos/milibre_personal_library_n/</link>
       <pubDate>Sun, 09 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/proyectos/milibre_personal_library_n/</guid>
+      <guid>http://localhost:1313/es/proyectos/milibre_personal_library_n/</guid>
       <description></description>
     </item>
     <item>
       <title>Obsidian Highligter - Extencion para Firefox</title>
-      <link>https://dablog.pages.dev/es/proyectos/highlighter_obsidian_n/</link>
+      <link>http://localhost:1313/es/proyectos/highlighter_obsidian_n/</link>
       <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/proyectos/highlighter_obsidian_n/</guid>
+      <guid>http://localhost:1313/es/proyectos/highlighter_obsidian_n/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance - App para manejar finanzas personales</title>
-      <link>https://dablog.pages.dev/es/proyectos/finance/</link>
+      <link>http://localhost:1313/es/proyectos/finance/</link>
       <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/proyectos/finance/</guid>
+      <guid>http://localhost:1313/es/proyectos/finance/</guid>
       <description></description>
     </item>
     <item>
       <title>PDF2Slide - Un lector de PDF liviano</title>
-      <link>https://dablog.pages.dev/es/proyectos/portfolio_ankla/</link>
+      <link>http://localhost:1313/es/proyectos/portfolio_ankla/</link>
       <pubDate>Wed, 15 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/proyectos/portfolio_ankla/</guid>
+      <guid>http://localhost:1313/es/proyectos/portfolio_ankla/</guid>
       <description></description>
     </item>
   </channel>

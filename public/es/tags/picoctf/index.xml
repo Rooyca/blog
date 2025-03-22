@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Picoctf on rooyca</title>
-    <link>https://dablog.pages.dev/es/tags/picoctf/</link>
+    <link>http://localhost:1313/es/tags/picoctf/</link>
     <description>Recent content in Picoctf on rooyca</description>
     <generator>Hugo</generator>
     <language>es-ES</language>
     <copyright>© [rooyca](https://github.com/rooyca)</copyright>
     <lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dablog.pages.dev/es/tags/picoctf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/es/tags/picoctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PicoCTF Writeup – Reverse Engineering (asm2)</title>
-      <link>https://dablog.pages.dev/es/articulos/picoctf_asm2/</link>
+      <link>http://localhost:1313/es/articulos/picoctf_asm2/</link>
       <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://dablog.pages.dev/es/articulos/picoctf_asm2/</guid>
+      <guid>http://localhost:1313/es/articulos/picoctf_asm2/</guid>
       <description>&lt;h1 id=&#34;información&#34;&gt;Información:&lt;/h1&gt;&#xA;&lt;p&gt;Nombre de la plataforma: &lt;a href=&#34;https://play.picoctf.org/practice/&#34;&gt;PicoCTF&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nombre del reto: &lt;a href=&#34;https://play.picoctf.org/practice/challenge/16?page=4&#34;&gt;asm2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Categoría: Ingeniería Inversa&lt;/p&gt;&#xA;&lt;p&gt;Puntos: 250&lt;/p&gt;&#xA;&lt;p&gt;PicoCTF 2019.&lt;/p&gt;&#xA;&lt;h2 id=&#34;descripción-del-reto&#34;&gt;Descripción del reto:&lt;/h2&gt;&#xA;&lt;p&gt;¿Qué retorna asm2(0xb, 0x2e)? Envía la bandera como un valor hexadecimal (comienza con &amp;lsquo;0x&amp;rsquo;). NOTA: El envío para este reto NO será en el formato normal de las banderas. &lt;a href=&#34;https://jupiter.challenges.picoctf.org/static/717467c8c8b4332ea5873ad8fe7b2dad/test.S&#34;&gt;Código&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Pista: &lt;a href=&#34;https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm&#34;&gt;Condiciones&lt;/a&gt; en ensamblador&lt;/p&gt;&#xA;&lt;h1 id=&#34;writeup-inicio&#34;&gt;Writeup (Inicio)&lt;/h1&gt;&#xA;&lt;p&gt;En este reto, tenemos el código fuente en ensamblador. El archivo se llama &lt;em&gt;test.S&lt;/em&gt; y acontinuación puedes ver el código en cuestion:&lt;/p&gt;</description>
     </item>
   </channel>

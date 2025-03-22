@@ -2,292 +2,292 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dablog.pages.dev/en/articles/</loc>
+    <loc>http://localhost:1313/en/articles/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/buku/</loc>
-    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/buku/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/buku/"
-                />
-  </url><url>
-    <loc>https://dablog.pages.dev/en/articles/from_buku_to_nb/</loc>
-    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dablog.pages.dev/en/tags/nb/</loc>
+    <loc>http://localhost:1313/en/tags/buku/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/nb/"
+                href="http://localhost:1313/es/tags/buku/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/nb/"
+                href="http://localhost:1313/en/tags/buku/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/python/</loc>
+    <loc>http://localhost:1313/en/articles/from_buku_to_nb/</loc>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/tags/nb/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/python/"
+                href="http://localhost:1313/es/tags/nb/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/python/"
+                href="http://localhost:1313/en/tags/nb/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/</loc>
+    <loc>http://localhost:1313/en/tags/python/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/"
+                href="http://localhost:1313/es/tags/python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/"
+                href="http://localhost:1313/en/tags/python/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/</loc>
+    <loc>http://localhost:1313/en/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/"
+                href="http://localhost:1313/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/"
+                href="http://localhost:1313/en/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/articles/http_request_from_obsidian/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/articles/http_request_from_obsidian/</loc>
     <lastmod>2024-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/obsidian/</loc>
+    <loc>http://localhost:1313/en/tags/obsidian/</loc>
     <lastmod>2024-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/plugin/</loc>
+    <loc>http://localhost:1313/en/tags/plugin/</loc>
     <lastmod>2024-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/productivity/</loc>
+    <loc>http://localhost:1313/en/tags/productivity/</loc>
     <lastmod>2024-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/projects/markup/</loc>
+    <loc>http://localhost:1313/en/projects/markup/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/projects/</loc>
+    <loc>http://localhost:1313/en/projects/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/projects/rooykup/</loc>
+    <loc>http://localhost:1313/en/projects/rooykup/</loc>
     <lastmod>2023-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/projects/api_request_obsidian_plugin_n/</loc>
+    <loc>http://localhost:1313/en/projects/api_request_obsidian_plugin_n/</loc>
     <lastmod>2023-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/projects/milibre_personal_library_n/</loc>
+    <loc>http://localhost:1313/en/projects/milibre_personal_library_n/</loc>
     <lastmod>2023-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/articles/_radio_project_part_one/</loc>
+    <loc>http://localhost:1313/en/articles/_radio_project_part_one/</loc>
     <lastmod>2023-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/free/</loc>
+    <loc>http://localhost:1313/en/tags/free/</loc>
     <lastmod>2023-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/music/</loc>
+    <loc>http://localhost:1313/en/tags/music/</loc>
     <lastmod>2023-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/radio/</loc>
+    <loc>http://localhost:1313/en/tags/radio/</loc>
     <lastmod>2023-04-03T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/radio/"
+                href="http://localhost:1313/es/tags/radio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/radio/"
+                href="http://localhost:1313/en/tags/radio/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/projects/highlighter_obsidian_n/</loc>
+    <loc>http://localhost:1313/en/projects/highlighter_obsidian_n/</loc>
     <lastmod>2023-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/cloudflare/</loc>
+    <loc>http://localhost:1313/en/tags/cloudflare/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/cloudflare/"
+                href="http://localhost:1313/es/tags/cloudflare/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/cloudflare/"
+                href="http://localhost:1313/en/tags/cloudflare/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/domain/</loc>
+    <loc>http://localhost:1313/en/tags/domain/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/domain/"
+                href="http://localhost:1313/es/tags/domain/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/domain/"
+                href="http://localhost:1313/en/tags/domain/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/gmail/</loc>
+    <loc>http://localhost:1313/en/tags/gmail/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/gmail/"
+                href="http://localhost:1313/es/tags/gmail/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/gmail/"
+                href="http://localhost:1313/en/tags/gmail/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/articles/send_emails_from_own_domain_with_gmail/</loc>
+    <loc>http://localhost:1313/en/articles/send_emails_from_own_domain_with_gmail/</loc>
     <lastmod>2022-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/db/</loc>
+    <loc>http://localhost:1313/en/tags/db/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/db/"
+                href="http://localhost:1313/es/tags/db/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/db/"
+                href="http://localhost:1313/en/tags/db/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/gcloud/</loc>
+    <loc>http://localhost:1313/en/tags/gcloud/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/gcloud/"
+                href="http://localhost:1313/es/tags/gcloud/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/gcloud/"
+                href="http://localhost:1313/en/tags/gcloud/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/articles/wordpress_cloud/</loc>
+    <loc>http://localhost:1313/en/articles/wordpress_cloud/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/wordpress/</loc>
+    <loc>http://localhost:1313/en/tags/wordpress/</loc>
     <lastmod>2022-07-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/wordpress/"
+                href="http://localhost:1313/es/tags/wordpress/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/wordpress/"
+                href="http://localhost:1313/en/tags/wordpress/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/projects/finance/</loc>
+    <loc>http://localhost:1313/en/projects/finance/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/projects/portfolio_ankla/</loc>
+    <loc>http://localhost:1313/en/projects/portfolio_ankla/</loc>
     <lastmod>2022-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/articles/basic_steganography/</loc>
+    <loc>http://localhost:1313/en/articles/basic_steganography/</loc>
     <lastmod>2021-09-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/linux/</loc>
-    <lastmod>2021-09-23T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/linux/"
-                />
-  </url><url>
-    <loc>https://dablog.pages.dev/en/tags/steganography/</loc>
+    <loc>http://localhost:1313/en/tags/linux/</loc>
     <lastmod>2021-09-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/steganography/"
+                href="http://localhost:1313/es/tags/linux/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/steganography/"
+                href="http://localhost:1313/en/tags/linux/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/api/</loc>
+    <loc>http://localhost:1313/en/tags/steganography/</loc>
+    <lastmod>2021-09-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/tags/steganography/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/tags/steganography/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/tags/api/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/api/"
+                href="http://localhost:1313/es/tags/api/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/api/"
+                href="http://localhost:1313/en/tags/api/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/articles/flask_basic_api/</loc>
+    <loc>http://localhost:1313/en/articles/flask_basic_api/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/tags/flask/</loc>
+    <loc>http://localhost:1313/en/tags/flask/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/tags/flask/"
+                href="http://localhost:1313/es/tags/flask/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/tags/flask/"
+                href="http://localhost:1313/en/tags/flask/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/articles/linux_comands/</loc>
+    <loc>http://localhost:1313/en/articles/linux_comands/</loc>
     <lastmod>2021-09-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dablog.pages.dev/en/categories/</loc>
+    <loc>http://localhost:1313/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://dablog.pages.dev/es/categories/"
+                href="http://localhost:1313/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://dablog.pages.dev/en/categories/"
+                href="http://localhost:1313/en/categories/"
                 />
   </url><url>
-    <loc>https://dablog.pages.dev/en/contact/</loc>
+    <loc>http://localhost:1313/en/contact/</loc>
   </url>
 </urlset>

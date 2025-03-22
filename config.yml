@@ -139,7 +139,7 @@ params:
           url: "https://pgp.rooyca.workers.dev/?fp=0CCBAE3240C1522155278DE4CB666DEC17F3A6D5"
         - name: email
           url: "mailto:blog.png8n@slmail.me"
-        - name: bitcoin
+        - name: Crypto
           url: https://commerce.coinbase.com/checkout/91e8527c-e829-4f12-a431-03ddba3648cf
 
     # change favicon in images folder (icon for web tab)
