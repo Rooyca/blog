@@ -12,38 +12,37 @@ languages:
     languageCode: es-ES
     languageDirection: ltr
     languageName: 🇪🇸
-    params:
-      subtitle: ideas, tutoriales y cosas sin sentido
     title: rooyca
     weight: 2
 
     menu:
-        main:
-            - name: Artículos
-              url: /articulos/
-              weight: 10
-            - name: Proyectos
-              url: /proyectos/
-              weight: 20
-            - name: Contacto
-              url: /contacto/
-              weight: 30
+      main:
+        - name: Artículos
+          url: /articulos/
+          weight: 10
+        - name: Proyectos
+          url: /proyectos/
+          weight: 20
+        - name: Contacto
+          url: /contacto/
+          weight: 30
     params:
+      subtitle: ideas, tutoriales y cosas sin sentido
       profileMode:
-          enabled: true
-          title: rooyca
-          description: "
-            🧔🏻 / 🇨🇴
+        enabled: true
+        title: rooyca
+        description: "
+          🧔🏻 / 🇨🇴
 
 
-            [ 📚 Dilettante ] • [ 🎶 Melómano ]"
-          nowPlaying: "https://img.shields.io/endpoint?url=https%3A%2F%2Flistening.rooyca.workers.dev%2Fv1%2Flast%2Frooyca&style=flat&logo=spotify&label=Playing&color=black&labelColor=darkslategray"
-          imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
-          imageTitle: profile
-          
-          buttons:
-              - name: Portafolio
-                url: https://rooyca.github.io/
+          [ 📚 Dilettante ] • [ 🎶 Melómano ]"
+        nowPlaying: "https://img.shields.io/endpoint?url=https%3A%2F%2Flistening.rooyca.workers.dev%2Fv1%2Flast%2Frooyca&style=flat&logo=spotify&label=Playing&color=black&labelColor=darkslategray"
+        imageUrl: "https://avatars.githubusercontent.com/u/42101257?v=4"
+        imageTitle: profile
+
+        buttons:
+          - name: Portafolio
+            url: https://rooyca.github.io/
 
   en:
     contentDir: content/en
@@ -51,24 +50,23 @@ languages:
     languageCode: en-US
     languageDirection: ltr
     languageName: 🇺🇸
-    params:
-      subtitle: ideas, tutorials and nonsense
     title: rooyca
     weight: 1
 
     menu:
-        main:
-            - name: Articles
-              url: /articles/
-              weight: 10
-            - name: Projects
-              url: /projects/
-              weight: 20
-            - name: Contact
-              url: /contact/
-              weight: 30
+      main:
+        - name: Articles
+          url: /articles/
+          weight: 10
+        - name: Projects
+          url: /projects/
+          weight: 20
+        - name: Contact
+          url: /contact/
+          weight: 30
 
     params:
+      subtitle: ideas, tutorials and nonsense
       profileMode:
         # Disable to populate home page with 'mainSections' content
         enabled: true
@@ -125,8 +123,8 @@ params:
           url: "https://github.com/rooyca"
         - name: twitter
           url: "https://twitter.com/rooycaa"
-        - name: telegram
-          url: "https://t.me/yarocc"
+        # - name: telegram
+        #   url: "https://t.me/user"
         - name: mastodon
           url: "https://mas.to/@rooyca"
         #- name: keybase
@@ -137,10 +135,10 @@ params:
         #  url: "https://ko-fi.com/rooyca"
         - name: pgpkey
           url: "https://pgp.rooyca.workers.dev/?fp=0CCBAE3240C1522155278DE4CB666DEC17F3A6D5"
-        - name: email
-          url: "mailto:blog.png8n@slmail.me"
-        - name: Crypto
-          url: https://commerce.coinbase.com/checkout/91e8527c-e829-4f12-a431-03ddba3648cf
+        # - name: email
+        #   url: "mailto:email@email.me"
+        # - name: Crypto
+        #   url: https://commerce.coinbase.com/checkout/xxxx-xxxx-xxxx
 
     # change favicon in images folder (icon for web tab)
     assets:
